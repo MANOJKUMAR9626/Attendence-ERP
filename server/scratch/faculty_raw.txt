@@ -1,0 +1,100 @@
+FAC001 Biomedical Engineering 1st Year Engineering Biology Biomedical Instrumentation Medical Imaging Biomaterials
+FAC002 Biomedical Engineering 2nd Year Biomedical Instrumentation Medical Imaging BiomaterialsEngineering Biology
+FAC003 Biomedical Engineering 3rd Year Medical Imaging BiomaterialsEngineering Biology Biomedical Instrumentation
+FAC004 Biomedical Engineering 4th Year BiomaterialsEngineering Biology Biomedical Instrumentation Medical Imaging
+FAC005 Biomedical Engineering All Years / Elective Engineering Biology Biomedical Instrumentation Medical Imaging Biomaterials
+FAC006 Civil Engineering 1st Year Engineering Mechanics Surveying Structural Analysis Transportation Engineering
+FAC007 Civil Engineering 2nd Year Surveying Structural Analysis Transportation Engineering Engineering Mechanics
+FAC008 Civil Engineering 3rd Year Structural Analysis Transportation Engineering Engineering Mechanics Surveying
+FAC009 Civil Engineering 4th Year Transportation Engineering Engineering Mechanics Surveying Structural Analysis
+FAC010 Civil Engineering All Years / Elective Engineering Mechanics Surveying Structural Analysis Transportation Engineering
+FAC011 Computer Science and Design 1st Year Programming in C DataStructures UI/UX DesignComputer Graphics
+FAC012 Computer Science and Design 2nd Year Data Structures UI/UX DesignComputer Graphics Programming in C
+FAC013 Computer Science and Design 3rd Year UI/UX DesignComputer Graphics Programming in C DataStructures
+FAC014 Computer Science and Design 4th Year Computer Graphics Programming in C DataStructures UI/UX Design
+FAC015 Computer Science and Design All Years / Elective Programming in C DataStructures UI/UX DesignComputer Graphics
+FAC016 Computer Science and Engineering 1st Year Programming in Java Data Structures DBMS Computer Networks
+FAC017 Computer Science and Engineering 2nd Year Data Structures DBMS Computer Networks Programming in Java
+FAC018 Computer Science and Engineering 3rd Year DBMS Computer Networks Programming in Java Data Structures
+FAC019 Computer Science and Engineering 4th Year Computer Networks Programming in Java Data Structures DBMS
+FAC020 Computer Science and Engineering All Years / Elective Programming in Java Data Structures DBMS Computer Networks
+FAC021 Electrical and Electronics Engineering 1st Year Circuit Theory Electrical Machines Power Systems Control Systems
+FAC022 Electrical and Electronics Engineering 2nd Year Electrical Machines Power Systems Control Systems Circuit Theory
+FAC023 Electrical and Electronics Engineering 3rd Year Power Systems Control Systems Circuit Theory Electrical Machines
+FAC024 Electrical and Electronics Engineering 4th Year Control Systems Circuit Theory Electrical Machines Power Systems
+FAC025 Electrical and Electronics Engineering All Years / Elective Circuit Theory Electrical Machines Power Systems Control Systems
+FAC026 Electronics and Communication Engineering 1st Year Electronic Devices Digital Electronics Signals and Systems Communication Systems
+FAC027 Electronics and Communication Engineering 2nd Year Digital Electronics Signals and Systems Communication Systems Electronic Devices
+FAC028 Electronics and Communication Engineering 3rd Year Signals and Systems Communication Systems Electronic Devices Digital Electronics
+FAC029 Electronics and Communication Engineering 4th Year Communication Systems Electronic Devices Digital Electronics Signals and Systems
+FAC030 Electronics and Communication Engineering All Years / Elective Electronic Devices Digital Electronics Signals and Systems Communication Systems
+FAC031 Electronics and Instrumentation Engineering 1st Year Basic Electronics Sensors and Transducers Process Control Industrial Instrumentation
+FAC032 Electronics and Instrumentation Engineering 2nd Year Sensors and Transducers Process Control Industrial Instrumentation Basic Electronics
+FAC033 Electronics and Instrumentation Engineering 3rd Year Process Control Industrial Instrumentation Basic Electronics Sensors and Transducers
+FAC034 Electronics and Instrumentation Engineering 4th Year Industrial Instrumentation Basic Electronics Sensors and Transducers Process Control
+FAC035 Electronics and Instrumentation Engineering All Years / Elective Basic Electronics Sensors and Transducers Process Control Industrial Instrumentation
+FAC036 Information Science and Engineering 1st Year Programming Fundamentals Data Structures DBMS Machine Learning
+FAC037 Information Science and Engineering 2nd Year Data Structures DBMS Machine Learning Programming Fundamentals
+FAC038 Information Science and Engineering 3rd Year DBMS Machine Learning Programming Fundamentals Data Structures
+FAC039 Information Science and Engineering 4th Year Machine Learning Programming Fundamentals Data Structures DBMS
+FAC040 Information Science and Engineering All Years / Elective Programming Fundamentals Data Structures DBMS Machine Learning
+FAC041 Mechanical Engineering 1st Year Engineering Mechanics Thermodynamics Manufacturing Technology Machine Design
+FAC042 Mechanical Engineering 2nd Year Thermodynamics Manufacturing Technology Machine Design Enineering Mechanics
+FAC043 Mechanical Engineering 3rd Year Manufacturing Technology Machine Design Enineering Mechanics Thermodynamics
+FAC044 Mechanical Engineering 4th Year Machine Design Enineering Mechanics Thermodynamics Manufacturing Technology
+FAC045 Mechanical Engineering All Years / Elective Engineering Mechanics Thermodynamics Manufacturing Technology Machine Design
+FAC046 Mechatronics Engineering 1st Year Engineering Mechanics Sensors and Actuators PLC Programming Robotics
+FAC047 Mechatronics Engineering 2nd Year Sensors and Actuators PLC Programming Robotics Engineering Mechanics
+FAC048 Mechatronics Engineering 3rd Year PLC Programming Robotics Engineering Mechanics Sensors and Actuators
+FAC049 Mechatronics Engineering 4th Year Robotics Engineering Mechanics Sensors and Actuators PLC Programming
+FAC050 Mechatronics Engineering All Years / Elective Engineering Mechanics Sensors and Actuators PLC Programming Robotics
+FAC051 Agricultural Engineering 1st Year Soil ScienceFarm Machinery Irrigation Engineering Precision Agriculture
+FAC052 Agricultural Engineering 2nd Year Farm Machinery Irrigation Engineering Precision Agriculture Soil Science
+FAC053 Agricultural Engineering 3rd Year Irrigation Engineering Precision Agriculture Soil ScienceFarm Machinery
+FAC054 Agricultural Engineering 4th Year Precision Agriculture Soil ScienceFarm Machinery Irrigation Engineering
+FAC055 Agricultural Engineering All Years / Elective Soil ScienceFarm Machinery Irrigation Engineering Precision Agriculture
+FAC056 Artificial Intelligence and Data Science 1st Year Python Programming Data Structures Data MiningMachine Learning
+FAC057 Artificial Intelligence and Data Science 2nd Year Data Structures Data MiningMachine Learning Python Programming
+FAC058 Artificial Intelligence and Data Science 3rd Year Data MiningMachine Learning Python Programming Data Structures
+FAC059 Artificial Intelligence and Data Science 4th Year Machine Learning Python Programming Data Structures Data Mining
+FAC060 Artificial Intelligence and Data Science All Years / Elective Python Programming Data Structures Data MiningMachine Learning
+FAC061 Artificial Intelligence and Machine Learning 1st Year Python Programming AlgorithmsMachine Learning Neural Networks
+FAC062 Artificial Intelligence and Machine Learning 2nd Year AlgorithmsMachine Learning Neural Networks Python Programming
+FAC063 Artificial Intelligence and Machine Learning 3rd Year Machine Learning Neural Networks Python Programming Algorithms
+FAC064 Artificial Intelligence and Machine Learning 4th Year Neural Networks Python Programming AlgorithmsMachine Learning
+FAC065 Artificial Intelligence and Machine Learning All Years / Elective Python Programming AlgorithmsMachine Learning Neural Networks
+FAC066 Biotechnology 1st Year Cell BiologyBiochemistryMicrobiologyGenetic Engineering
+FAC067 Biotechnology 2nd Year BiochemistryMicrobiologyGenetic Engineering Cell Biology
+FAC068 Biotechnology 3rd Year MicrobiologyGenetic Engineering Cell BiologyBiochemistry
+FAC069 Biotechnology 4th Year Genetic Engineering Cell BiologyBiochemistryMicrobiology
+FAC070 Biotechnology All Years / Elective Cell BiologyBiochemistryMicrobiologyGenetic Engineering
+FAC071 Computer Science and Business Systems 1st Year Programming Fundamentals Data Structures Business Analytics DBMS
+FAC072 Computer Science and Business Systems 2nd Year Data Structures Business Analytics DBMS Programming Fundamentals
+FAC073 Computer Science and Business Systems 3rd Year Business Analytics DBMS Programming Fundamentals Data Structures
+FAC074 Computer Science and Business Systems 4th Year DBMS Programming Fundamentals Data Structures Business Analytics
+FAC075 Computer Science and Business Systems All Years / Elective Programming Fundamentals Data Structures Business Analytics DBMS
+FAC076 Computer Technology 1st Year Programming in C Java Programming DBMS Computer Networks
+FAC077 Computer Technology 2nd Year Java Programming DBMS Computer Networks Programming in C
+FAC078 Computer Technology 3rd Year DBMS Computer Networks Programming in C Java Programming
+FAC079 Computer Technology 4th Year Computer Networks Programming in C Java Programming DBMS
+FAC080 Computer Technology All Years / Elective Programming in C Java Programming DBMS Computer Networks
+FAC081 Food Technology 1st Year Food Chemistry Food Microbiology Food Processing Food Packaging
+FAC082 Food Technology 2nd Year Food Microbiology Food Processing Food Packaging Food Chemistry
+FAC083 Food Technology 3rd Year Food Processing Food Packaging Food Chemistry Food Microbiology
+FAC084 Food Technology 4th Year Food Packaging Food Chemistry Food Microbiology Food Processing
+FAC085 Food Technology All Years / Elective Food Chemistry Food Microbiology Food Processing Food Packaging
+FAC086 Information Technology 1st Year Programming Fundamentals Data Structures Data MiningCloud Computing
+FAC087 Information Technology 2nd Year Data Structures Data MiningCloud Computing Programming Fundamentals
+FAC088 Information Technology 3rd Year Data MiningCloud Computing Programming Fundamentals Data Structures
+FAC089 Information Technology 4th Year Cloud Computing Programming Fundamentals Data Structures Data Mining
+FAC090 Information Technology All Years / Elective Programming Fundamentals Data Structures Data MiningCloud Computing
+FAC091 Fashion Technology 1st Year Fashion Illustration Pattern Making Garment Construction Textile Science
+FAC092 Fashion Technology 2nd Year Pattern Making Garment Construction Textile Science Fashion Illustration
+FAC093 Fashion Technology 3rd Year Garment Construction Textile Science Fashion Illustration Pattern Making
+FAC094 Fashion Technology 4th Year Textile Science Fashion Illustration Pattern Making Garment Construction
+FAC095 Fashion Technology All Years / Elective Fashion Illustration Pattern Making Garment Construction Textile Science
+FAC096 Textile Technology 1st Year Textile FibersYarn Manufacturing Fabric Manufacturing Textile Chemistry
+FAC097 Textile Technology 2nd Year Yarn Manufacturing Fabric Manufacturing Textile Chemistry Texile Fibers
+FAC098 Textile Technology 3rd Year Fabric Manufacturing Textile Chemistry Texile FibersYarn Manufacturing
+FAC099 Textile Technology 4th Year Textile Chemistry Texile FibersYarn Manufacturing Fabric Manufacturing
+FAC100 Textile Technology All Years / Elective Textile FibersYarn Manufacturing Fabric Manufacturing Textile Chemistry

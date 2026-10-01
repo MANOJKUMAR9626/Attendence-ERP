@@ -1,0 +1,169 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-base: var(--paper);
+  --color-surface: var(--paper-raised);
+  --color-surface-sec: var(--paper);
+  
+  --color-primary: var(--navy);
+  --color-primary-hover: var(--navy-soft);
+  --color-secondary: var(--gold);
+  --color-accent: var(--gold);
+  
+  --color-success: var(--safe);
+  --color-warning: var(--warn);
+  --color-danger: var(--crit);
+  
+  --color-text-main: var(--ink);
+  --color-text-muted: var(--ink-soft);
+  --color-border-subtle: var(--rule);
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Fraunces', Georgia, serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
+
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.05);
+
+  --animate-fade-in: fade-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-slide-up: slide-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-fade-in-up: fade-in-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slide-up {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fade-in-up {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+@layer base {
+  :root {
+    --paper: #F5F3EE;
+    --paper-raised: #FFFFFF;
+    --ink: #1D2333;
+    --ink-soft: #5B6376;
+    --navy: #1B2A4A;
+    --navy-soft: #2E3F63;
+    --rule: #DEDACD;
+    --safe: #2F7D5C;
+    --safe-bg: #E5F1EB;
+    --warn: #C2872B;
+    --warn-bg: #F8EDDA;
+    --crit: #B0483C;
+    --crit-bg: #F7E5E2;
+    --stamp: #8A1F2B;
+    --gold: #D9B65C;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.6;
+    transition: background-color 0.4s ease, color 0.4s ease;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: var(--navy);
+  }
+}
+
+/* ─── Premium Glassmorphism -> Paper-like ─── */
+.glass-panel {
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+/* ─── Background Mesh (Decoration) -> Removed for flat look ─── */
+.bg-mesh {
+  display: none;
+}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: var(--ink-soft); }
+
+/* Scrollbar Hide */
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+
+/* ─── Micro-Animations & Hover Effects ─── */
+.card-hover { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+.card-hover:hover { transform: translateY(-2px); box-shadow: var(--shadow-card); z-index: 10; }
+
+.btn-hover { transition: all 0.2s ease; }
+.btn-hover:hover { transform: translateY(-1px); }
+.btn-hover:active { transform: translateY(1px); }
+
+/* Page transition wrapper */
+.page-enter { animation: fade-in-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+
+/* ─── Status Badges ─── */
+.badge-safe { background-color: var(--safe-bg); color: var(--safe); padding: 3px 10px; border-radius: 20px; font-weight: 500; display: inline-flex; align-items: center; justify-content: center; font-size: 0.875rem; border: none; }
+.badge-warning { background-color: var(--warn-bg); color: var(--warn); padding: 3px 10px; border-radius: 20px; font-weight: 500; display: inline-flex; align-items: center; justify-content: center; font-size: 0.875rem; border: none; }
+.badge-danger { background-color: var(--crit-bg); color: var(--crit); padding: 3px 10px; border-radius: 20px; font-weight: 500; display: inline-flex; align-items: center; justify-content: center; font-size: 0.875rem; border: none; }
+.badge-info { background-color: var(--paper-raised); color: var(--navy); padding: 3px 10px; border-radius: 20px; font-weight: 500; display: inline-flex; align-items: center; justify-content: center; font-size: 0.875rem; border: 1px solid var(--navy); }
+
+/* ─── Table Styling ─── */
+.erp-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.erp-table thead th {
+  font-family: var(--font-sans);
+  font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--ink-soft); background-color: var(--paper); padding: 14px 16px; border-bottom: 2px solid var(--rule);
+  text-align: left;
+}
+.erp-table tbody td {
+  padding: 16px; font-size: 0.875rem; color: var(--ink); border-bottom: 1px solid var(--rule);
+}
+.erp-table tbody tr { transition: background-color 0.2s ease; }
+.erp-table tbody tr:hover { background-color: var(--paper); }
+
+.data-mono {
+  font-family: var(--font-mono);
+}
+
+/* Decorative Stamp */
+.stamp {
+  color: var(--stamp);
+  border: 2px solid var(--stamp);
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  text-transform: uppercase;
+  transform: rotate(-2deg);
+  display: inline-block;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+  opacity: 0.9;
+}
