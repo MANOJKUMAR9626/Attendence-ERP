@@ -1,3 +1,6 @@
+import dotenv from 'dotenv';
+dotenv.config(); // Must be FIRST before any other imports that read process.env
+
 import express from 'express';
 import http from 'http';
 import { Server } from 'socket.io';
@@ -9,7 +12,6 @@ import cookieParser from 'cookie-parser';
 import xss from 'xss-clean';
 import hpp from 'hpp';
 import rateLimit from 'express-rate-limit';
-import dotenv from 'dotenv';
 import './models/index.js';
 import { connectDB } from './config/db.js';
 import { connectMySQL } from './config/mysqlDb.js';
@@ -35,7 +37,6 @@ import dashboardRoutes from './routes/dashboard.js';
 import settingsRoutes from './routes/settings.js';
 import examRoutes from './routes/exam.js';
 import smsAdminRoutes from './routes/smsAdminRoutes.js';
-dotenv.config();
 
 const app = express();
 const httpServer = http.createServer(app);
