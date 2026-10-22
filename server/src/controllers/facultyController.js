@@ -5,6 +5,8 @@ import Faculty from '../models/Faculty.js';
 import Subject from '../models/Subject.js';
 import Section from '../models/Section.js';
 import Semester from '../models/Semester.js';
+import Department from '../models/Department.js';
+import AcademicYear from '../models/AcademicYear.js';
 import { mockTimetableData } from '../utils/mockTimetableData.js';
 import mongoose from 'mongoose';
 import sendSMS from '../utils/sendSMS.js';
@@ -60,7 +62,7 @@ export const getTodayTimetable = async (req, res, next) => {
       .populate('periods.subject', 'name code');
 
     timetables.forEach(tt => {
-      const myPeriods = tt.periods.filter(p => p.faculty.toString() === faculty._id.toString());
+      const myPeriods = tt.periods.filter(p => (p.faculty?._id || p.faculty)?.toString() === faculty._id.toString());
       myPeriods.forEach(p => {
         facultyPeriods.push({
           _id: p._id,

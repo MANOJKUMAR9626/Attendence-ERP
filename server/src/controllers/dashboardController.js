@@ -236,7 +236,7 @@ export const getFacultyDashboard = async (req, res, next) => {
       
     let todaysClasses = 0;
     timetables.forEach(tt => {
-      todaysClasses += tt.periods.filter(p => p.faculty.toString() === faculty._id.toString()).length;
+      todaysClasses += tt.periods.filter(p => (p.faculty?._id || p.faculty)?.toString() === faculty._id.toString()).length;
     });
     
     // Fallback if no timetable found
@@ -323,7 +323,7 @@ export const getFacultyDashboard = async (req, res, next) => {
     if (allTimetables.length > 0) {
       allTimetables.forEach(tt => {
          tt.periods.forEach(p => {
-            if (p.faculty.toString() === faculty._id.toString() && p.subject) {
+            if ((p.faculty?._id || p.faculty)?.toString() === faculty._id.toString() && p.subject) {
                const subName = p.subject.name || 'Unknown';
                if (!subMap[subName]) {
                   subMap[subName] = { held: 0, attended: 0, totalCapacity: 0 };
@@ -363,7 +363,7 @@ export const getFacultyDashboard = async (req, res, next) => {
     let timetableData = [];
     
     timetables.forEach(tt => {
-      const myPeriods = tt.periods.filter(p => p.faculty.toString() === faculty._id.toString());
+      const myPeriods = tt.periods.filter(p => (p.faculty?._id || p.faculty)?.toString() === faculty._id.toString());
       myPeriods.forEach(p => {
         const isCompleted = markedSessions.some(s => {
           const sessionDate = new Date(s.date);

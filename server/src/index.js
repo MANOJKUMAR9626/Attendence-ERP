@@ -10,6 +10,7 @@ import xss from 'xss-clean';
 import hpp from 'hpp';
 import rateLimit from 'express-rate-limit';
 import dotenv from 'dotenv';
+import './models/index.js';
 import { connectDB } from './config/db.js';
 import { connectMySQL } from './config/mysqlDb.js';
 import { errorHandler } from './middleware/errorHandler.js';

@@ -438,7 +438,7 @@ CRITICAL RULES:
       
       let myClasses = [];
       timetables.forEach(tt => {
-        const myPeriods = tt.periods.filter(p => p.faculty.toString() === facultyData._id.toString());
+        const myPeriods = tt.periods.filter(p => (p.faculty?._id || p.faculty)?.toString() === facultyData._id.toString());
         myPeriods.forEach(p => {
           myClasses.push({
             startTime: p.startTime,

@@ -1,0 +1,26 @@
+// Ensure all Mongoose models are registered globally at application startup
+import './User.js';
+import './Student.js';
+import './Faculty.js';
+import './Parent.js';
+import './Department.js';
+import './Course.js';
+import './Section.js';
+import './Semester.js';
+import './AcademicYear.js';
+import './Subject.js';
+import './Timetable.js';
+import './FacultyAllocation.js';
+import './Attendance.js';
+import './AttendanceSession.js';
+import './AttendanceCorrection.js';
+import './LeaveRequest.js';
+import './Notification.js';
+import './ActivityLog.js';
+import './AuditLog.js';
+import './AIPrediction.js';
+import './Badge.js';
+import './ChatHistory.js';
+import './Report.js';
+import './Settings.js';
+import './SMSConfig.js';
