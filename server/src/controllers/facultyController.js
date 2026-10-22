@@ -180,13 +180,7 @@ export const getTodayTimetable = async (req, res, next) => {
 
     console.log('[DEBUG] enriched periods count:', enrichedPeriods.length, 'period 1 isCompleted:', enrichedPeriods.find(x => x.periodNumber === 1)?.isCompleted);
 
-    const fs = await import('fs');
-    fs.appendFileSync('C:/Users/manoj/OneDrive/Desktop/attendance-erp/server/timetable_debug.log', JSON.stringify({
-      facultyId: faculty._id,
-      facultyPeriodsLength: facultyPeriods.length,
-      isFallback: facultyPeriods.length === 0,
-      today: today
-    }) + '\n');
+
 
     res.status(200).json({
       success: true,
