@@ -5,3 +5,8 @@ dist
 build
 coverage
 *.log
+
+scratch/
+server/scratch/
+test*.js
+server/test*.js

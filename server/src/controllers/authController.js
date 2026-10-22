@@ -10,10 +10,12 @@ const sendTokenResponse = (user, statusCode, res) => {
   const token = user.generateJWT();
   const refreshToken = user.generateRefreshToken();
 
+  const isProduction = process.env.NODE_ENV === 'production';
   const options = {
     expires: new Date(Date.now() + 15 * 60 * 1000), // 15 mins for standard cookie if used
     httpOnly: true,
-    secure: process.env.NODE_ENV === 'production',
+    secure: isProduction,
+    sameSite: isProduction ? 'none' : 'lax',
   };
 
   res
@@ -241,9 +243,12 @@ export const getMe = async (req, res, next) => {
 
 export const logout = async (req, res, next) => {
   try {
+    const isProduction = process.env.NODE_ENV === 'production';
     res.cookie('token', 'none', {
       expires: new Date(Date.now() + 10 * 1000),
-      httpOnly: true
+      httpOnly: true,
+      secure: isProduction,
+      sameSite: isProduction ? 'none' : 'lax',
     });
     res.status(200).json({ success: true, data: {} });
   } catch (error) {

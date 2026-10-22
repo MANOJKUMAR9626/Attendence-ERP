@@ -2,8 +2,15 @@ import axios from 'axios';
 import { store } from '../store/store';
 import { logoutUser } from '../store/slices/authSlice';
 
-// Create Axios instance
-const baseURL = import.meta.env.VITE_API_URL || `http://${window.location.hostname}:5000/api/v1`;
+// Resolve API base URL with automatic fallback and trailing-slash normalization
+const rawBaseURL = import.meta.env.VITE_API_URL;
+const baseURL = (() => {
+  if (rawBaseURL) {
+    const clean = rawBaseURL.trim().replace(/\/+$/, '');
+    return clean.endsWith('/api/v1') ? clean : `${clean}/api/v1`;
+  }
+  return `http://${window.location.hostname}:5000/api/v1`;
+})();
 
 const api = axios.create({
   baseURL,

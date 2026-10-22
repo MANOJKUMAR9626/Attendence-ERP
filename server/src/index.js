@@ -39,10 +39,47 @@ dotenv.config();
 const app = express();
 const httpServer = http.createServer(app);
 
+// CORS & Origin Resolver
+const getAllowedOrigins = () => {
+  const envOrigins = (process.env.CLIENT_URL || '')
+    .split(',')
+    .map((url) => url.trim().replace(/\/+$/, ''))
+    .filter(Boolean);
+  return ['http://localhost:5173', 'http://localhost:3000', ...envOrigins];
+};
+
+const isAllowedOrigin = (origin) => {
+  // Allow requests with no origin (e.g. mobile apps, curl, Postman, health check)
+  if (!origin) return true;
+
+  // Allow local development origins
+  if (
+    origin.startsWith('http://localhost:') ||
+    origin.startsWith('http://127.0.0.1:') ||
+    origin.startsWith('http://192.168.')
+  ) {
+    return true;
+  }
+
+  // Allow any Netlify domain (production or preview branch: *.netlify.app)
+  if (/^https:\/\/[a-zA-Z0-9-_.]+\.netlify\.app$/.test(origin)) {
+    return true;
+  }
+
+  const allowed = getAllowedOrigins();
+  return allowed.includes(origin.replace(/\/+$/, ''));
+};
+
 // Socket.IO
 const io = new Server(httpServer, {
   cors: {
-    origin: process.env.CLIENT_URL || 'http://localhost:5173',
+    origin: (origin, callback) => {
+      if (isAllowedOrigin(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error('CORS not allowed for Socket.IO origin: ' + origin));
+      }
+    },
     methods: ['GET', 'POST'],
     credentials: true,
   },
@@ -75,12 +112,11 @@ const authLimiter = rateLimit({
 
 // CORS
 app.use(cors({
-  origin: function (origin, callback) {
-    // Allow any local network IP, localhost, or no origin (like Postman)
-    if (!origin || origin.startsWith('http://localhost:') || origin.startsWith('http://127.0.0.1:') || origin.startsWith('http://192.168.')) {
+  origin: (origin, callback) => {
+    if (isAllowedOrigin(origin)) {
       callback(null, true);
     } else {
-      callback(null, process.env.CLIENT_URL || 'http://localhost:5173');
+      callback(new Error(`CORS policy blocked access from origin: ${origin}`));
     }
   },
   credentials: true,
@@ -96,7 +132,17 @@ app.use(cookieParser(process.env.COOKIE_SECRET));
 // Logger
 if (process.env.NODE_ENV === 'development') app.use(morgan('dev'));
 
-// Health check
+// Root Status & Health check endpoints
+app.get('/', (req, res) => {
+  res.json({
+    name: 'SmartERP Attendance API',
+    status: 'Running',
+    version: '1.0.0',
+    health: '/health',
+    api: '/api/v1',
+  });
+});
+
 app.get('/health', (req, res) => res.json({ status: 'OK', timestamp: new Date().toISOString(), version: '1.0.0' }));
 
 // API Routes
