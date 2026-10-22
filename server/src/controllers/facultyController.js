@@ -21,9 +21,15 @@ export const getAllocations = async (req, res, next) => {
 
     const allocations = await FacultyAllocation.find({ faculty: faculty._id })
       .populate('subject', 'name code')
-      .populate('section', 'name')
-      .populate('academicYear', 'year')
-      .populate('semester', 'name');
+      .populate({
+        path: 'section',
+        select: 'name currentStrength semester academicYear',
+        populate: [
+          { path: 'semester', select: 'name number' },
+          { path: 'academicYear', select: 'year' }
+        ]
+      })
+      .populate('department', 'name code');
 
     res.status(200).json({ success: true, count: allocations.length, data: allocations });
   } catch (error) {
