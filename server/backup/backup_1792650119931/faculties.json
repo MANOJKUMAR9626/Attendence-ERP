@@ -1,0 +1,1802 @@
+[
+  {
+    "_id": "6a8b0632244a069d06e6ce50",
+    "employeeId": "FAC001",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:46.806Z",
+    "department": "6a8b0632244a069d06e6ce4b",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.568Z",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0632244a069d06e6ce69",
+    "employeeId": "FAC002",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:46.864Z",
+    "department": "6a8b0632244a069d06e6ce4b",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.582Z",
+    "user": "6a8b0632244a069d06e6ce68",
+    "designation": "Lecturer"
+  },
+  {
+    "_id": "6a8b0632244a069d06e6ce80",
+    "employeeId": "FAC003",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:46.910Z",
+    "department": "6a8b0632244a069d06e6ce4b",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.587Z",
+    "user": "6a8b0632244a069d06e6ce7f",
+    "designation": "Professor"
+  },
+  {
+    "_id": "6a8b0632244a069d06e6ce97",
+    "employeeId": "FAC004",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:46.956Z",
+    "department": "6a8b0632244a069d06e6ce4b",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.590Z",
+    "user": "6a8b0632244a069d06e6ce96",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6ceae",
+    "employeeId": "FAC005",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.000Z",
+    "department": "6a8b0632244a069d06e6ce4b",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.595Z",
+    "user": "6a8b0632244a069d06e6cead",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6cec5",
+    "employeeId": "FAC006",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.047Z",
+    "department": "6a8b0633244a069d06e6cec0",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.598Z",
+    "user": "6a8b0633244a069d06e6cec4",
+    "designation": "Professor"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6cede",
+    "employeeId": "FAC007",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.089Z",
+    "department": "6a8b0633244a069d06e6cec0",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.601Z",
+    "user": "6a8b0633244a069d06e6cedd",
+    "designation": "Professor"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6cef5",
+    "employeeId": "FAC008",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.131Z",
+    "department": "6a8b0633244a069d06e6cec0",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.604Z",
+    "user": "6a8b0633244a069d06e6cef4",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6cf0d",
+    "employeeId": "FAC009",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.175Z",
+    "department": "6a8b0633244a069d06e6cec0",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.608Z",
+    "user": "6a8b0633244a069d06e6cf0c",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6cf23",
+    "employeeId": "FAC010",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.221Z",
+    "department": "6a8b0633244a069d06e6cec0",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.612Z",
+    "user": "6a8b0633244a069d06e6cf22",
+    "designation": "Professor"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6cf3a",
+    "employeeId": "FAC011",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.265Z",
+    "department": "6a8b0633244a069d06e6cf35",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.614Z",
+    "user": "6a8b0633244a069d06e6cf39",
+    "designation": "Head of Department"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6cf53",
+    "employeeId": "FAC012",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.308Z",
+    "department": "6a8b0633244a069d06e6cf35",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.617Z",
+    "user": "6a8b0633244a069d06e6cf52",
+    "designation": "Lecturer"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6cf6c",
+    "employeeId": "FAC013",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.355Z",
+    "department": "6a8b0633244a069d06e6cf35",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.619Z",
+    "user": "6a8b0633244a069d06e6cf6b",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6cf81",
+    "employeeId": "FAC014",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.401Z",
+    "department": "6a8b0633244a069d06e6cf35",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.621Z",
+    "user": "6a8b0633244a069d06e6cf80",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6cf96",
+    "employeeId": "FAC015",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.447Z",
+    "department": "6a8b0633244a069d06e6cf35",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.623Z",
+    "user": "6a8b0633244a069d06e6cf95",
+    "designation": "Professor"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6cfad",
+    "employeeId": "FAC016",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.489Z",
+    "department": "6a8b0633244a069d06e6cfa8",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.625Z",
+    "user": "6a8b0633244a069d06e6cfac",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6cfc6",
+    "employeeId": "FAC017",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.528Z",
+    "department": "6a8b0633244a069d06e6cfa8",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.627Z",
+    "user": "6a8b0633244a069d06e6cfc5",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6cfdf",
+    "employeeId": "FAC018",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.577Z",
+    "department": "6a8b0633244a069d06e6cfa8",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.630Z",
+    "user": "6a8b0633244a069d06e6cfde",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6cff4",
+    "employeeId": "FAC019",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.625Z",
+    "department": "6a8b0633244a069d06e6cfa8",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.633Z",
+    "user": "6a8b0633244a069d06e6cff3",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6d009",
+    "employeeId": "FAC020",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.670Z",
+    "department": "6a8b0633244a069d06e6cfa8",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.635Z",
+    "user": "6a8b0633244a069d06e6d008",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6d020",
+    "employeeId": "FAC021",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.720Z",
+    "department": "6a8b0633244a069d06e6d01b",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.638Z",
+    "user": "6a8b0633244a069d06e6d01f",
+    "designation": "Head of Department"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6d039",
+    "employeeId": "FAC022",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.784Z",
+    "department": "6a8b0633244a069d06e6d01b",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.640Z",
+    "user": "6a8b0633244a069d06e6d038",
+    "designation": "Head of Department"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6d04e",
+    "employeeId": "FAC023",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.832Z",
+    "department": "6a8b0633244a069d06e6d01b",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.643Z",
+    "user": "6a8b0633244a069d06e6d04d",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6d063",
+    "employeeId": "FAC024",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.863Z",
+    "department": "6a8b0633244a069d06e6d01b",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.646Z",
+    "user": "6a8b0633244a069d06e6d062",
+    "designation": "Lecturer"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6d078",
+    "employeeId": "FAC025",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.894Z",
+    "department": "6a8b0633244a069d06e6d01b",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.650Z",
+    "user": "6a8b0633244a069d06e6d077",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6d08f",
+    "employeeId": "FAC026",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.928Z",
+    "department": "6a8b0633244a069d06e6d08a",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.653Z",
+    "user": "6a8b0633244a069d06e6d08e",
+    "designation": "Lecturer"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6d0a8",
+    "employeeId": "FAC027",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.962Z",
+    "department": "6a8b0633244a069d06e6d08a",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.655Z",
+    "user": "6a8b0633244a069d06e6d0a7",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0633244a069d06e6d0c0",
+    "employeeId": "FAC028",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:47.999Z",
+    "department": "6a8b0633244a069d06e6d08a",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.657Z",
+    "user": "6a8b0633244a069d06e6d0bf",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d0d8",
+    "employeeId": "FAC029",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.033Z",
+    "department": "6a8b0633244a069d06e6d08a",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.659Z",
+    "user": "6a8b0634244a069d06e6d0d7",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d0ed",
+    "employeeId": "FAC030",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.070Z",
+    "department": "6a8b0633244a069d06e6d08a",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.662Z",
+    "user": "6a8b0634244a069d06e6d0ec",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d104",
+    "employeeId": "FAC031",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.105Z",
+    "department": "6a8b0634244a069d06e6d0ff",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.664Z",
+    "user": "6a8b0634244a069d06e6d103",
+    "designation": "Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d11d",
+    "employeeId": "FAC032",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.140Z",
+    "department": "6a8b0634244a069d06e6d0ff",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.666Z",
+    "user": "6a8b0634244a069d06e6d11c",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d135",
+    "employeeId": "FAC033",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.175Z",
+    "department": "6a8b0634244a069d06e6d0ff",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.668Z",
+    "user": "6a8b0634244a069d06e6d134",
+    "designation": "Head of Department"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d14a",
+    "employeeId": "FAC034",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.210Z",
+    "department": "6a8b0634244a069d06e6d0ff",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.670Z",
+    "user": "6a8b0634244a069d06e6d149",
+    "designation": "Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d162",
+    "employeeId": "FAC035",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.242Z",
+    "department": "6a8b0634244a069d06e6d0ff",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.672Z",
+    "user": "6a8b0634244a069d06e6d161",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d179",
+    "employeeId": "FAC036",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.275Z",
+    "department": "6a8b0634244a069d06e6d174",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.674Z",
+    "user": "6a8b0634244a069d06e6d178",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d192",
+    "employeeId": "FAC037",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.307Z",
+    "department": "6a8b0634244a069d06e6d174",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.677Z",
+    "user": "6a8b0634244a069d06e6d191",
+    "designation": "Head of Department"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d1a9",
+    "employeeId": "FAC038",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.349Z",
+    "department": "6a8b0634244a069d06e6d174",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.679Z",
+    "user": "6a8b0634244a069d06e6d1a8",
+    "designation": "Head of Department"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d1c0",
+    "employeeId": "FAC039",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.387Z",
+    "department": "6a8b0634244a069d06e6d174",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.681Z",
+    "user": "6a8b0634244a069d06e6d1bf",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d1d7",
+    "employeeId": "FAC040",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.431Z",
+    "department": "6a8b0634244a069d06e6d174",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.683Z",
+    "user": "6a8b0634244a069d06e6d1d6",
+    "designation": "Head of Department"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d1ee",
+    "employeeId": "FAC041",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.470Z",
+    "department": "6a8b0634244a069d06e6d1e9",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.685Z",
+    "user": "6a8b0634244a069d06e6d1ed",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d207",
+    "employeeId": "FAC042",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.508Z",
+    "department": "6a8b0634244a069d06e6d1e9",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.687Z",
+    "user": "6a8b0634244a069d06e6d206",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d21e",
+    "employeeId": "FAC043",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.548Z",
+    "department": "6a8b0634244a069d06e6d1e9",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.689Z",
+    "user": "6a8b0634244a069d06e6d21d",
+    "designation": "Head of Department"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d237",
+    "employeeId": "FAC044",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.583Z",
+    "department": "6a8b0634244a069d06e6d1e9",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.691Z",
+    "user": "6a8b0634244a069d06e6d236",
+    "designation": "Head of Department"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d24d",
+    "employeeId": "FAC045",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.613Z",
+    "department": "6a8b0634244a069d06e6d1e9",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.693Z",
+    "user": "6a8b0634244a069d06e6d24c",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d264",
+    "employeeId": "FAC046",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.646Z",
+    "department": "6a8b0634244a069d06e6d25f",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.696Z",
+    "user": "6a8b0634244a069d06e6d263",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d27d",
+    "employeeId": "FAC047",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.678Z",
+    "department": "6a8b0634244a069d06e6d25f",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.699Z",
+    "user": "6a8b0634244a069d06e6d27c",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d292",
+    "employeeId": "FAC048",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.713Z",
+    "department": "6a8b0634244a069d06e6d25f",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.703Z",
+    "user": "6a8b0634244a069d06e6d291",
+    "designation": "Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d2ab",
+    "employeeId": "FAC049",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.748Z",
+    "department": "6a8b0634244a069d06e6d25f",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.705Z",
+    "user": "6a8b0634244a069d06e6d2aa",
+    "designation": "Lecturer"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d2c0",
+    "employeeId": "FAC050",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.784Z",
+    "department": "6a8b0634244a069d06e6d25f",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.707Z",
+    "user": "6a8b0634244a069d06e6d2bf",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d2d7",
+    "employeeId": "FAC051",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.821Z",
+    "department": "6a8b0634244a069d06e6d2d2",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.709Z",
+    "user": "6a8b0634244a069d06e6d2d6",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d2f0",
+    "employeeId": "FAC052",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.857Z",
+    "department": "6a8b0634244a069d06e6d2d2",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.712Z",
+    "user": "6a8b0634244a069d06e6d2ef",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d305",
+    "employeeId": "FAC053",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.892Z",
+    "department": "6a8b0634244a069d06e6d2d2",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.715Z",
+    "user": "6a8b0634244a069d06e6d304",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d31a",
+    "employeeId": "FAC054",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.931Z",
+    "department": "6a8b0634244a069d06e6d2d2",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.717Z",
+    "user": "6a8b0634244a069d06e6d319",
+    "designation": "Professor"
+  },
+  {
+    "_id": "6a8b0634244a069d06e6d32f",
+    "employeeId": "FAC055",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:48.978Z",
+    "department": "6a8b0634244a069d06e6d2d2",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.720Z",
+    "user": "6a8b0634244a069d06e6d32e",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d346",
+    "employeeId": "FAC056",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.017Z",
+    "department": "6a8b0635244a069d06e6d341",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.722Z",
+    "user": "6a8b0635244a069d06e6d345",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d35f",
+    "employeeId": "FAC057",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.050Z",
+    "department": "6a8b0635244a069d06e6d341",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.725Z",
+    "user": "6a8b0635244a069d06e6d35e",
+    "designation": "Lecturer"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d374",
+    "employeeId": "FAC058",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.082Z",
+    "department": "6a8b0635244a069d06e6d341",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.727Z",
+    "user": "6a8b0635244a069d06e6d373",
+    "designation": "Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d389",
+    "employeeId": "FAC059",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.112Z",
+    "department": "6a8b0635244a069d06e6d341",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.730Z",
+    "user": "6a8b0635244a069d06e6d388",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d39e",
+    "employeeId": "FAC060",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.142Z",
+    "department": "6a8b0635244a069d06e6d341",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.733Z",
+    "user": "6a8b0635244a069d06e6d39d",
+    "designation": "Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d3b5",
+    "employeeId": "FAC061",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.168Z",
+    "department": "6a8b0635244a069d06e6d3b0",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.735Z",
+    "user": "6a8b0635244a069d06e6d3b4",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d3ce",
+    "employeeId": "FAC062",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.196Z",
+    "department": "6a8b0635244a069d06e6d3b0",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.738Z",
+    "user": "6a8b0635244a069d06e6d3cd",
+    "designation": "Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d3e5",
+    "employeeId": "FAC063",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.230Z",
+    "department": "6a8b0635244a069d06e6d3b0",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.740Z",
+    "user": "6a8b0635244a069d06e6d3e4",
+    "designation": "Lecturer"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d3fd",
+    "employeeId": "FAC064",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.260Z",
+    "department": "6a8b0635244a069d06e6d3b0",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.742Z",
+    "user": "6a8b0635244a069d06e6d3fc",
+    "designation": "Lecturer"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d413",
+    "employeeId": "FAC065",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.293Z",
+    "department": "6a8b0635244a069d06e6d3b0",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.745Z",
+    "user": "6a8b0635244a069d06e6d412",
+    "designation": "Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d42a",
+    "employeeId": "FAC066",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.325Z",
+    "department": "6a8b0635244a069d06e6d425",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.748Z",
+    "user": "6a8b0635244a069d06e6d429",
+    "designation": "Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d443",
+    "employeeId": "FAC067",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.357Z",
+    "department": "6a8b0635244a069d06e6d425",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.751Z",
+    "user": "6a8b0635244a069d06e6d442",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d458",
+    "employeeId": "FAC068",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.392Z",
+    "department": "6a8b0635244a069d06e6d425",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.754Z",
+    "user": "6a8b0635244a069d06e6d457",
+    "designation": "Lecturer"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d470",
+    "employeeId": "FAC069",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.424Z",
+    "department": "6a8b0635244a069d06e6d425",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.757Z",
+    "user": "6a8b0635244a069d06e6d46f",
+    "designation": "Lecturer"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d485",
+    "employeeId": "FAC070",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.452Z",
+    "department": "6a8b0635244a069d06e6d425",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.760Z",
+    "user": "6a8b0635244a069d06e6d484",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d49c",
+    "employeeId": "FAC071",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.484Z",
+    "department": "6a8b0635244a069d06e6d497",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.762Z",
+    "user": "6a8b0635244a069d06e6d49b",
+    "designation": "Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d4b5",
+    "employeeId": "FAC072",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.516Z",
+    "department": "6a8b0635244a069d06e6d497",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.764Z",
+    "user": "6a8b0635244a069d06e6d4b4",
+    "designation": "Lecturer"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d4cc",
+    "employeeId": "FAC073",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.547Z",
+    "department": "6a8b0635244a069d06e6d497",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.767Z",
+    "user": "6a8b0635244a069d06e6d4cb",
+    "designation": "Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d4e3",
+    "employeeId": "FAC074",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.580Z",
+    "department": "6a8b0635244a069d06e6d497",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.769Z",
+    "user": "6a8b0635244a069d06e6d4e2",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d4fa",
+    "employeeId": "FAC075",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.610Z",
+    "department": "6a8b0635244a069d06e6d497",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.771Z",
+    "user": "6a8b0635244a069d06e6d4f9",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d511",
+    "employeeId": "FAC076",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.640Z",
+    "department": "6a8b0635244a069d06e6d50c",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.773Z",
+    "user": "6a8b0635244a069d06e6d510",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d52a",
+    "employeeId": "FAC077",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.668Z",
+    "department": "6a8b0635244a069d06e6d50c",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.776Z",
+    "user": "6a8b0635244a069d06e6d529",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d543",
+    "employeeId": "FAC078",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.697Z",
+    "department": "6a8b0635244a069d06e6d50c",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.779Z",
+    "user": "6a8b0635244a069d06e6d542",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d558",
+    "employeeId": "FAC079",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.729Z",
+    "department": "6a8b0635244a069d06e6d50c",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.782Z",
+    "user": "6a8b0635244a069d06e6d557",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d56d",
+    "employeeId": "FAC080",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.758Z",
+    "department": "6a8b0635244a069d06e6d50c",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.784Z",
+    "user": "6a8b0635244a069d06e6d56c",
+    "designation": "Lecturer"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d584",
+    "employeeId": "FAC081",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.787Z",
+    "department": "6a8b0635244a069d06e6d57f",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.786Z",
+    "user": "6a8b0635244a069d06e6d583",
+    "designation": "Head of Department"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d59d",
+    "employeeId": "FAC082",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.815Z",
+    "department": "6a8b0635244a069d06e6d57f",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.788Z",
+    "user": "6a8b0635244a069d06e6d59c",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d5b2",
+    "employeeId": "FAC083",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.845Z",
+    "department": "6a8b0635244a069d06e6d57f",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.790Z",
+    "user": "6a8b0635244a069d06e6d5b1",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d5c7",
+    "employeeId": "FAC084",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.874Z",
+    "department": "6a8b0635244a069d06e6d57f",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.792Z",
+    "user": "6a8b0635244a069d06e6d5c6",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d5dc",
+    "employeeId": "FAC085",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.905Z",
+    "department": "6a8b0635244a069d06e6d57f",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.794Z",
+    "user": "6a8b0635244a069d06e6d5db",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d5f3",
+    "employeeId": "FAC086",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.933Z",
+    "department": "6a8b0635244a069d06e6d5ee",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.796Z",
+    "user": "6a8b0635244a069d06e6d5f2",
+    "designation": "Head of Department"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d60c",
+    "employeeId": "FAC087",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.963Z",
+    "department": "6a8b0635244a069d06e6d5ee",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.798Z",
+    "user": "6a8b0635244a069d06e6d60b",
+    "designation": "Professor"
+  },
+  {
+    "_id": "6a8b0635244a069d06e6d621",
+    "employeeId": "FAC088",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:49.992Z",
+    "department": "6a8b0635244a069d06e6d5ee",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.799Z",
+    "user": "6a8b0635244a069d06e6d620",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0636244a069d06e6d636",
+    "employeeId": "FAC089",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:50.026Z",
+    "department": "6a8b0635244a069d06e6d5ee",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.801Z",
+    "user": "6a8b0636244a069d06e6d635",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0636244a069d06e6d64b",
+    "employeeId": "FAC090",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:50.056Z",
+    "department": "6a8b0635244a069d06e6d5ee",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.803Z",
+    "user": "6a8b0636244a069d06e6d64a",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0636244a069d06e6d662",
+    "employeeId": "FAC091",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:50.084Z",
+    "department": "6a8b0636244a069d06e6d65d",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.805Z",
+    "user": "6a8b0636244a069d06e6d661",
+    "designation": "Head of Department"
+  },
+  {
+    "_id": "6a8b0636244a069d06e6d67b",
+    "employeeId": "FAC092",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:50.115Z",
+    "department": "6a8b0636244a069d06e6d65d",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.810Z",
+    "user": "6a8b0636244a069d06e6d67a",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0636244a069d06e6d690",
+    "employeeId": "FAC093",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:50.144Z",
+    "department": "6a8b0636244a069d06e6d65d",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.814Z",
+    "user": "6a8b0636244a069d06e6d68f",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0636244a069d06e6d6a5",
+    "employeeId": "FAC094",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:50.174Z",
+    "department": "6a8b0636244a069d06e6d65d",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.817Z",
+    "user": "6a8b0636244a069d06e6d6a4",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0636244a069d06e6d6ba",
+    "employeeId": "FAC095",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:50.204Z",
+    "department": "6a8b0636244a069d06e6d65d",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.820Z",
+    "user": "6a8b0636244a069d06e6d6b9",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0636244a069d06e6d6d1",
+    "employeeId": "FAC096",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:50.243Z",
+    "department": "6a8b0636244a069d06e6d6cc",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.822Z",
+    "user": "6a8b0636244a069d06e6d6d0",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0636244a069d06e6d6ea",
+    "employeeId": "FAC097",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:50.269Z",
+    "department": "6a8b0636244a069d06e6d6cc",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.824Z",
+    "user": "6a8b0636244a069d06e6d6e9",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0636244a069d06e6d700",
+    "employeeId": "FAC098",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:50.300Z",
+    "department": "6a8b0636244a069d06e6d6cc",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.826Z",
+    "user": "6a8b0636244a069d06e6d6ff",
+    "designation": "Associate Professor"
+  },
+  {
+    "_id": "6a8b0636244a069d06e6d715",
+    "employeeId": "FAC099",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:50.329Z",
+    "department": "6a8b0636244a069d06e6d6cc",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.830Z",
+    "user": "6a8b0636244a069d06e6d714",
+    "designation": "Assistant Professor"
+  },
+  {
+    "_id": "6a8b0636244a069d06e6d72a",
+    "employeeId": "FAC100",
+    "__v": 0,
+    "address": {
+      "country": "India"
+    },
+    "createdAt": "2026-08-23T14:39:50.362Z",
+    "department": "6a8b0636244a069d06e6d6cc",
+    "experience": 0,
+    "isActive": true,
+    "isClassAdvisor": false,
+    "isHOD": false,
+    "subjects": [],
+    "updatedAt": "2026-08-23T14:52:06.832Z",
+    "user": "6a8b0636244a069d06e6d729",
+    "designation": "Lecturer"
+  }
+]

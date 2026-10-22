@@ -1,0 +1,33 @@
+[
+  {
+    "_id": "6aad140e0ac91c9aec14549f",
+    "institutionName": "Smart Institute of Technology",
+    "attendanceConfig": {
+      "minThreshold": 75,
+      "warningThreshold": 80,
+      "allowFacultyToEditDays": 2,
+      "autoLockAttendance": true,
+      "lockAfterHours": 24
+    },
+    "aiConfig": {
+      "enablePredictions": true,
+      "enableChatbot": true,
+      "predictionCronTime": "0 0 * * 0"
+    },
+    "notificationConfig": {
+      "enableEmails": true,
+      "enableInApp": true,
+      "notifyParentsOnWarning": true
+    },
+    "smsSettings": {
+      "automaticSmsEnabled": true,
+      "minimumAttendanceThreshold": 80,
+      "duplicateSmsProtection": true,
+      "templateTamil": "அன்பார்ந்த பெற்றோரே, உங்கள் குழந்தை {{studentName}} அவர்களின் தற்போதைய வருகைப்பதிவு {{attendance}}% ஆக உள்ளது. தேவையான வருகைப்பதிவு {{requiredAttendance}}% ஆகும். உங்கள் குழந்தையை வகுப்புகளுக்கு தொடர்ந்து வர ஊக்குவிக்கவும். - SmartERP",
+      "templateEnglish": "Dear Parent, your ward {{studentName}}'s current attendance is {{attendance}}%. The required attendance is {{requiredAttendance}}%. Please encourage your child to attend classes regularly. - SmartERP"
+    },
+    "createdAt": "2026-09-18T10:35:58.204Z",
+    "updatedAt": "2026-09-23T15:51:10.853Z",
+    "__v": 0
+  }
+]

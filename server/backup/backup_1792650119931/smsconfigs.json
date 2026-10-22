@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "6ab3f56effc466a9d5c3a0e6",
+    "provider": "TextBee",
+    "__v": 0,
+    "countryCode": "IN",
+    "createdAt": "2026-09-23T15:51:10.644Z",
+    "credentials": {
+      "apiKey": "94ea44caad32fb980459af2931f3ab89:f9f2f92943650ca123fb56966c577ed30f4e70d5ce06f49011ba8636cb30b2a31acef9a15854f7a72f65da2c5aa47860"
+    },
+    "isActive": true,
+    "senderId": "",
+    "templateId": "",
+    "updatedAt": "2026-09-23T15:51:10.644Z"
+  }
+]
