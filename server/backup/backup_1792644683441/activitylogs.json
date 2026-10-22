@@ -1,0 +1,4934 @@
+[
+  {
+    "_id": "6a8b06fa293f64c9d520aa16",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-23T14:43:06.307Z",
+    "updatedAt": "2026-08-23T14:43:06.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8b085f507713257a83d54d",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-23T14:49:03.879Z",
+    "updatedAt": "2026-08-23T14:49:03.879Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8b0a486d9475e1dd1ff068",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-23T14:57:12.377Z",
+    "updatedAt": "2026-08-23T14:57:12.377Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8b0a896d9475e1dd1ff12e",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-23T14:58:17.773Z",
+    "updatedAt": "2026-08-23T14:58:17.773Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8b0ac8e68b1dfef271b3dd",
+    "user": "6a8b0636244a069d06e6d6ff",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-23T14:59:20.376Z",
+    "updatedAt": "2026-08-23T14:59:20.376Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8b0c1bbffa473d7aa9b5c2",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-23T15:04:59.943Z",
+    "updatedAt": "2026-08-23T15:04:59.943Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8b0d7c7390be3884ecad19",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-23T15:10:52.349Z",
+    "updatedAt": "2026-08-23T15:10:52.349Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8b0de77390be3884ecadd6",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-23T15:12:39.896Z",
+    "updatedAt": "2026-08-23T15:12:39.896Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8b0e667390be3884ecaeb0",
+    "user": "6a8b0632244a069d06e6ce64",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-23T15:14:46.157Z",
+    "updatedAt": "2026-08-23T15:14:46.157Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8b0eb97390be3884ecaed1",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-23T15:16:09.147Z",
+    "updatedAt": "2026-08-23T15:16:09.147Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8b12491d741aed938d8034",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-23T15:31:21.337Z",
+    "updatedAt": "2026-08-23T15:31:21.337Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8b15dab5d419e87c9f3033",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-23T15:46:34.202Z",
+    "updatedAt": "2026-08-23T15:46:34.202Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8b19886b9a8ccc9fff06eb",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-23T16:02:16.450Z",
+    "updatedAt": "2026-08-23T16:02:16.450Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8bbc429aa93b1c36a18768",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T03:36:34.062Z",
+    "updatedAt": "2026-08-24T03:36:34.062Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8bbc639aa93b1c36a187ab",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T03:37:07.346Z",
+    "updatedAt": "2026-08-24T03:37:07.346Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8bc1139aa93b1c36a18a4f",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T03:57:07.405Z",
+    "updatedAt": "2026-08-24T03:57:07.405Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8bc4c2e3a4d5e4c7d566be",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T04:12:50.526Z",
+    "updatedAt": "2026-08-24T04:12:50.526Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8bc8cb4fdf79dcba0eafbe",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T04:30:03.958Z",
+    "updatedAt": "2026-08-24T04:30:03.958Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8bcc653be2e6601ea9ddb3",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T04:45:25.358Z",
+    "updatedAt": "2026-08-24T04:45:25.358Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8bd00677c7b5cbddb2384c",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T05:00:54.718Z",
+    "updatedAt": "2026-08-24T05:00:54.718Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8bd3ec9f1e462f8badfa8d",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T05:17:32.473Z",
+    "updatedAt": "2026-08-24T05:17:32.473Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8bd7d7aa04e4f1d28b0db0",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T05:34:15.361Z",
+    "updatedAt": "2026-08-24T05:34:15.361Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8bdc1aaa04e4f1d28b18e0",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T05:52:26.768Z",
+    "updatedAt": "2026-08-24T05:52:26.768Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8bdfb164731da89d331c65",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T06:07:45.984Z",
+    "updatedAt": "2026-08-24T06:07:45.984Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8bdfbb64731da89d331c7b",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T06:07:55.507Z",
+    "updatedAt": "2026-08-24T06:07:55.507Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8bdfcc64731da89d331c92",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T06:08:12.430Z",
+    "updatedAt": "2026-08-24T06:08:12.430Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8be03f64731da89d331cea",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T06:10:07.344Z",
+    "updatedAt": "2026-08-24T06:10:07.344Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8be0c464731da89d331dd5",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T06:12:20.085Z",
+    "updatedAt": "2026-08-24T06:12:20.085Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8be4582199357a59e38f72",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T06:27:36.874Z",
+    "updatedAt": "2026-08-24T06:27:36.874Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8be6222199357a59e39d8b",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T06:35:14.561Z",
+    "updatedAt": "2026-08-24T06:35:14.561Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8bfc0a3591dce4d6dd17ea",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T08:08:42.679Z",
+    "updatedAt": "2026-08-24T08:08:42.679Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8bfc283591dce4d6dd17f3",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T08:09:12.837Z",
+    "updatedAt": "2026-08-24T08:09:12.837Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8bfc5d3591dce4d6dd18a8",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T08:10:05.050Z",
+    "updatedAt": "2026-08-24T08:10:05.050Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8bfee43591dce4d6dd2632",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T08:20:52.834Z",
+    "updatedAt": "2026-08-24T08:20:52.834Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c0275d9d2c8c6c4931b59",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T08:36:05.220Z",
+    "updatedAt": "2026-08-24T08:36:05.220Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c06c521b0f9808f16e7d7",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T08:54:29.739Z",
+    "updatedAt": "2026-08-24T08:54:29.739Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c06d721b0f9808f16e943",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T08:54:47.453Z",
+    "updatedAt": "2026-08-24T08:54:47.453Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c07ac21b0f9808f16ea4f",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T08:58:20.626Z",
+    "updatedAt": "2026-08-24T08:58:20.626Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c0802d841ae29fd632016",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T08:59:46.403Z",
+    "updatedAt": "2026-08-24T08:59:46.403Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c0844d841ae29fd63213d",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T09:00:52.302Z",
+    "updatedAt": "2026-08-24T09:00:52.302Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c084fd841ae29fd6321c8",
+    "user": "6a8b0632244a069d06e6ce58",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T09:01:03.866Z",
+    "updatedAt": "2026-08-24T09:01:03.866Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c0bdd5288434686b60393",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T09:16:13.039Z",
+    "updatedAt": "2026-08-24T09:16:13.039Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c0e79b2fc07c3a964ca41",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T09:27:21.689Z",
+    "updatedAt": "2026-08-24T09:27:21.689Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c0fc6173060626680b3ea",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T09:32:54.621Z",
+    "updatedAt": "2026-08-24T09:32:54.621Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c13a8671dad224e6e79e9",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T09:49:28.640Z",
+    "updatedAt": "2026-08-24T09:49:28.640Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c178195513e440fd153de",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T10:05:53.823Z",
+    "updatedAt": "2026-08-24T10:05:53.823Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c179b95513e440fd1543b",
+    "user": "6a8b0632244a069d06e6ce58",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T10:06:19.558Z",
+    "updatedAt": "2026-08-24T10:06:19.558Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c1b3d95513e440fd156bf",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T10:21:49.926Z",
+    "updatedAt": "2026-08-24T10:21:49.926Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c1d7795513e440fd15bb1",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T10:31:19.859Z",
+    "updatedAt": "2026-08-24T10:31:19.859Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c1db395513e440fd15dda",
+    "user": "6a8b0632244a069d06e6ce58",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T10:32:19.270Z",
+    "updatedAt": "2026-08-24T10:32:19.270Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c1fc395513e440fd16222",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T10:41:07.150Z",
+    "updatedAt": "2026-08-24T10:41:07.150Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c4e6759457898ee87884a",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T14:00:07.559Z",
+    "updatedAt": "2026-08-24T14:00:07.559Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c4ec259457898ee878b48",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T14:01:38.643Z",
+    "updatedAt": "2026-08-24T14:01:38.643Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c50b559457898ee878f72",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T14:09:57.632Z",
+    "updatedAt": "2026-08-24T14:09:57.632Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c545959457898ee879005",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T14:25:29.003Z",
+    "updatedAt": "2026-08-24T14:25:29.003Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8c584059457898ee879053",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-24T14:42:08.445Z",
+    "updatedAt": "2026-08-24T14:42:08.445Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d08a20f65196a59ceda42",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T03:14:42.622Z",
+    "updatedAt": "2026-08-25T03:14:42.622Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d0c93dc7df9ec276eea9f",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T03:31:31.622Z",
+    "updatedAt": "2026-08-25T03:31:31.622Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d11521987f1176245202e",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T03:51:46.033Z",
+    "updatedAt": "2026-08-25T03:51:46.033Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d1c93d95dfb78647a55a8",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T04:39:47.508Z",
+    "updatedAt": "2026-08-25T04:39:47.508Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d2059d95dfb78647a5644",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T04:55:53.040Z",
+    "updatedAt": "2026-08-25T04:55:53.040Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d3a2311406e35c9e7222f",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T06:45:55.660Z",
+    "updatedAt": "2026-08-25T06:45:55.660Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d3df27f67bab15e34851b",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T07:02:10.172Z",
+    "updatedAt": "2026-08-25T07:02:10.172Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d41ccba76382205a14de9",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T07:18:36.187Z",
+    "updatedAt": "2026-08-25T07:18:36.187Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d45f5e2081ea8d8de4926",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T07:36:21.516Z",
+    "updatedAt": "2026-08-25T07:36:21.516Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d462de2081ea8d8de4b42",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T07:37:17.634Z",
+    "updatedAt": "2026-08-25T07:37:17.634Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d47fae2081ea8d8de51a1",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T07:44:58.611Z",
+    "updatedAt": "2026-08-25T07:44:58.611Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d490be2081ea8d8de52c4",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T07:49:31.878Z",
+    "updatedAt": "2026-08-25T07:49:31.878Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d4ce5e2081ea8d8de545c",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T08:05:57.827Z",
+    "updatedAt": "2026-08-25T08:05:57.827Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d4dd8e2081ea8d8de5583",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T08:10:00.807Z",
+    "updatedAt": "2026-08-25T08:10:00.807Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d4eb9e2081ea8d8de5874",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T08:13:45.928Z",
+    "updatedAt": "2026-08-25T08:13:45.928Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d4effe2081ea8d8de591a",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T08:14:55.586Z",
+    "updatedAt": "2026-08-25T08:14:55.586Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d50ad0a7f60e758dc192c",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T08:22:05.587Z",
+    "updatedAt": "2026-08-25T08:22:05.587Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d52690a7f60e758dc1a18",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T08:29:29.411Z",
+    "updatedAt": "2026-08-25T08:29:29.411Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d527f0a7f60e758dc1b20",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T08:29:51.545Z",
+    "updatedAt": "2026-08-25T08:29:51.545Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d569722ab7efe0ad5c49b",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T08:47:19.170Z",
+    "updatedAt": "2026-08-25T08:47:19.170Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d5c0522ab7efe0ad5ced2",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T09:10:29.295Z",
+    "updatedAt": "2026-08-25T09:10:29.295Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d5d5722ab7efe0ad5d4d1",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T09:16:07.221Z",
+    "updatedAt": "2026-08-25T09:16:07.221Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d60e622ab7efe0ad5e371",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T09:31:18.638Z",
+    "updatedAt": "2026-08-25T09:31:18.638Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d62eb22ab7efe0ad5e58e",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T09:39:55.554Z",
+    "updatedAt": "2026-08-25T09:39:55.554Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d639f22ab7efe0ad5e7e3",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T09:42:55.353Z",
+    "updatedAt": "2026-08-25T09:42:55.353Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d63c722ab7efe0ad5e921",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T09:43:35.375Z",
+    "updatedAt": "2026-08-25T09:43:35.375Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d662f22ab7efe0ad5f177",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T09:53:51.308Z",
+    "updatedAt": "2026-08-25T09:53:51.308Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d7d3922ab7efe0ad5f2cc",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T11:32:09.135Z",
+    "updatedAt": "2026-08-25T11:32:09.135Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d800e7a2ad6281a412525",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T11:44:14.999Z",
+    "updatedAt": "2026-08-25T11:44:14.999Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d80617a2ad6281a412698",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T11:45:37.870Z",
+    "updatedAt": "2026-08-25T11:45:37.870Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d82b72d972e94bf6ec79a",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T11:55:35.781Z",
+    "updatedAt": "2026-08-25T11:55:35.781Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d82e501330a066544e298",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Divya",
+    "createdAt": "2026-08-25T11:56:21.844Z",
+    "updatedAt": "2026-08-25T11:56:21.844Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d82ee01330a066544e328",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Divya",
+    "createdAt": "2026-08-25T11:56:30.863Z",
+    "updatedAt": "2026-08-25T11:56:30.863Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d82f601330a066544e3b1",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Divya",
+    "createdAt": "2026-08-25T11:56:38.286Z",
+    "updatedAt": "2026-08-25T11:56:38.286Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d834a01330a066544e43a",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Divya",
+    "createdAt": "2026-08-25T11:58:02.850Z",
+    "updatedAt": "2026-08-25T11:58:02.850Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d84f501330a066544e80a",
+    "user": "6a8b0632244a069d06e6ce79",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T12:05:09.682Z",
+    "updatedAt": "2026-08-25T12:05:09.682Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d86f921bcfbafdf63af2d",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T12:13:45.228Z",
+    "updatedAt": "2026-08-25T12:13:45.228Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d88a515069718b6dd5498",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T12:20:53.941Z",
+    "updatedAt": "2026-08-25T12:20:53.941Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d8c4c351eb19c63d8b460",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T12:36:28.268Z",
+    "updatedAt": "2026-08-25T12:36:28.268Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d9049f44e46a2f3bbd161",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T12:53:29.579Z",
+    "updatedAt": "2026-08-25T12:53:29.579Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d930929bd06db448a1be0",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T13:05:13.407Z",
+    "updatedAt": "2026-08-25T13:05:13.407Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d931d29bd06db448a1c5e",
+    "user": "6a8b0632244a069d06e6ce79",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T13:05:33.884Z",
+    "updatedAt": "2026-08-25T13:05:33.884Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d938629bd06db448a1c96",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T13:07:18.729Z",
+    "updatedAt": "2026-08-25T13:07:18.729Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d941168ed23dc6dc65f7c",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T13:09:37.858Z",
+    "updatedAt": "2026-08-25T13:09:37.858Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d96816b094b440e438d10",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T13:20:01.966Z",
+    "updatedAt": "2026-08-25T13:20:01.966Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d96936b094b440e438d7a",
+    "user": "6a8b0632244a069d06e6ce79",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T13:20:19.999Z",
+    "updatedAt": "2026-08-25T13:20:19.999Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d978c6b094b440e438dd1",
+    "user": "6a8b0632244a069d06e6ce79",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T13:24:28.696Z",
+    "updatedAt": "2026-08-25T13:24:28.696Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d97dc6b094b440e438e48",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T13:25:48.407Z",
+    "updatedAt": "2026-08-25T13:25:48.407Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d98de6b094b440e438eba",
+    "user": "6a8b0632244a069d06e6ce79",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T13:30:06.704Z",
+    "updatedAt": "2026-08-25T13:30:06.704Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d9fde1289c9955985b798",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T13:59:58.835Z",
+    "updatedAt": "2026-08-25T13:59:58.835Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8d9fea1289c9955985b810",
+    "user": "6a8b0632244a069d06e6ce79",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T14:00:10.521Z",
+    "updatedAt": "2026-08-25T14:00:10.521Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8da1df1289c9955985b934",
+    "user": "6a8b0632244a069d06e6ce79",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T14:08:31.017Z",
+    "updatedAt": "2026-08-25T14:08:31.017Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8da3591289c9955985ba00",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T14:14:49.433Z",
+    "updatedAt": "2026-08-25T14:14:49.433Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8da3b61289c9955985bdc7",
+    "user": "6a8b0632244a069d06e6ce7f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T14:16:22.091Z",
+    "updatedAt": "2026-08-25T14:16:22.091Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8da4251289c9955985bfdd",
+    "user": "6a8b0632244a069d06e6ce7b",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T14:18:13.601Z",
+    "updatedAt": "2026-08-25T14:18:13.601Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8da4381289c9955985c046",
+    "user": "6a8b0632244a069d06e6ce7f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T14:18:32.367Z",
+    "updatedAt": "2026-08-25T14:18:32.367Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8da4481289c9955985c0ab",
+    "user": "6a8b0632244a069d06e6ce58",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T14:18:48.740Z",
+    "updatedAt": "2026-08-25T14:18:48.740Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8da5173729ccc542102b11",
+    "user": "6a8b0976244a069d06e6d73e",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T14:22:15.112Z",
+    "updatedAt": "2026-08-25T14:22:15.112Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8da9a85ab324b01aeb3b10",
+    "user": "6a8b0632244a069d06e6ce79",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T14:41:44.662Z",
+    "updatedAt": "2026-08-25T14:41:44.662Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8da9c25ab324b01aeb3b95",
+    "user": "6a8b0632244a069d06e6ce7f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T14:42:10.085Z",
+    "updatedAt": "2026-08-25T14:42:10.085Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8da9d35ab324b01aeb3bfd",
+    "user": "6a8b0632244a069d06e6ce92",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T14:42:27.184Z",
+    "updatedAt": "2026-08-25T14:42:27.184Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8daa8f5ab324b01aeb3c6b",
+    "user": "6a8b0632244a069d06e6ce7f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T14:45:35.753Z",
+    "updatedAt": "2026-08-25T14:45:35.753Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8daa9f5ab324b01aeb3cd8",
+    "user": "6a8b0632244a069d06e6ce90",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T14:45:51.404Z",
+    "updatedAt": "2026-08-25T14:45:51.404Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8daac15ab324b01aeb3d6a",
+    "user": "6a8b0977244a069d06e6d76a",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T14:46:25.826Z",
+    "updatedAt": "2026-08-25T14:46:25.826Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8dab125ab324b01aeb4027",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T14:47:46.025Z",
+    "updatedAt": "2026-08-25T14:47:46.025Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8dab5b5ab324b01aeb413a",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T14:48:59.134Z",
+    "updatedAt": "2026-08-25T14:48:59.134Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8db37861c4ed92cd232e96",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T15:23:36.987Z",
+    "updatedAt": "2026-08-25T15:23:36.987Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8db67f583b6dad440b1315",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T15:36:31.953Z",
+    "updatedAt": "2026-08-25T15:36:31.953Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8db693583b6dad440b13c6",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T15:36:51.401Z",
+    "updatedAt": "2026-08-25T15:36:51.401Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8db706583b6dad440b15a4",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T15:38:46.176Z",
+    "updatedAt": "2026-08-25T15:38:46.176Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8db815a759bd170d7e28d7",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T15:43:17.926Z",
+    "updatedAt": "2026-08-25T15:43:17.926Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8db827a759bd170d7e28eb",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T15:43:35.073Z",
+    "updatedAt": "2026-08-25T15:43:35.073Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8db9d9a759bd170d7e2af1",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T15:50:49.387Z",
+    "updatedAt": "2026-08-25T15:50:49.387Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8db9f1a759bd170d7e2be0",
+    "user": "6a8b097d244a069d06e6dc86",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T15:51:13.254Z",
+    "updatedAt": "2026-08-25T15:51:13.254Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8dbaa9b1eda6be1b00c007",
+    "user": "6a8b097a244a069d06e6d9d4",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T15:54:17.797Z",
+    "updatedAt": "2026-08-25T15:54:17.797Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8dbb4db1eda6be1b00c151",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-25T15:57:01.910Z",
+    "updatedAt": "2026-08-25T15:57:01.910Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8eee9a80f365564a1acef1",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-26T13:48:10.644Z",
+    "updatedAt": "2026-08-26T13:48:10.644Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8eefa7bd5cb0e25e3f3aef",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-26T13:52:39.600Z",
+    "updatedAt": "2026-08-26T13:52:39.600Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8eefc1bd5cb0e25e3f3d04",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-26T13:53:05.192Z",
+    "updatedAt": "2026-08-26T13:53:05.192Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8eefd0bd5cb0e25e3f3e65",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-26T13:53:20.578Z",
+    "updatedAt": "2026-08-26T13:53:20.578Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8eefe0bd5cb0e25e3f3fc6",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-26T13:53:36.459Z",
+    "updatedAt": "2026-08-26T13:53:36.459Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8eeff3bd5cb0e25e3f4127",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-26T13:53:55.788Z",
+    "updatedAt": "2026-08-26T13:53:55.788Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ef01abd5cb0e25e3f4252",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-26T13:54:34.625Z",
+    "updatedAt": "2026-08-26T13:54:34.625Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ef16fc1314c1291f585bf",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-26T14:00:15.644Z",
+    "updatedAt": "2026-08-26T14:00:15.644Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ef186c1314c1291f58702",
+    "user": "6a8b0632244a069d06e6ce58",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-26T14:00:38.814Z",
+    "updatedAt": "2026-08-26T14:00:38.814Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ef1de25727d49c23e1771",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-26T14:02:06.600Z",
+    "updatedAt": "2026-08-26T14:02:06.600Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ef1ed25727d49c23e1882",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Divya for Biomedical Instrumentation",
+    "createdAt": "2026-08-26T14:02:21.835Z",
+    "updatedAt": "2026-08-26T14:02:21.835Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ef1f525727d49c23e1922",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Divya for Medical Imaging",
+    "createdAt": "2026-08-26T14:02:29.966Z",
+    "updatedAt": "2026-08-26T14:02:29.966Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ef1ff25727d49c23e19c2",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Divya for Biomaterials Engineering",
+    "createdAt": "2026-08-26T14:02:39.791Z",
+    "updatedAt": "2026-08-26T14:02:39.791Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ef21025727d49c23e1b00",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Divya for Biology",
+    "createdAt": "2026-08-26T14:02:56.769Z",
+    "updatedAt": "2026-08-26T14:02:56.769Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ef25925727d49c23e1b9b",
+    "user": "6a8b0632244a069d06e6ce79",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-26T14:04:09.726Z",
+    "updatedAt": "2026-08-26T14:04:09.726Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ef2e125727d49c23e1c97",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-26T14:06:25.734Z",
+    "updatedAt": "2026-08-26T14:06:25.734Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ef31325727d49c23e1e67",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-26T14:07:15.540Z",
+    "updatedAt": "2026-08-26T14:07:15.540Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ef38ad1914ea1b2fb885b",
+    "user": "6a8b0976244a069d06e6d73e",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-26T14:09:14.721Z",
+    "updatedAt": "2026-08-26T14:09:14.721Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8f04f51bfa847047486cb3",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-26T15:23:33.395Z",
+    "updatedAt": "2026-08-26T15:23:33.395Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8f05081bfa847047486daf",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-26T15:23:52.370Z",
+    "updatedAt": "2026-08-26T15:23:52.370Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8f05121bfa847047486f35",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-26T15:24:02.577Z",
+    "updatedAt": "2026-08-26T15:24:02.577Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8f05271bfa84704748715a",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-26T15:24:23.624Z",
+    "updatedAt": "2026-08-26T15:24:23.624Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8f05371bfa84704748735b",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-26T15:24:39.249Z",
+    "updatedAt": "2026-08-26T15:24:39.249Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8f05411bfa8470474874c1",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-26T15:24:49.998Z",
+    "updatedAt": "2026-08-26T15:24:49.998Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8f05531bfa847047487631",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-26T15:25:07.235Z",
+    "updatedAt": "2026-08-26T15:25:07.235Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8f06aecb0c987e2ddd3fe2",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-26T15:30:54.956Z",
+    "updatedAt": "2026-08-26T15:30:54.956Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8f06b7cb0c987e2ddd4148",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-26T15:31:03.799Z",
+    "updatedAt": "2026-08-26T15:31:03.799Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8f06bfcb0c987e2ddd42ae",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-26T15:31:11.771Z",
+    "updatedAt": "2026-08-26T15:31:11.771Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8f0715cb0c987e2ddd4544",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-26T15:32:37.055Z",
+    "updatedAt": "2026-08-26T15:32:37.055Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8f0764cb0c987e2ddd46f4",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-26T15:33:56.821Z",
+    "updatedAt": "2026-08-26T15:33:56.821Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8f099aa170d4bf88b84192",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-26T15:43:22.655Z",
+    "updatedAt": "2026-08-26T15:43:22.655Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8f09a0a170d4bf88b84300",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-26T15:43:28.955Z",
+    "updatedAt": "2026-08-26T15:43:28.955Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8f09a6a170d4bf88b8446e",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-26T15:43:34.031Z",
+    "updatedAt": "2026-08-26T15:43:34.031Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8f09c9a170d4bf88b849d6",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-26T15:44:09.060Z",
+    "updatedAt": "2026-08-26T15:44:09.060Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8f0e04719cdf18966aab79",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-26T16:02:12.112Z",
+    "updatedAt": "2026-08-26T16:02:12.112Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8f0e0b719cdf18966aadb6",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-26T16:02:19.356Z",
+    "updatedAt": "2026-08-26T16:02:19.356Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8fb890a8b5495fff1a8d39",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T04:09:52.263Z",
+    "updatedAt": "2026-08-27T04:09:52.263Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8fceb3f30de097e216d90c",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T05:44:19.952Z",
+    "updatedAt": "2026-08-27T05:44:19.952Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8fd24edb3f34e789fe56c0",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T05:59:42.478Z",
+    "updatedAt": "2026-08-27T05:59:42.478Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8fd5db8873ffa7baa73feb",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T06:14:51.128Z",
+    "updatedAt": "2026-08-27T06:14:51.128Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8fd65b8873ffa7baa740b4",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T06:16:59.811Z",
+    "updatedAt": "2026-08-27T06:16:59.811Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8fd67a8873ffa7baa742e3",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T06:17:30.077Z",
+    "updatedAt": "2026-08-27T06:17:30.077Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8fd98d85346e2eee96fbb2",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T06:30:37.367Z",
+    "updatedAt": "2026-08-27T06:30:37.367Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8fde2ff5671a3c3056420e",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T06:50:23.522Z",
+    "updatedAt": "2026-08-27T06:50:23.522Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8fefae73db3967bbafdef1",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T08:05:02.762Z",
+    "updatedAt": "2026-08-27T08:05:02.762Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ff0d073db3967bbafe405",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T08:09:52.511Z",
+    "updatedAt": "2026-08-27T08:09:52.511Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ff0e773db3967bbafe67b",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-27T08:10:15.583Z",
+    "updatedAt": "2026-08-27T08:10:15.583Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ff0f273db3967bbafe7fd",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-27T08:10:26.560Z",
+    "updatedAt": "2026-08-27T08:10:26.560Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ff0fa73db3967bbafe97f",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-27T08:10:34.412Z",
+    "updatedAt": "2026-08-27T08:10:34.412Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ff1aa73db3967bbafec43",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-27T08:13:30.137Z",
+    "updatedAt": "2026-08-27T08:13:30.137Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ff2e9b6bbd08de1d1b477",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-27T08:18:49.136Z",
+    "updatedAt": "2026-08-27T08:18:49.136Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ff54add8775d73da66844",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T08:28:58.891Z",
+    "updatedAt": "2026-08-27T08:28:58.891Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ff5e1dd8775d73da66bd2",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-27T08:31:29.672Z",
+    "updatedAt": "2026-08-27T08:31:29.672Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ff7688ebc92d43ae12785",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-27T08:38:00.516Z",
+    "updatedAt": "2026-08-27T08:38:00.516Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ff77a8ebc92d43ae129e8",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-27T08:38:18.596Z",
+    "updatedAt": "2026-08-27T08:38:18.596Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ff77f8ebc92d43ae12b6f",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-27T08:38:23.753Z",
+    "updatedAt": "2026-08-27T08:38:23.753Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ffa643f2052342c4d223c",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T08:50:44.152Z",
+    "updatedAt": "2026-08-27T08:50:44.152Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8ffc0de0263caa9bf2776e",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-27T08:57:49.736Z",
+    "updatedAt": "2026-08-27T08:57:49.736Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a90095e15abf69aeff47bc4",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T09:54:38.140Z",
+    "updatedAt": "2026-08-27T09:54:38.140Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a900a082f3da960fb0a4300",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-27T09:57:28.189Z",
+    "updatedAt": "2026-08-27T09:57:28.189Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a900b2d623458fd25838c91",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-27T10:02:21.276Z",
+    "updatedAt": "2026-08-27T10:02:21.276Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a900b35623458fd25838e24",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-27T10:02:29.889Z",
+    "updatedAt": "2026-08-27T10:02:29.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a900b3c623458fd25838fb7",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-27T10:02:36.309Z",
+    "updatedAt": "2026-08-27T10:02:36.309Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a900b41623458fd2583914a",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-27T10:02:41.899Z",
+    "updatedAt": "2026-08-27T10:02:41.899Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a900b85623458fd258392fc",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-27T10:03:49.657Z",
+    "updatedAt": "2026-08-27T10:03:49.657Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a900bb6623458fd25839352",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-27T10:04:38.303Z",
+    "updatedAt": "2026-08-27T10:04:38.303Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a900c11e65c500d99e0ac2c",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-27T10:06:09.733Z",
+    "updatedAt": "2026-08-27T10:06:09.733Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a900c17e65c500d99e0adbf",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-27T10:06:15.648Z",
+    "updatedAt": "2026-08-27T10:06:15.648Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a900c1ce65c500d99e0af52",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-27T10:06:20.061Z",
+    "updatedAt": "2026-08-27T10:06:20.061Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a900c21e65c500d99e0b0f1",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-27T10:06:25.651Z",
+    "updatedAt": "2026-08-27T10:06:25.651Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a900c34e65c500d99e0b1c6",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-27T10:06:44.218Z",
+    "updatedAt": "2026-08-27T10:06:44.218Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a900cdf22560fa9eb197ca5",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-27T10:09:35.728Z",
+    "updatedAt": "2026-08-27T10:09:35.728Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a900ced22560fa9eb197cd3",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T10:09:49.619Z",
+    "updatedAt": "2026-08-27T10:09:49.619Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a900db022560fa9eb197f50",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-27T10:13:04.370Z",
+    "updatedAt": "2026-08-27T10:13:04.370Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a900e3a22560fa9eb1980f5",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-27T10:15:22.840Z",
+    "updatedAt": "2026-08-27T10:15:22.840Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a90102d22560fa9eb1983f0",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-27T10:23:41.072Z",
+    "updatedAt": "2026-08-27T10:23:41.072Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9010fe22560fa9eb19841f",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T10:27:10.873Z",
+    "updatedAt": "2026-08-27T10:27:10.873Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a90130607a1cf176b51b33e",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-27T10:35:50.940Z",
+    "updatedAt": "2026-08-27T10:35:50.940Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a90131607a1cf176b51b5af",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-27T10:36:06.365Z",
+    "updatedAt": "2026-08-27T10:36:06.365Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a90131d07a1cf176b51b74e",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-27T10:36:13.481Z",
+    "updatedAt": "2026-08-27T10:36:13.481Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a90132507a1cf176b51b8f9",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-27T10:36:21.458Z",
+    "updatedAt": "2026-08-27T10:36:21.458Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9049cab11cc7ac91375caa",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T14:29:30.205Z",
+    "updatedAt": "2026-08-27T14:29:30.205Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9049f2b11cc7ac91375ee8",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T14:30:10.299Z",
+    "updatedAt": "2026-08-27T14:30:10.299Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a904be1be835e1acaf40a23",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-27T14:38:25.880Z",
+    "updatedAt": "2026-08-27T14:38:25.880Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a904be7be835e1acaf40bc8",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-27T14:38:31.668Z",
+    "updatedAt": "2026-08-27T14:38:31.668Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a904c28be835e1acaf40dd6",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-27T14:39:36.277Z",
+    "updatedAt": "2026-08-27T14:39:36.277Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a904c49be835e1acaf40f87",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-27T14:40:09.578Z",
+    "updatedAt": "2026-08-27T14:40:09.578Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a90518e3305eb65d5843e49",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T15:02:38.271Z",
+    "updatedAt": "2026-08-27T15:02:38.271Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9056a5f8f069ff5ec635aa",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T15:24:21.732Z",
+    "updatedAt": "2026-08-27T15:24:21.732Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a905d11c691833d77aa85c9",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T15:51:45.523Z",
+    "updatedAt": "2026-08-27T15:51:45.523Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a906029a677b890d8d0d661",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T16:04:57.525Z",
+    "updatedAt": "2026-08-27T16:04:57.525Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a90602fa677b890d8d0d8ed",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-27T16:05:03.609Z",
+    "updatedAt": "2026-08-27T16:05:03.609Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a906035a677b890d8d0da98",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-27T16:05:09.235Z",
+    "updatedAt": "2026-08-27T16:05:09.235Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a90603aa677b890d8d0dc43",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-27T16:05:14.959Z",
+    "updatedAt": "2026-08-27T16:05:14.959Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a90604ca677b890d8d0ddfa",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-27T16:05:32.764Z",
+    "updatedAt": "2026-08-27T16:05:32.764Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9063cca8d4c78f961b86e0",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T16:20:28.833Z",
+    "updatedAt": "2026-08-27T16:20:28.833Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a90692ca8d4c78f961b9253",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-27T16:43:24.253Z",
+    "updatedAt": "2026-08-27T16:43:24.253Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a90fc637f9f6bd45546a278",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T03:11:31.190Z",
+    "updatedAt": "2026-08-28T03:11:31.190Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a90fc717f9f6bd45546a4a8",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T03:11:45.068Z",
+    "updatedAt": "2026-08-28T03:11:45.068Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a90fc887f9f6bd45546a679",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T03:12:08.857Z",
+    "updatedAt": "2026-08-28T03:12:08.857Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a90fcb37f9f6bd45546aa23",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T03:12:51.599Z",
+    "updatedAt": "2026-08-28T03:12:51.599Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a90fd5b7f9f6bd45546b031",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T03:15:39.450Z",
+    "updatedAt": "2026-08-28T03:15:39.450Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91027c527264f5f7535a06",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T03:37:32.673Z",
+    "updatedAt": "2026-08-28T03:37:32.673Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a910285527264f5f7535b91",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T03:37:41.616Z",
+    "updatedAt": "2026-08-28T03:37:41.616Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a910290527264f5f7535e3a",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-28T03:37:52.075Z",
+    "updatedAt": "2026-08-28T03:37:52.075Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a910298527264f5f7535ffa",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-28T03:38:00.375Z",
+    "updatedAt": "2026-08-28T03:38:00.375Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91029f527264f5f75361ba",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-28T03:38:07.744Z",
+    "updatedAt": "2026-08-28T03:38:07.744Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9102b4527264f5f7536386",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-28T03:38:28.150Z",
+    "updatedAt": "2026-08-28T03:38:28.150Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91046512d3eaa6120b7d5b",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-28T03:45:41.413Z",
+    "updatedAt": "2026-08-28T03:45:41.413Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91046a12d3eaa6120b7f1a",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-28T03:45:46.940Z",
+    "updatedAt": "2026-08-28T03:45:46.940Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91046f12d3eaa6120b80d9",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-28T03:45:51.774Z",
+    "updatedAt": "2026-08-28T03:45:51.774Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91047412d3eaa6120b8298",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-28T03:45:56.308Z",
+    "updatedAt": "2026-08-28T03:45:56.308Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9106b781a54e1f5f21a36e",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T03:55:35.348Z",
+    "updatedAt": "2026-08-28T03:55:35.348Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a910c511e8fb213d783a725",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T04:19:29.440Z",
+    "updatedAt": "2026-08-28T04:19:29.440Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91123b0bb653c3c3fd6789",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T04:44:43.091Z",
+    "updatedAt": "2026-08-28T04:44:43.091Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91171168d5cf8023ff763f",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T05:05:21.994Z",
+    "updatedAt": "2026-08-28T05:05:21.994Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a911bb9c24d8a2b0d65784c",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T05:25:13.371Z",
+    "updatedAt": "2026-08-28T05:25:13.371Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a911bbfc24d8a2b0d657974",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T05:25:19.196Z",
+    "updatedAt": "2026-08-28T05:25:19.196Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a911c63c24d8a2b0d657b89",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T05:28:03.591Z",
+    "updatedAt": "2026-08-28T05:28:03.591Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9125d1fc6549a39406a06a",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T06:08:17.114Z",
+    "updatedAt": "2026-08-28T06:08:17.114Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9125e5fc6549a39406a172",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T06:08:37.982Z",
+    "updatedAt": "2026-08-28T06:08:37.982Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91277dca826262cdfadc87",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Divya for Biomedical Instrumentation",
+    "createdAt": "2026-08-28T06:15:25.355Z",
+    "updatedAt": "2026-08-28T06:15:25.355Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a912783ca826262cdfadd40",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Divya for Medical Imaging",
+    "createdAt": "2026-08-28T06:15:31.696Z",
+    "updatedAt": "2026-08-28T06:15:31.696Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91278bca826262cdfaddf9",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Divya for Biomaterials Engineering",
+    "createdAt": "2026-08-28T06:15:39.156Z",
+    "updatedAt": "2026-08-28T06:15:39.156Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a912791ca826262cdfadeb2",
+    "user": "6a8b0632244a069d06e6ce68",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Divya for Biology",
+    "createdAt": "2026-08-28T06:15:45.665Z",
+    "updatedAt": "2026-08-28T06:15:45.665Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9127bbca826262cdfadf91",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T06:16:27.935Z",
+    "updatedAt": "2026-08-28T06:16:27.935Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a912b44ca826262cdfae505",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T06:31:32.223Z",
+    "updatedAt": "2026-08-28T06:31:32.223Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a913d643a82eba4df4497ce",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T07:48:52.999Z",
+    "updatedAt": "2026-08-28T07:48:52.999Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9141568aaa86c3bcf254ea",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T08:05:42.535Z",
+    "updatedAt": "2026-08-28T08:05:42.535Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91483c8aaa86c3bcf25659",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T08:35:08.175Z",
+    "updatedAt": "2026-08-28T08:35:08.175Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91493a71c298a16199117c",
+    "user": "6a8b0632244a069d06e6ce58",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T08:39:22.171Z",
+    "updatedAt": "2026-08-28T08:39:22.171Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a914aee33c3106643aea380",
+    "user": "6a8b0632244a069d06e6ce5e",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T08:46:38.920Z",
+    "updatedAt": "2026-08-28T08:46:38.920Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a914b2233c3106643aea452",
+    "user": "6a8b0632244a069d06e6ce79",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T08:47:30.469Z",
+    "updatedAt": "2026-08-28T08:47:30.469Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a914b9d33c3106643aea5e8",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T08:49:33.708Z",
+    "updatedAt": "2026-08-28T08:49:33.708Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a914cecf75e896c44f1663d",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T08:55:08.605Z",
+    "updatedAt": "2026-08-28T08:55:08.605Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a914d0f1a13b52b4866533b",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T08:55:43.505Z",
+    "updatedAt": "2026-08-28T08:55:43.505Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9150a8128ddb732977c7ef",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T09:11:04.531Z",
+    "updatedAt": "2026-08-28T09:11:04.531Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9152572d6a80d03e95d235",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T09:18:15.178Z",
+    "updatedAt": "2026-08-28T09:18:15.178Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91529a2d6a80d03e95d38f",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T09:19:22.053Z",
+    "updatedAt": "2026-08-28T09:19:22.053Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9152be2d6a80d03e95d5dc",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T09:19:58.904Z",
+    "updatedAt": "2026-08-28T09:19:58.904Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9152e22d6a80d03e95d773",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T09:20:34.741Z",
+    "updatedAt": "2026-08-28T09:20:34.741Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a915e98c80ea0c9280972cb",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T10:10:32.257Z",
+    "updatedAt": "2026-08-28T10:10:32.257Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a915fbb2b2ad7bc186ebdeb",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T10:15:23.037Z",
+    "updatedAt": "2026-08-28T10:15:23.037Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a915fd32b2ad7bc186ebee0",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T10:15:47.749Z",
+    "updatedAt": "2026-08-28T10:15:47.749Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9160202b2ad7bc186ec259",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-28T10:17:04.033Z",
+    "updatedAt": "2026-08-28T10:17:04.033Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9160252b2ad7bc186ec44b",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-28T10:17:09.441Z",
+    "updatedAt": "2026-08-28T10:17:09.441Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91602a2b2ad7bc186ec63d",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-28T10:17:14.764Z",
+    "updatedAt": "2026-08-28T10:17:14.764Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9160332b2ad7bc186ec82f",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-28T10:17:23.057Z",
+    "updatedAt": "2026-08-28T10:17:23.057Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91618fa288ca87b1661519",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-28T10:23:11.615Z",
+    "updatedAt": "2026-08-28T10:23:11.615Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a916196a288ca87b16617db",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-28T10:23:18.128Z",
+    "updatedAt": "2026-08-28T10:23:18.128Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91619ba288ca87b16619cd",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-28T10:23:23.959Z",
+    "updatedAt": "2026-08-28T10:23:23.959Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9161a1a288ca87b1661bbf",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-28T10:23:29.848Z",
+    "updatedAt": "2026-08-28T10:23:29.848Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9161cda288ca87b1661cd1",
+    "user": "6a8b0976244a069d06e6d73e",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T10:24:13.920Z",
+    "updatedAt": "2026-08-28T10:24:13.920Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a916290a35dd59296bd9af8",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T10:27:28.733Z",
+    "updatedAt": "2026-08-28T10:27:28.733Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a916296a35dd59296bd9d7c",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-28T10:27:34.796Z",
+    "updatedAt": "2026-08-28T10:27:34.796Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91629ba35dd59296bd9f75",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-28T10:27:39.432Z",
+    "updatedAt": "2026-08-28T10:27:39.432Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9162a0a35dd59296bda16e",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-28T10:27:44.953Z",
+    "updatedAt": "2026-08-28T10:27:44.953Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9162a6a35dd59296bda367",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-28T10:27:50.658Z",
+    "updatedAt": "2026-08-28T10:27:50.658Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9162c8a35dd59296bda498",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T10:28:24.374Z",
+    "updatedAt": "2026-08-28T10:28:24.374Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91639f9d9542060a5a9ef3",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T10:31:59.115Z",
+    "updatedAt": "2026-08-28T10:31:59.115Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9163ac9d9542060a5aa08d",
+    "user": "6a8b0976244a069d06e6d73e",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T10:32:12.641Z",
+    "updatedAt": "2026-08-28T10:32:12.641Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91927a1ce6e787ea5148f5",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T13:51:54.208Z",
+    "updatedAt": "2026-08-28T13:51:54.208Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91928d1ce6e787ea5149e6",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T13:52:13.017Z",
+    "updatedAt": "2026-08-28T13:52:13.017Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9192a01ce6e787ea514b21",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T13:52:32.008Z",
+    "updatedAt": "2026-08-28T13:52:32.008Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9194781ce6e787ea514d52",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T14:00:24.812Z",
+    "updatedAt": "2026-08-28T14:00:24.812Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91948d1ce6e787ea514ffe",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T14:00:45.393Z",
+    "updatedAt": "2026-08-28T14:00:45.393Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91949e1ce6e787ea5152cf",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T14:01:02.439Z",
+    "updatedAt": "2026-08-28T14:01:02.439Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9194b81ce6e787ea5154bd",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T14:01:28.206Z",
+    "updatedAt": "2026-08-28T14:01:28.206Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9194e71ce6e787ea5158b6",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T14:02:15.267Z",
+    "updatedAt": "2026-08-28T14:02:15.267Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9195651ce6e787ea516040",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T14:04:21.437Z",
+    "updatedAt": "2026-08-28T14:04:21.437Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9195881ce6e787ea516403",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-28T14:04:56.322Z",
+    "updatedAt": "2026-08-28T14:04:56.322Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9195e51ce6e787ea5164be",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T14:06:29.708Z",
+    "updatedAt": "2026-08-28T14:06:29.708Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9195fc1ce6e787ea5166aa",
+    "user": "6a8b0976244a069d06e6d73e",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T14:06:52.717Z",
+    "updatedAt": "2026-08-28T14:06:52.717Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9196fe97b7638ae47cb00f",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T14:11:10.265Z",
+    "updatedAt": "2026-08-28T14:11:10.265Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91970397b7638ae47cb2c1",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-28T14:11:15.806Z",
+    "updatedAt": "2026-08-28T14:11:15.806Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91970997b7638ae47cb4ea",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-28T14:11:21.229Z",
+    "updatedAt": "2026-08-28T14:11:21.229Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91971097b7638ae47cb713",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-28T14:11:28.581Z",
+    "updatedAt": "2026-08-28T14:11:28.581Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91971597b7638ae47cb93c",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-28T14:11:33.513Z",
+    "updatedAt": "2026-08-28T14:11:33.513Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a919891f1c1a2f51e01fa0a",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T14:17:53.157Z",
+    "updatedAt": "2026-08-28T14:17:53.157Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91995a320477700ad06287",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T14:21:14.578Z",
+    "updatedAt": "2026-08-28T14:21:14.578Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a919960320477700ad06542",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-28T14:21:20.208Z",
+    "updatedAt": "2026-08-28T14:21:20.208Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a919967320477700ad0676a",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-28T14:21:27.102Z",
+    "updatedAt": "2026-08-28T14:21:27.102Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91996c320477700ad06992",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-28T14:21:32.258Z",
+    "updatedAt": "2026-08-28T14:21:32.258Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a919971320477700ad06bba",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-28T14:21:37.628Z",
+    "updatedAt": "2026-08-28T14:21:37.628Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a919d559d2680f4ca02666a",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T14:38:13.098Z",
+    "updatedAt": "2026-08-28T14:38:13.098Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a919d5a9d2680f4ca02692e",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-28T14:38:18.966Z",
+    "updatedAt": "2026-08-28T14:38:18.966Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a919da59d2680f4ca0269fe",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T14:39:33.464Z",
+    "updatedAt": "2026-08-28T14:39:33.464Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a919db19d2680f4ca026b6b",
+    "user": "6a8b0977244a069d06e6d75a",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T14:39:45.292Z",
+    "updatedAt": "2026-08-28T14:39:45.292Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a919e93def5ce721d6e8061",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T14:43:31.790Z",
+    "updatedAt": "2026-08-28T14:43:31.790Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a919e98def5ce721d6e8337",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-28T14:43:36.736Z",
+    "updatedAt": "2026-08-28T14:43:36.736Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a919e9ddef5ce721d6e8539",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-28T14:43:41.961Z",
+    "updatedAt": "2026-08-28T14:43:41.961Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a919ea2def5ce721d6e8763",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-28T14:43:46.609Z",
+    "updatedAt": "2026-08-28T14:43:46.609Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a919ea7def5ce721d6e898c",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-28T14:43:51.697Z",
+    "updatedAt": "2026-08-28T14:43:51.697Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91a3e7dcf33525f4a1ed6a",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T15:06:15.105Z",
+    "updatedAt": "2026-08-28T15:06:15.105Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91a3f4dcf33525f4a1eec8",
+    "user": "6a8b0632244a069d06e6ce58",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T15:06:28.250Z",
+    "updatedAt": "2026-08-28T15:06:28.250Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91a411dcf33525f4a1ef7a",
+    "user": "6a8b0976244a069d06e6d73e",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T15:06:57.849Z",
+    "updatedAt": "2026-08-28T15:06:57.849Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91a41fdcf33525f4a1f058",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T15:07:11.713Z",
+    "updatedAt": "2026-08-28T15:07:11.713Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91a437dcf33525f4a1f338",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-28T15:07:35.966Z",
+    "updatedAt": "2026-08-28T15:07:35.966Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91a43cdcf33525f4a1f57e",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-28T15:07:40.361Z",
+    "updatedAt": "2026-08-28T15:07:40.361Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91a440dcf33525f4a1f7c4",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-28T15:07:44.945Z",
+    "updatedAt": "2026-08-28T15:07:44.945Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91a446dcf33525f4a1fa0a",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-28T15:07:50.180Z",
+    "updatedAt": "2026-08-28T15:07:50.180Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91a6c30ad9d1f0687447d9",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T15:18:27.358Z",
+    "updatedAt": "2026-08-28T15:18:27.358Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91a6c90ad9d1f068744ac2",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-28T15:18:33.191Z",
+    "updatedAt": "2026-08-28T15:18:33.191Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91a6ce0ad9d1f068744d0e",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-28T15:18:38.465Z",
+    "updatedAt": "2026-08-28T15:18:38.465Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91a6ce0ad9d1f068744def",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-28T15:18:38.681Z",
+    "updatedAt": "2026-08-28T15:18:38.681Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91a6d30ad9d1f068745078",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-28T15:18:43.808Z",
+    "updatedAt": "2026-08-28T15:18:43.808Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91a6d80ad9d1f0687452c4",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-28T15:18:48.841Z",
+    "updatedAt": "2026-08-28T15:18:48.841Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91aa830ad9d1f068745516",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T15:34:27.633Z",
+    "updatedAt": "2026-08-28T15:34:27.633Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91aa8c0ad9d1f068745808",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-28T15:34:36.497Z",
+    "updatedAt": "2026-08-28T15:34:36.497Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91aa920ad9d1f068745a5a",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-28T15:34:42.146Z",
+    "updatedAt": "2026-08-28T15:34:42.146Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91aa980ad9d1f068745cac",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-28T15:34:48.172Z",
+    "updatedAt": "2026-08-28T15:34:48.172Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91aa9e0ad9d1f068745efe",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-28T15:34:54.142Z",
+    "updatedAt": "2026-08-28T15:34:54.142Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91ad750ad9d1f0687462bb",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-28T15:47:01.951Z",
+    "updatedAt": "2026-08-28T15:47:01.951Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91ad7a0ad9d1f06874650d",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-28T15:47:06.664Z",
+    "updatedAt": "2026-08-28T15:47:06.664Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91ad7f0ad9d1f06874675f",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-28T15:47:11.653Z",
+    "updatedAt": "2026-08-28T15:47:11.653Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91ad840ad9d1f0687469b1",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-28T15:47:16.243Z",
+    "updatedAt": "2026-08-28T15:47:16.243Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91b6340ad9d1f068746a89",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-28T16:24:20.340Z",
+    "updatedAt": "2026-08-28T16:24:20.340Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91b6390ad9d1f068746d84",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-28T16:24:25.671Z",
+    "updatedAt": "2026-08-28T16:24:25.671Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a91b63e0ad9d1f068746fdc",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-28T16:24:30.530Z",
+    "updatedAt": "2026-08-28T16:24:30.530Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925e41eb0600e1535e0168",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T04:21:21.186Z",
+    "updatedAt": "2026-08-29T04:21:21.186Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925e58eb0600e1535e0493",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T04:21:44.103Z",
+    "updatedAt": "2026-08-29T04:21:44.103Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925e63eb0600e1535e05cd",
+    "user": "6a8b0633244a069d06e6cf22",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T04:21:55.746Z",
+    "updatedAt": "2026-08-29T04:21:55.746Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925e74eb0600e1535e0649",
+    "user": "6a8b0633244a069d06e6cf22",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Venkatesh for Engineering Mechanics",
+    "createdAt": "2026-08-29T04:22:12.030Z",
+    "updatedAt": "2026-08-29T04:22:12.030Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925e7beb0600e1535e06b1",
+    "user": "6a8b0633244a069d06e6cf22",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Venkatesh for Surveying Structural",
+    "createdAt": "2026-08-29T04:22:19.446Z",
+    "updatedAt": "2026-08-29T04:22:19.446Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925e88eb0600e1535e0719",
+    "user": "6a8b0633244a069d06e6cf22",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Venkatesh for Analysis Transportation",
+    "createdAt": "2026-08-29T04:22:32.178Z",
+    "updatedAt": "2026-08-29T04:22:32.178Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925e95eb0600e1535e0781",
+    "user": "6a8b0633244a069d06e6cf22",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Venkatesh for Engineering",
+    "createdAt": "2026-08-29T04:22:45.446Z",
+    "updatedAt": "2026-08-29T04:22:45.446Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925eabeb0600e1535e0853",
+    "user": "6a8b0633244a069d06e6cedd",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T04:23:07.559Z",
+    "updatedAt": "2026-08-29T04:23:07.559Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925ebbeb0600e1535e08cf",
+    "user": "6a8b0633244a069d06e6cedd",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Bala for Surveying Structural",
+    "createdAt": "2026-08-29T04:23:23.891Z",
+    "updatedAt": "2026-08-29T04:23:23.891Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925ec4eb0600e1535e0937",
+    "user": "6a8b0633244a069d06e6cedd",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Bala for Analysis Transportation",
+    "createdAt": "2026-08-29T04:23:32.878Z",
+    "updatedAt": "2026-08-29T04:23:32.878Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925ecdeb0600e1535e099f",
+    "user": "6a8b0633244a069d06e6cedd",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Bala for Engineering Engineering",
+    "createdAt": "2026-08-29T04:23:41.200Z",
+    "updatedAt": "2026-08-29T04:23:41.200Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925ed4eb0600e1535e0a07",
+    "user": "6a8b0633244a069d06e6cedd",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Bala for Mechanics",
+    "createdAt": "2026-08-29T04:23:48.926Z",
+    "updatedAt": "2026-08-29T04:23:48.926Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925ee3eb0600e1535e0a62",
+    "user": "6a8b0634244a069d06e6d32e",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T04:24:03.399Z",
+    "updatedAt": "2026-08-29T04:24:03.399Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925ef2eb0600e1535e0ac8",
+    "user": "6a8b0634244a069d06e6d32e",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Manoj for Soil Science",
+    "createdAt": "2026-08-29T04:24:18.981Z",
+    "updatedAt": "2026-08-29T04:24:18.981Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925efceb0600e1535e0b30",
+    "user": "6a8b0634244a069d06e6d32e",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Manoj for Farm Machinery",
+    "createdAt": "2026-08-29T04:24:28.197Z",
+    "updatedAt": "2026-08-29T04:24:28.197Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925f1deb0600e1535e0c1f",
+    "user": "6a8b0634244a069d06e6d32e",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Manoj for Irrigation Engineering",
+    "createdAt": "2026-08-29T04:25:01.994Z",
+    "updatedAt": "2026-08-29T04:25:01.994Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925f25eb0600e1535e0c87",
+    "user": "6a8b0634244a069d06e6d32e",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Manoj for Precision Agriculture",
+    "createdAt": "2026-08-29T04:25:09.457Z",
+    "updatedAt": "2026-08-29T04:25:09.457Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925f4feb0600e1535e0d5c",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T04:25:51.298Z",
+    "updatedAt": "2026-08-29T04:25:51.298Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925f9aeb0600e1535e113b",
+    "user": "6a8b0636244a069d06e6d635",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T04:27:06.891Z",
+    "updatedAt": "2026-08-29T04:27:06.891Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925fc5eb0600e1535e11f6",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T04:27:49.271Z",
+    "updatedAt": "2026-08-29T04:27:49.271Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925fcdeb0600e1535e1502",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-29T04:27:57.400Z",
+    "updatedAt": "2026-08-29T04:27:57.400Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925fd5eb0600e1535e1761",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-29T04:28:05.915Z",
+    "updatedAt": "2026-08-29T04:28:05.915Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925fdceb0600e1535e19c0",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-29T04:28:12.948Z",
+    "updatedAt": "2026-08-29T04:28:12.948Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925fe2eb0600e1535e1c1f",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-29T04:28:18.968Z",
+    "updatedAt": "2026-08-29T04:28:18.968Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a925ff2eb0600e1535e1d48",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-29T04:28:34.488Z",
+    "updatedAt": "2026-08-29T04:28:34.488Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9261b2b60762cc2573ad4a",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-29T04:36:02.693Z",
+    "updatedAt": "2026-08-29T04:36:02.693Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9261b7b60762cc2573afae",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-29T04:36:07.938Z",
+    "updatedAt": "2026-08-29T04:36:07.938Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9261bdb60762cc2573b212",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-29T04:36:13.047Z",
+    "updatedAt": "2026-08-29T04:36:13.047Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9261c2b60762cc2573b476",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-29T04:36:18.257Z",
+    "updatedAt": "2026-08-29T04:36:18.257Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9261e9b60762cc2573b81a",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-29T04:36:57.345Z",
+    "updatedAt": "2026-08-29T04:36:57.345Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9261efb60762cc2573ba7e",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-29T04:37:03.038Z",
+    "updatedAt": "2026-08-29T04:37:03.038Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9261f3b60762cc2573bce2",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-29T04:37:07.941Z",
+    "updatedAt": "2026-08-29T04:37:07.941Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9261f8b60762cc2573bf46",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-29T04:37:12.891Z",
+    "updatedAt": "2026-08-29T04:37:12.891Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a926427b60762cc2573c05a",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T04:46:31.189Z",
+    "updatedAt": "2026-08-29T04:46:31.189Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a926472b60762cc2573c386",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T04:47:46.403Z",
+    "updatedAt": "2026-08-29T04:47:46.403Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a926480b60762cc2573c71a",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T04:48:00.903Z",
+    "updatedAt": "2026-08-29T04:48:00.903Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9264deb60762cc2573c992",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T04:49:34.310Z",
+    "updatedAt": "2026-08-29T04:49:34.310Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9264ebb60762cc2573cd60",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T04:49:47.425Z",
+    "updatedAt": "2026-08-29T04:49:47.425Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a92676fb60762cc2573d024",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T05:00:31.406Z",
+    "updatedAt": "2026-08-29T05:00:31.406Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9267c4b60762cc2573d36c",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T05:01:56.851Z",
+    "updatedAt": "2026-08-29T05:01:56.851Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a926808b60762cc2573d75b",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T05:03:04.670Z",
+    "updatedAt": "2026-08-29T05:03:04.670Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a92683ab60762cc2573da36",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T05:03:54.502Z",
+    "updatedAt": "2026-08-29T05:03:54.502Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a926855b60762cc2573dbcc",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T05:04:21.637Z",
+    "updatedAt": "2026-08-29T05:04:21.637Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9271c2b60762cc2573df81",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T05:44:34.627Z",
+    "updatedAt": "2026-08-29T05:44:34.627Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9271eeb60762cc2573e071",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T05:45:18.467Z",
+    "updatedAt": "2026-08-29T05:45:18.467Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a92745fb60762cc2573e1ea",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T05:55:43.247Z",
+    "updatedAt": "2026-08-29T05:55:43.247Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a9274d3b60762cc2573e59d",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T05:57:39.722Z",
+    "updatedAt": "2026-08-29T05:57:39.722Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a927505b60762cc2573eb65",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-08-29T05:58:29.281Z",
+    "updatedAt": "2026-08-29T05:58:29.281Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a92750ab60762cc2573ede5",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-08-29T05:58:34.118Z",
+    "updatedAt": "2026-08-29T05:58:34.118Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a92750eb60762cc2573f065",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-08-29T05:58:38.844Z",
+    "updatedAt": "2026-08-29T05:58:38.844Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a927513b60762cc2573f2e5",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-08-29T05:58:43.445Z",
+    "updatedAt": "2026-08-29T05:58:43.445Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a927545b60762cc2573f53e",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T05:59:33.103Z",
+    "updatedAt": "2026-08-29T05:59:33.103Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a927589b60762cc2573f8fb",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-08-29T06:00:41.699Z",
+    "updatedAt": "2026-08-29T06:00:41.699Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aab5cea681e4db508f719f9",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T03:22:18.814Z",
+    "updatedAt": "2026-09-17T03:22:18.814Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aab5d05681e4db508f71d83",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T03:22:45.884Z",
+    "updatedAt": "2026-09-17T03:22:45.884Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aab5d1b681e4db508f71ef6",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T03:23:07.939Z",
+    "updatedAt": "2026-09-17T03:23:07.939Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aab5d3d681e4db508f7225e",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T03:23:41.338Z",
+    "updatedAt": "2026-09-17T03:23:41.338Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aab5dab681e4db508f7230b",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T03:25:31.634Z",
+    "updatedAt": "2026-09-17T03:25:31.634Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aaba8ec75462046a9790560",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T08:46:36.133Z",
+    "updatedAt": "2026-09-17T08:46:36.133Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aabafe5eee4fc7024d683b9",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T09:16:21.766Z",
+    "updatedAt": "2026-09-17T09:16:21.766Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aabafeceee4fc7024d68483",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T09:16:28.653Z",
+    "updatedAt": "2026-09-17T09:16:28.653Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aabaff2eee4fc7024d685fb",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T09:16:34.956Z",
+    "updatedAt": "2026-09-17T09:16:34.956Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aabfe08c31e23e3b51db011",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T14:49:44.242Z",
+    "updatedAt": "2026-09-17T14:49:44.242Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aac0292b3cc63fb3ea176ce",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T15:09:06.225Z",
+    "updatedAt": "2026-09-17T15:09:06.225Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aac0c0094e7648f71615900",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T15:49:20.586Z",
+    "updatedAt": "2026-09-17T15:49:20.586Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aac0c8e94e7648f71615bd2",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T15:51:42.105Z",
+    "updatedAt": "2026-09-17T15:51:42.105Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aac0d5f94e7648f71615df7",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T15:55:11.835Z",
+    "updatedAt": "2026-09-17T15:55:11.835Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aac0d8a94e7648f71616284",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T15:55:54.888Z",
+    "updatedAt": "2026-09-17T15:55:54.888Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aac0e29469c2b8ddba31821",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T15:58:33.074Z",
+    "updatedAt": "2026-09-17T15:58:33.074Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aac0ef677be3efdb745ab42",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T16:01:58.847Z",
+    "updatedAt": "2026-09-17T16:01:58.847Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aac10310184ae91a531440d",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T16:07:13.880Z",
+    "updatedAt": "2026-09-17T16:07:13.880Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aac107c0184ae91a531467f",
+    "user": "6a8b0977244a069d06e6d758",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T16:08:28.568Z",
+    "updatedAt": "2026-09-17T16:08:28.568Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aac11d295d558ae99b99cf0",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-17T16:14:10.449Z",
+    "updatedAt": "2026-09-17T16:14:10.449Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aacf32d3560d586c27713ed",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-18T08:15:41.850Z",
+    "updatedAt": "2026-09-18T08:15:41.850Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aacf6b671a7ae5c57a29fb0",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-18T08:30:46.494Z",
+    "updatedAt": "2026-09-18T08:30:46.494Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aacf6c371a7ae5c57a2a33c",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-09-18T08:30:59.135Z",
+    "updatedAt": "2026-09-18T08:30:59.135Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aacf6cb71a7ae5c57a2a5f9",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-09-18T08:31:07.824Z",
+    "updatedAt": "2026-09-18T08:31:07.824Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aacf6d571a7ae5c57a2a8b6",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-09-18T08:31:17.539Z",
+    "updatedAt": "2026-09-18T08:31:17.539Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aacf6dd71a7ae5c57a2ab73",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-09-18T08:31:25.078Z",
+    "updatedAt": "2026-09-18T08:31:25.078Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aad128b0ac91c9aec144b7b",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-18T10:29:31.010Z",
+    "updatedAt": "2026-09-18T10:29:31.010Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aad13260ac91c9aec144ee7",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-18T10:32:06.994Z",
+    "updatedAt": "2026-09-18T10:32:06.994Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aae47ae168ea6c1cfb7bf29",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-19T08:28:30.654Z",
+    "updatedAt": "2026-09-19T08:28:30.654Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aae4c85168ea6c1cfb7c440",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-19T08:49:09.625Z",
+    "updatedAt": "2026-09-19T08:49:09.625Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aae4cc1168ea6c1cfb7c901",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-19T08:50:09.426Z",
+    "updatedAt": "2026-09-19T08:50:09.426Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aae4d0d168ea6c1cfb7cc5d",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-19T08:51:25.481Z",
+    "updatedAt": "2026-09-19T08:51:25.481Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aae4d1f168ea6c1cfb7ce4f",
+    "user": "6a8b0635244a069d06e6d5cb",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-19T08:51:43.128Z",
+    "updatedAt": "2026-09-19T08:51:43.128Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aae4d2f168ea6c1cfb7ceda",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-19T08:51:59.510Z",
+    "updatedAt": "2026-09-19T08:51:59.510Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aae527a168ea6c1cfb7d3f8",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-19T09:14:34.412Z",
+    "updatedAt": "2026-09-19T09:14:34.412Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aae5fa172da10569c5f8b3f",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-19T10:10:41.425Z",
+    "updatedAt": "2026-09-19T10:10:41.425Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aae61187f1b22cc88a8b56b",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-19T10:16:56.723Z",
+    "updatedAt": "2026-09-19T10:16:56.723Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aae62510ac9fe8a7cf551d6",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-19T10:22:09.811Z",
+    "updatedAt": "2026-09-19T10:22:09.811Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aae63ffd69fe6c072446754",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-19T10:29:19.071Z",
+    "updatedAt": "2026-09-19T10:29:19.071Z",
+    "__v": 0
+  },
+  {
+    "_id": "6aae6638d07d822eab5ba816",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-19T10:38:48.992Z",
+    "updatedAt": "2026-09-19T10:38:48.992Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab3712dfd9a706d6f135c7e",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-23T06:26:53.482Z",
+    "updatedAt": "2026-09-23T06:26:53.482Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab372663d045dd87a2a640e",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-23T06:32:06.549Z",
+    "updatedAt": "2026-09-23T06:32:06.549Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab3f1afb956583cc9cc71cc",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-23T15:35:11.605Z",
+    "updatedAt": "2026-09-23T15:35:11.605Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab3f2ba5f2fd357a7a11b20",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-23T15:39:38.900Z",
+    "updatedAt": "2026-09-23T15:39:38.900Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab3f5126c913618ac95301e",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-23T15:49:38.825Z",
+    "updatedAt": "2026-09-23T15:49:38.825Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab3f9456c913618ac953593",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-23T16:07:33.050Z",
+    "updatedAt": "2026-09-23T16:07:33.050Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab3f94d6c913618ac953944",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-09-23T16:07:41.345Z",
+    "updatedAt": "2026-09-23T16:07:41.345Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab3f9546c913618ac953c1a",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-09-23T16:07:48.687Z",
+    "updatedAt": "2026-09-23T16:07:48.687Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab3f95b6c913618ac953ef0",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-09-23T16:07:55.246Z",
+    "updatedAt": "2026-09-23T16:07:55.246Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab3f9616c913618ac9541c6",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-09-23T16:08:01.779Z",
+    "updatedAt": "2026-09-23T16:08:01.779Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab3fb3cb37ae8a84ab0afcf",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-23T16:15:56.529Z",
+    "updatedAt": "2026-09-23T16:15:56.529Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab3fb42b37ae8a84ab0b38a",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-09-23T16:16:02.148Z",
+    "updatedAt": "2026-09-23T16:16:02.148Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab3fb47b37ae8a84ab0b66f",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-09-23T16:16:07.751Z",
+    "updatedAt": "2026-09-23T16:16:07.751Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab3fb4cb37ae8a84ab0b954",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-09-23T16:16:12.968Z",
+    "updatedAt": "2026-09-23T16:16:12.968Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab3fb52b37ae8a84ab0bc39",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-09-23T16:16:18.647Z",
+    "updatedAt": "2026-09-23T16:16:18.647Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab3fced9f63f050b54399af",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-23T16:23:09.007Z",
+    "updatedAt": "2026-09-23T16:23:09.007Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab3fcf29f63f050b5439d73",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-09-23T16:23:14.831Z",
+    "updatedAt": "2026-09-23T16:23:14.831Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab3fcf79f63f050b543a05e",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-09-23T16:23:19.577Z",
+    "updatedAt": "2026-09-23T16:23:19.577Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab3fcfc9f63f050b543a349",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-09-23T16:23:24.416Z",
+    "updatedAt": "2026-09-23T16:23:24.416Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ab3fd019f63f050b543a634",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-09-23T16:23:29.523Z",
+    "updatedAt": "2026-09-23T16:23:29.523Z",
+    "__v": 0
+  },
+  {
+    "_id": "6abbd7e5fb5a8cfdc035c916",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-09-29T15:23:17.424Z",
+    "updatedAt": "2026-09-29T15:23:17.424Z",
+    "__v": 0
+  },
+  {
+    "_id": "6abbd7effb5a8cfdc035cce2",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-09-29T15:23:27.883Z",
+    "updatedAt": "2026-09-29T15:23:27.883Z",
+    "__v": 0
+  },
+  {
+    "_id": "6abbd7f8fb5a8cfdc035cfca",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-09-29T15:23:36.404Z",
+    "updatedAt": "2026-09-29T15:23:36.404Z",
+    "__v": 0
+  },
+  {
+    "_id": "6abbd800fb5a8cfdc035d2b2",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-09-29T15:23:44.788Z",
+    "updatedAt": "2026-09-29T15:23:44.788Z",
+    "__v": 0
+  },
+  {
+    "_id": "6abbd807fb5a8cfdc035d59a",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-09-29T15:23:51.816Z",
+    "updatedAt": "2026-09-29T15:23:51.816Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac46f42e71c1151a5be8431",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-06T03:47:14.006Z",
+    "updatedAt": "2026-10-06T03:47:14.006Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac46f4be71c1151a5be8806",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Engineering Biology",
+    "createdAt": "2026-10-06T03:47:23.958Z",
+    "updatedAt": "2026-10-06T03:47:23.958Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac46f55e71c1151a5be8af4",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomedical Instrumentation",
+    "createdAt": "2026-10-06T03:47:33.737Z",
+    "updatedAt": "2026-10-06T03:47:33.737Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac46f5de71c1151a5be8de2",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Medical Imaging",
+    "createdAt": "2026-10-06T03:47:41.052Z",
+    "updatedAt": "2026-10-06T03:47:41.052Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac46f65e71c1151a5be90d0",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Deepak for Biomaterials",
+    "createdAt": "2026-10-06T03:47:49.990Z",
+    "updatedAt": "2026-10-06T03:47:49.990Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac865fcc75dee9e5776598a",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-09T03:56:44.962Z",
+    "updatedAt": "2026-10-09T03:56:44.962Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac86603c75dee9e57765a82",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-09T03:56:51.076Z",
+    "updatedAt": "2026-10-09T03:56:51.076Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac8660dc75dee9e57765c36",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-09T03:57:01.160Z",
+    "updatedAt": "2026-10-09T03:57:01.160Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac86623c75dee9e57765eba",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-09T03:57:23.352Z",
+    "updatedAt": "2026-10-09T03:57:23.352Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac86697c75dee9e577661b0",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-09T03:59:19.128Z",
+    "updatedAt": "2026-10-09T03:59:19.128Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac866f2c75dee9e577666d6",
+    "user": "6a8b0633244a069d06e6cf22",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-09T04:00:50.352Z",
+    "updatedAt": "2026-10-09T04:00:50.352Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac866fdc75dee9e57766749",
+    "user": "6a8b0633244a069d06e6cf22",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Venkatesh for Engineering Mechanics",
+    "createdAt": "2026-10-09T04:01:01.313Z",
+    "updatedAt": "2026-10-09T04:01:01.313Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac86702c75dee9e577667b9",
+    "user": "6a8b0633244a069d06e6cf22",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Venkatesh for Surveying Structural",
+    "createdAt": "2026-10-09T04:01:06.259Z",
+    "updatedAt": "2026-10-09T04:01:06.259Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac86707c75dee9e57766829",
+    "user": "6a8b0633244a069d06e6cf22",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Venkatesh for Analysis Transportation",
+    "createdAt": "2026-10-09T04:01:11.774Z",
+    "updatedAt": "2026-10-09T04:01:11.774Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac8670cc75dee9e57766899",
+    "user": "6a8b0633244a069d06e6cf22",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Venkatesh for Engineering",
+    "createdAt": "2026-10-09T04:01:16.384Z",
+    "updatedAt": "2026-10-09T04:01:16.384Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac86711c75dee9e57766929",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-09T04:01:21.969Z",
+    "updatedAt": "2026-10-09T04:01:21.969Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac86726c75dee9e57766aa6",
+    "user": "6a8b0633244a069d06e6cff3",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-09T04:01:42.890Z",
+    "updatedAt": "2026-10-09T04:01:42.890Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac8673cc75dee9e57766b18",
+    "user": "6a8b0635244a069d06e6d620",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-09T04:02:04.688Z",
+    "updatedAt": "2026-10-09T04:02:04.688Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac86746c75dee9e57766b80",
+    "user": "6a8b0635244a069d06e6d620",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Vijay for Data Mining",
+    "createdAt": "2026-10-09T04:02:14.004Z",
+    "updatedAt": "2026-10-09T04:02:14.004Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac8674bc75dee9e57766bea",
+    "user": "6a8b0635244a069d06e6d620",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Vijay for Cloud Computing",
+    "createdAt": "2026-10-09T04:02:19.975Z",
+    "updatedAt": "2026-10-09T04:02:19.975Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac86751c75dee9e57766c54",
+    "user": "6a8b0635244a069d06e6d620",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Vijay for Programming Fundamentals",
+    "createdAt": "2026-10-09T04:02:25.514Z",
+    "updatedAt": "2026-10-09T04:02:25.514Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac86756c75dee9e57766cbe",
+    "user": "6a8b0635244a069d06e6d620",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Vijay for Data Structures",
+    "createdAt": "2026-10-09T04:02:30.493Z",
+    "updatedAt": "2026-10-09T04:02:30.493Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac8675fc75dee9e57766d49",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-09T04:02:39.664Z",
+    "updatedAt": "2026-10-09T04:02:39.664Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac86773c75dee9e57766e36",
+    "user": "6a8b0634244a069d06e6d236",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-09T04:02:59.338Z",
+    "updatedAt": "2026-10-09T04:02:59.338Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac86788c75dee9e57766e98",
+    "user": "6a8b0634244a069d06e6d134",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-09T04:03:20.996Z",
+    "updatedAt": "2026-10-09T04:03:20.996Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac867bfc75dee9e57766ecd",
+    "user": "6a8b0635244a069d06e6d510",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-09T04:04:15.371Z",
+    "updatedAt": "2026-10-09T04:04:15.371Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac867ccc75dee9e57766f35",
+    "user": "6a8b0635244a069d06e6d510",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Vikram for Programming in",
+    "createdAt": "2026-10-09T04:04:28.219Z",
+    "updatedAt": "2026-10-09T04:04:28.219Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac867d1c75dee9e57766f9f",
+    "user": "6a8b0635244a069d06e6d510",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Vikram for C Java",
+    "createdAt": "2026-10-09T04:04:33.688Z",
+    "updatedAt": "2026-10-09T04:04:33.688Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac867d6c75dee9e57767009",
+    "user": "6a8b0635244a069d06e6d510",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Vikram for Programming DBMS",
+    "createdAt": "2026-10-09T04:04:38.330Z",
+    "updatedAt": "2026-10-09T04:04:38.330Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac867dbc75dee9e57767073",
+    "user": "6a8b0635244a069d06e6d510",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Vikram for Computer Networks",
+    "createdAt": "2026-10-09T04:04:43.186Z",
+    "updatedAt": "2026-10-09T04:04:43.186Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac867e0c75dee9e577670ef",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-09T04:04:48.991Z",
+    "updatedAt": "2026-10-09T04:04:48.991Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac867eec75dee9e577671df",
+    "user": "6a8b0633244a069d06e6d038",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-09T04:05:02.040Z",
+    "updatedAt": "2026-10-09T04:05:02.040Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac867fdc75dee9e57767247",
+    "user": "6a8b0633244a069d06e6d038",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Venkatesh for Electrical Machines",
+    "createdAt": "2026-10-09T04:05:17.700Z",
+    "updatedAt": "2026-10-09T04:05:17.700Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac86803c75dee9e577672b1",
+    "user": "6a8b0633244a069d06e6d038",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Venkatesh for Power Systems",
+    "createdAt": "2026-10-09T04:05:23.260Z",
+    "updatedAt": "2026-10-09T04:05:23.260Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac8680ac75dee9e5776731b",
+    "user": "6a8b0633244a069d06e6d038",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Venkatesh for Control Systems",
+    "createdAt": "2026-10-09T04:05:30.796Z",
+    "updatedAt": "2026-10-09T04:05:30.796Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac86817c75dee9e577673b6",
+    "user": "6a8b0633244a069d06e6d038",
+    "activityType": "MARK_ATTENDANCE",
+    "description": "Attendance marked by Venkatesh for Circuit Theory",
+    "createdAt": "2026-10-09T04:05:43.034Z",
+    "updatedAt": "2026-10-09T04:05:43.034Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac8681bc75dee9e57767433",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-09T04:05:47.676Z",
+    "updatedAt": "2026-10-09T04:05:47.676Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ac87b29c75dee9e57767eaf",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-09T05:27:05.718Z",
+    "updatedAt": "2026-10-09T05:27:05.718Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ad30d16cd92544d33c81979",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-17T05:52:22.365Z",
+    "updatedAt": "2026-10-17T05:52:22.365Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ad30d53cd92544d33c81a80",
+    "user": "6a8b0632244a069d06e6ce4f",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-17T05:53:23.524Z",
+    "updatedAt": "2026-10-17T05:53:23.524Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ad30d8dcd92544d33c81c39",
+    "user": "6a8b0632244a069d06e6ce56",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-17T05:54:21.108Z",
+    "updatedAt": "2026-10-17T05:54:21.108Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ad30dbccd92544d33c81d72",
+    "user": "6a8b0976244a069d06e6d73c",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-17T05:55:08.457Z",
+    "updatedAt": "2026-10-17T05:55:08.457Z",
+    "__v": 0
+  },
+  {
+    "_id": "6ad30e1acd92544d33c823d2",
+    "user": "6a8b084046428a2245835509",
+    "activityType": "LOGIN",
+    "description": "User logged into the system",
+    "ipAddress": "::1",
+    "createdAt": "2026-10-17T05:56:42.874Z",
+    "updatedAt": "2026-10-17T05:56:42.874Z",
+    "__v": 0
+  }
+]
