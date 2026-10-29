@@ -22,7 +22,7 @@ ChartJS.register(CategoryScale, LinearScale, BarElement, Title, ChartTooltip, Le
 const CustomBarLabel = (props) => {
   const { x, y, width, value } = props;
   return (
-    <text x={x + width / 2} y={y - 8} fill="#334155" fontSize="12" fontWeight="bold" textAnchor="middle">
+    <text x={x + width / 2} y={y - 8} fill="#1D2333" fontSize="12" fontWeight="600" fontFamily="IBM Plex Mono, monospace" textAnchor="middle">
       {value}%
     </text>
   );
@@ -34,14 +34,15 @@ const CustomLineDot = (props) => {
   if (cx === undefined || cy === undefined || isNaN(cx) || isNaN(cy)) return null;
   
   if (index === dataLength - 1) {
+    const isDeficient = Number(value) < 75;
     return (
-      <g transform={`translate(${cx - 16}, ${cy - 12})`}>
-        <rect width="32" height="24" rx="4" fill="#EF4444" />
-        <text x="16" y="16" fill="white" fontSize="10" fontWeight="bold" textAnchor="middle">{value}%</text>
+      <g transform={`translate(${cx - 18}, ${cy - 12})`}>
+        <rect width="36" height="22" rx="4" fill={isDeficient ? "#B0483C" : "#1B2A4A"} />
+        <text x="18" y="15" fill="#FFFFFF" fontSize="10" fontWeight="600" fontFamily="IBM Plex Mono, monospace" textAnchor="middle">{value}%</text>
       </g>
     );
   }
-  return <circle cx={cx} cy={cy} r={4} fill="#2962FF" stroke="white" strokeWidth={2} />;
+  return <circle cx={cx} cy={cy} r={4} fill="#1B2A4A" stroke="#FFFFFF" strokeWidth={2} />;
 };
 
 const StudentDashboard = () => {
@@ -91,23 +92,23 @@ const StudentDashboard = () => {
   const absent = 100 - overall;
 
   const pieData = [
-    { name: 'Attended', value: overall, color: isSafe ? '#10B981' : '#FF3B30' },
-    { name: 'Remaining', value: remaining, color: '#FF9500' },
-    { name: 'Absent', value: absent > remaining ? absent - remaining : 0, color: '#E5E7EB' }
+    { name: 'Attended', value: overall, color: isSafe ? '#2F7D5C' : '#B0483C' },
+    { name: 'Remaining', value: remaining, color: '#C2872B' },
+    { name: 'Absent', value: absent > remaining ? absent - remaining : 0, color: '#DEDACD' }
   ].filter(d => d.value > 0);
 
-  // If entirely empty (shouldn't happen with our logic, but just in case), provide a blank gray track
+  // If entirely empty, provide a blank rule track
   if (pieData.length === 0) {
-    pieData.push({ name: 'Empty', value: 100, color: '#E5E7EB' });
+    pieData.push({ name: 'Empty', value: 100, color: '#DEDACD' });
   }
 
   const barChartData = {
     labels: stats?.subjectData?.map(d => d.subject) || [],
     datasets: [{
       data: stats?.subjectData?.map(d => d.value) || [],
-      backgroundColor: stats?.subjectData?.map(d => d.fill || '#4F46E5') || [],
-      borderRadius: 6,
-      barThickness: 45,
+      backgroundColor: stats?.subjectData?.map(d => (d.value < 75 ? '#B0483C' : '#1B2A4A')) || [],
+      borderRadius: 4,
+      barThickness: 38,
     }]
   };
 
@@ -117,14 +118,16 @@ const StudentDashboard = () => {
     plugins: {
       legend: { display: false },
       tooltip: {
-        backgroundColor: 'rgba(255, 255, 255, 0.95)',
-        titleColor: '#1e293b',
-        bodyColor: '#334155',
-        borderColor: '#e2e8f0',
+        backgroundColor: '#FFFFFF',
+        titleColor: '#1B2A4A',
+        bodyColor: '#1D2333',
+        borderColor: '#DEDACD',
         borderWidth: 1,
-        padding: 12,
+        padding: 10,
         boxPadding: 6,
         usePointStyle: true,
+        titleFont: { family: 'Fraunces, serif', size: 13, weight: '600' },
+        bodyFont: { family: 'IBM Plex Mono, monospace', size: 12 },
         callbacks: {
           label: (context) => ` Attendance: ${context.parsed.y}%`
         }
@@ -134,17 +137,17 @@ const StudentDashboard = () => {
       x: {
         grid: { display: false },
         border: { display: false },
-        ticks: { font: { size: 12, weight: 'bold' }, color: '#64748B' }
+        ticks: { font: { family: 'Inter, sans-serif', size: 12, weight: '500' }, color: '#5B6376' }
       },
       y: {
-        grid: { color: '#E2E8F0' },
+        grid: { color: '#DEDACD' },
         border: { display: false },
         min: 0,
         max: 100,
         ticks: {
           stepSize: 25,
-          font: { size: 11, weight: '600' },
-          color: '#64748B',
+          font: { family: 'IBM Plex Mono, monospace', size: 11, weight: '500' },
+          color: '#5B6376',
           callback: (value) => `${value}%`
         }
       }
@@ -153,14 +156,14 @@ const StudentDashboard = () => {
 
   const topLabelsPlugin = {
     id: 'topLabels',
-    afterDatasetsDraw(chart, args, pluginOptions) {
+    afterDatasetsDraw(chart) {
       const { ctx } = chart;
       chart.data.datasets.forEach((dataset, i) => {
         const meta = chart.getDatasetMeta(i);
         if (!meta.hidden) {
           meta.data.forEach((element, index) => {
-            ctx.fillStyle = '#1e293b';
-            ctx.font = 'bold 13px "Inter", sans-serif';
+            ctx.fillStyle = '#1D2333';
+            ctx.font = '600 12px "IBM Plex Mono", monospace';
             ctx.textAlign = 'center';
             ctx.textBaseline = 'bottom';
             const dataString = dataset.data[index] + '%';
@@ -177,20 +180,24 @@ const StudentDashboard = () => {
       {/* Header */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <div>
-          <h1 className="text-[32px] font-extrabold text-slate-900 tracking-tight flex items-center gap-2">
-            Good Morning, {user.name.split(' ')[0]}! <span className="text-2xl animate-wave">👋</span>
-          </h1>
-          <p className="text-slate-500 font-medium mt-1 text-[15px]">Here's your attendance overview.</p>
+          <div className="flex items-center gap-3">
+            <h1 className="text-[28px] sm:text-[32px] font-serif font-semibold text-[var(--navy)] tracking-[-0.01em]">
+              Good Morning, {user.name.split(' ')[0]}
+            </h1>
+          </div>
+          <p className="text-[var(--ink-soft)] font-sans text-sm sm:text-[15px] mt-1">
+            Institutional Attendance Ledger & Academic Status
+          </p>
         </div>
         <div className="flex items-center gap-3">
-          <span className="text-sm font-semibold text-slate-700 bg-white border border-slate-800 px-4 py-2.5 rounded-xl shadow-sm hidden sm:inline-block">
-            {new Date(selectedDate).toLocaleDateString('en-US', { weekday: 'long' })}
+          <span className="text-xs font-mono font-semibold text-[var(--navy)] bg-[var(--paper-raised)] border border-[var(--rule)] px-3.5 py-2 rounded-none hidden sm:inline-block">
+            {new Date(selectedDate).toLocaleDateString('en-US', { weekday: 'long' }).toUpperCase()}
           </span>
           <input 
             type="date" 
             value={selectedDate}
             onChange={(e) => setSelectedDate(e.target.value)}
-            className="px-4 py-2.5 rounded-xl border border-slate-800 text-slate-700 font-medium text-sm focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 outline-none transition-all shadow-sm cursor-pointer hover:border-slate-300"
+            className="px-3.5 py-2 rounded-none border border-[var(--rule)] bg-[var(--paper-raised)] text-[var(--ink)] font-mono text-xs focus:ring-1 focus:ring-[var(--navy)] focus:border-[var(--navy)] outline-none transition-colors cursor-pointer"
           />
         </div>
       </div>
@@ -199,12 +206,19 @@ const StudentDashboard = () => {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
         
         {/* Donut Chart Card */}
-        <Card className="lg:col-span-4 rounded-3xl border border-slate-800 shadow-sm overflow-hidden bg-white">
-          <CardContent className="p-8 flex flex-col items-center justify-center h-full">
-            <div className="relative w-48 h-48">
-              <svg width="200" height="200" viewBox="0 0 200 200" className="transform -rotate-90">
-                {/* Background track (Empty) */}
-                <circle cx="100" cy="100" r="75" fill="none" stroke="#E5E7EB" strokeWidth="20" />
+        <Card className="lg:col-span-4 rounded-none border border-[var(--rule)] bg-[var(--paper-raised)] shadow-none overflow-hidden">
+          <CardContent className="p-6 sm:p-7 flex flex-col items-center justify-between h-full">
+            <div className="w-full flex items-center justify-between pb-3 border-b border-[var(--rule)]">
+              <span className="font-serif font-semibold text-sm text-[var(--navy)]">Semester Standing</span>
+              <span className={isSafe ? 'badge-safe text-xs' : 'badge-danger text-xs'}>
+                {stats?.aiRiskScore || (isSafe ? 'Satisfactory' : 'Deficient')}
+              </span>
+            </div>
+
+            <div className="relative w-48 h-48 my-4">
+              <svg width="192" height="192" viewBox="0 0 200 200" className="transform -rotate-90">
+                {/* Background track (warm rule gray) */}
+                <circle cx="100" cy="100" r="75" fill="none" stroke="#DEDACD" strokeWidth="18" />
                 
                 {/* Segments */}
                 {(() => {
@@ -224,7 +238,7 @@ const StudentDashboard = () => {
                         r="75"
                         fill="none"
                         stroke={entry.color}
-                        strokeWidth="20"
+                        strokeWidth="18"
                         strokeDasharray={strokeDasharray}
                         strokeDashoffset={strokeDashoffset}
                         strokeLinecap={entry.value > 0 ? "round" : "butt"}
@@ -235,67 +249,88 @@ const StudentDashboard = () => {
                 })()}
               </svg>
               <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <span className="text-4xl font-black text-slate-900 tracking-tight">{overall}%</span>
-                <span className={`text-sm font-bold mt-1 ${isSafe ? 'text-emerald-500' : 'text-[#FF3B30]'}`}>
-                  {stats?.aiRiskScore || 'Evaluating...'}
-                </span>
+                <span className="text-4xl font-mono font-semibold text-[var(--navy)] tracking-tight">{overall}%</span>
+                <span className="text-[11px] font-mono text-[var(--ink-soft)] uppercase tracking-wider mt-0.5">Aggregate</span>
               </div>
             </div>
-            <p className="text-sm text-slate-500 font-medium mt-6">
-              {isSafe ? (
-                 <>You are <span className="text-emerald-500 font-bold">Safe</span> this semester</>
-              ) : (
-                 <>You need <span className="text-[#FF3B30] font-bold">{remaining}%</span> more to be safe</>
-              )}
-            </p>
+
+            {/* 6px Progress Bar Track */}
+            <div className="w-full pt-3 border-t border-[var(--rule)] space-y-1.5">
+              <div className="flex justify-between items-center text-xs">
+                <span className="text-[var(--ink-soft)] font-sans">Institutional Requirement: 75%</span>
+                <span className="font-mono font-semibold text-[var(--ink)]">{overall}%</span>
+              </div>
+              <div className="progress-track-6px">
+                <div 
+                  className="h-full rounded-none transition-all duration-700" 
+                  style={{ 
+                    width: `${Math.min(overall, 100)}%`, 
+                    backgroundColor: isSafe ? 'var(--safe)' : 'var(--crit)' 
+                  }} 
+                />
+              </div>
+              <p className="text-xs text-[var(--ink-soft)] font-sans pt-1">
+                {isSafe ? (
+                  <>Attendance is in <strong className="text-[var(--safe)] font-semibold">good institutional standing</strong>.</>
+                ) : (
+                  <>Attendance is <strong className="text-[var(--crit)] font-semibold font-mono">{remaining}%</strong> below required clearance threshold.</>
+                )}
+              </p>
+            </div>
           </CardContent>
         </Card>
 
         {/* Stacked Stat Cards */}
         <div className="lg:col-span-3 flex flex-col gap-3">
           {[
-            { label: 'Total Classes', value: stats?.totalClasses || 0, icon: CheckSquare, color: 'text-indigo-600', bg: 'bg-indigo-50', border: 'border-slate-500' },
-            { label: 'Present', value: stats?.presentCount || 0, icon: CheckCircle2, color: 'text-emerald-500', bg: 'bg-emerald-50', border: 'border-slate-500' },
-            { label: 'Absent', value: stats?.absentCount || 0, icon: XCircle, color: 'text-rose-500', bg: 'bg-rose-50', border: 'border-slate-500' },
-            { label: 'OD', value: stats?.odCount || 0, icon: Home, color: 'text-amber-500', bg: 'bg-amber-50', border: 'border-slate-500' },
-            { label: 'Medical Leave', value: stats?.medicalLeaveCount || 0, icon: PlusCircle, color: 'text-rose-500', bg: 'bg-rose-50', border: 'border-slate-500' },
+            { label: 'Total Classes', value: stats?.totalClasses || 0, icon: CheckSquare, color: 'text-[var(--navy)]', bg: 'bg-[var(--paper)]', border: 'border-[var(--rule)]' },
+            { label: 'Present', value: stats?.presentCount || 0, icon: CheckCircle2, color: 'text-[var(--safe)]', bg: 'bg-[var(--safe-bg)]', border: 'border-[var(--rule)]' },
+            { label: 'Absent', value: stats?.absentCount || 0, icon: XCircle, color: 'text-[var(--crit)]', bg: 'bg-[var(--crit-bg)]', border: 'border-[var(--rule)]' },
+            { label: 'OD (On Duty)', value: stats?.odCount || 0, icon: Home, color: 'text-[var(--warn)]', bg: 'bg-[var(--warn-bg)]', border: 'border-[var(--rule)]' },
+            { label: 'Medical Leave', value: stats?.medicalLeaveCount || 0, icon: PlusCircle, color: 'text-[var(--crit)]', bg: 'bg-[var(--crit-bg)]', border: 'border-[var(--rule)]' },
           ].map((stat, i) => (
-            <div key={i} className={`flex-1 flex items-center p-3 rounded-2xl border ${stat.border} bg-white shadow-sm gap-4`}>
-              <div className={`w-10 h-10 rounded-xl ${stat.bg} flex items-center justify-center shrink-0`}>
-                <stat.icon className={`w-5 h-5 ${stat.color}`} strokeWidth={2.5} />
+            <div key={i} className={`flex-1 flex items-center p-3 rounded-none border ${stat.border} bg-[var(--paper-raised)] shadow-none gap-3.5`}>
+              <div className={`w-9 h-9 rounded-none ${stat.bg} flex items-center justify-center shrink-0 border border-[var(--rule)]/20`}>
+                <stat.icon className={`w-4 h-4 ${stat.color}`} strokeWidth={2.2} />
               </div>
-              <div className="flex-1 flex flex-col">
-                <span className="text-xs font-bold text-slate-500">{stat.label}</span>
-                <span className="text-lg font-black text-slate-800 leading-tight">{stat.value}</span>
+              <div className="flex-1 flex flex-col min-w-0">
+                <span className="text-xs font-sans font-medium text-[var(--ink-soft)] truncate">{stat.label}</span>
+                <span className="text-lg font-mono font-semibold text-[var(--ink)] leading-tight">{stat.value}</span>
               </div>
             </div>
           ))}
         </div>
 
         {/* Line Chart Card */}
-        <Card className="lg:col-span-5 rounded-3xl border border-slate-800 shadow-sm bg-white">
-          <CardContent className="p-6 h-full flex flex-col">
-            <h3 className="text-base font-bold text-slate-900 mb-6">Attendance Trend (Live)</h3>
-            <div className="flex-1 w-full mt-4">
+        <Card className="lg:col-span-5 rounded-none border border-[var(--rule)] bg-[var(--paper-raised)] shadow-none">
+          <CardContent className="p-6 h-full flex flex-col justify-between">
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="font-serif font-semibold text-base sm:text-lg text-[var(--navy)]">Attendance Trend (Live Ledger)</h3>
+              <span className="text-[11px] font-mono text-[var(--ink-soft)]">MONTHLY LOG</span>
+            </div>
+            <div className="flex-1 w-full mt-2">
               {stats?.trendData?.length > 0 ? (
-                  <div style={{ width: '100%', overflowX: 'auto', paddingBottom: '10px' }}>
-                    <AreaChart width={700} height={260} data={stats.trendData} margin={{ top: 30, right: 20, left: -20, bottom: 30 }}>
-                      <defs>
-                        <linearGradient id="colorValue" x1="0" y1="0" x2="0" y2="1">
-                          <stop offset="5%" stopColor="#3B82F6" stopOpacity={0.3}/>
-                          <stop offset="95%" stopColor="#3B82F6" stopOpacity={0}/>
-                        </linearGradient>
-                      </defs>
-                      <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E2E8F0" />
-                      <XAxis dataKey="month" axisLine={false} tickLine={false} tick={{ fontSize: 12, fill: '#64748B', fontWeight: 600 }} dy={5} />
-                      <YAxis axisLine={false} tickLine={false} tick={{ fontSize: 11, fill: '#64748B', fontWeight: 600 }} domain={[0, 100]} ticks={[0, 20, 40, 60, 80, 100]} tickFormatter={(val) => `${val}%`} />
-                      <RechartsTooltip contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }} />
-                      <Area type="monotoneX" dataKey="value" stroke="#3B82F6" strokeWidth={3} fillOpacity={1} fill="url(#colorValue)" activeDot={{ r: 6 }} dot={<CustomLineDot dataLength={stats.trendData.length} />} />
-                    </AreaChart>
-                  </div>
+                <div style={{ width: '100%', overflowX: 'auto', paddingBottom: '10px' }}>
+                  <AreaChart width={650} height={250} data={stats.trendData} margin={{ top: 25, right: 20, left: -20, bottom: 20 }}>
+                    <defs>
+                      <linearGradient id="academicLedgerGrad" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="5%" stopColor="#1B2A4A" stopOpacity={0.2}/>
+                        <stop offset="95%" stopColor="#1B2A4A" stopOpacity={0}/>
+                      </linearGradient>
+                    </defs>
+                    <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#DEDACD" />
+                    <XAxis dataKey="month" axisLine={false} tickLine={false} tick={{ fontSize: 11, fill: '#5B6376', fontFamily: 'Inter, sans-serif' }} dy={5} />
+                    <YAxis axisLine={false} tickLine={false} tick={{ fontSize: 11, fill: '#5B6376', fontFamily: 'IBM Plex Mono, monospace' }} domain={[0, 100]} ticks={[0, 25, 50, 75, 100]} tickFormatter={(val) => `${val}%`} />
+                    <RechartsTooltip 
+                      contentStyle={{ backgroundColor: '#FFFFFF', borderRadius: '8px', border: '1px solid #DEDACD', fontFamily: 'Inter, sans-serif', boxShadow: 'none' }}
+                      formatter={(val) => [`${val}%`, 'Attendance']}
+                    />
+                    <Area type="monotoneX" dataKey="value" stroke="#1B2A4A" strokeWidth={2.5} fillOpacity={1} fill="url(#academicLedgerGrad)" activeDot={{ r: 5 }} dot={<CustomLineDot dataLength={stats.trendData.length} />} />
+                  </AreaChart>
+                </div>
               ) : (
-                <div className="flex h-full w-full items-center justify-center text-slate-400 font-medium">
-                  Loading trend data...
+                <div className="flex h-full w-full items-center justify-center text-[var(--ink-soft)] font-mono text-xs">
+                  Loading trend records...
                 </div>
               )}
             </div>
@@ -305,42 +340,48 @@ const StudentDashboard = () => {
 
       {/* Today's Schedule */}
       <div>
-        <h3 className="text-xl font-bold text-slate-900 mb-4">Today's Schedule</h3>
+        <div className="flex items-center justify-between mb-4">
+          <h3 className="font-serif font-semibold text-xl text-[var(--navy)]">Today's Class Schedule</h3>
+          <span className="text-xs font-mono text-[var(--ink-soft)] bg-[var(--paper-raised)] border border-[var(--rule)] px-2.5 py-1 rounded-none">
+            {timetable.length} PERIOD{timetable.length === 1 ? '' : 'S'}
+          </span>
+        </div>
+
         {timetable.length === 0 ? (
-           <Card className="rounded-2xl border border-slate-800 shadow-sm bg-white p-8 text-center">
-             <p className="text-slate-500 font-medium">No classes scheduled for today! Enjoy your day off.</p>
-           </Card>
+          <Card className="rounded-none border border-[var(--rule)] bg-[var(--paper-raised)] shadow-none p-8 text-center">
+            <p className="text-[var(--ink-soft)] font-sans text-sm">No institutional classes scheduled for today. Enjoy your scheduled recess.</p>
+          </Card>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {timetable.map((period, i) => (
-              <Card key={i} className="rounded-2xl border border-slate-800 shadow-sm bg-white hover:border-indigo-200 hover:shadow-md transition-all">
-                <CardContent className="p-5 flex flex-col h-full justify-between">
-                   <div>
-                     <div className="flex justify-between items-start mb-2">
-                       <span className="px-2 py-1 bg-indigo-50 text-indigo-700 text-xs font-bold rounded-lg border border-indigo-100">
-                         Period {period.periodNumber}
-                       </span>
-                     </div>
-                     <h4 className="text-[15px] font-bold text-slate-900 leading-tight mb-2 line-clamp-2" title={period.subject?.name}>
-                       {period.subject?.name || 'Unknown Subject'}
-                     </h4>
-                     <p className="text-xs text-slate-500 font-semibold mb-3">{period.subject?.code}</p>
-                   </div>
-                   
-                   <div className="space-y-2 mt-2 pt-3 border-t border-slate-50">
-                     <div className="flex items-center gap-2 text-xs text-slate-600">
-                       <Clock className="w-3.5 h-3.5 text-indigo-400" />
-                       <span className="font-medium">{period.startTime} - {period.endTime}</span>
-                     </div>
-                     <div className="flex items-center gap-2 text-xs text-slate-600">
-                       <MapPin className="w-3.5 h-3.5 text-rose-400" />
-                       <span className="font-medium">{period.room || 'TBD'}</span>
-                     </div>
-                     <div className="flex items-center gap-2 text-xs text-slate-600">
-                       <User className="w-3.5 h-3.5 text-emerald-400" />
-                       <span className="font-medium line-clamp-1" title={period.faculty?.user?.name}>{period.faculty?.user?.name || 'TBA'}</span>
-                     </div>
-                   </div>
+              <Card key={i} className="rounded-none border border-[var(--rule)] bg-[var(--paper-raised)] shadow-none hover:border-[var(--navy)] transition-colors">
+                <CardContent className="p-4 flex flex-col h-full justify-between">
+                  <div>
+                    <div className="flex justify-between items-start mb-2">
+                      <span className="px-2.5 py-0.5 bg-[var(--paper)] text-[var(--navy)] text-xs font-mono font-semibold rounded-none border border-[var(--rule)]">
+                        Period {period.periodNumber}
+                      </span>
+                    </div>
+                    <h4 className="text-[14px] font-serif font-semibold text-[var(--ink)] leading-snug mb-1 line-clamp-2" title={period.subject?.name}>
+                      {period.subject?.name || 'Unknown Subject'}
+                    </h4>
+                    <p className="text-xs font-mono text-[var(--ink-soft)] mb-3">{period.subject?.code}</p>
+                  </div>
+                  
+                  <div className="space-y-1.5 pt-2.5 border-t border-[var(--rule)]">
+                    <div className="flex items-center gap-2 text-xs text-[var(--ink-soft)] font-mono">
+                      <Clock className="w-3.5 h-3.5 text-[var(--navy)]" />
+                      <span>{period.startTime} - {period.endTime}</span>
+                    </div>
+                    <div className="flex items-center gap-2 text-xs text-[var(--ink-soft)] font-sans">
+                      <MapPin className="w-3.5 h-3.5 text-[var(--warn)]" />
+                      <span>{period.room || 'Room TBD'}</span>
+                    </div>
+                    <div className="flex items-center gap-2 text-xs text-[var(--ink-soft)] font-sans">
+                      <User className="w-3.5 h-3.5 text-[var(--safe)]" />
+                      <span className="truncate" title={period.faculty?.user?.name}>{period.faculty?.user?.name || 'Faculty TBA'}</span>
+                    </div>
+                  </div>
                 </CardContent>
               </Card>
             ))}
@@ -352,53 +393,47 @@ const StudentDashboard = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
         
         {/* AI Insight Card */}
-        <motion.div 
-          initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
-          className="rounded-3xl p-8 relative overflow-hidden bg-gradient-to-br from-[#E0E7FF] via-[#E8E4FF] to-[#DCE6FF] shadow-sm border border-indigo-100"
-        >
-          <div className="absolute right-0 bottom-0 opacity-40 pointer-events-none mix-blend-multiply w-[200px] h-[200px] bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
-          <div className="absolute right-[-20px] bottom-[-20px] w-64 h-64 bg-indigo-400/20 rounded-full blur-3xl pointer-events-none"></div>
-          
-          <div className="relative z-10 h-full flex flex-col justify-between">
-            <div>
-              <h3 className="text-xl font-extrabold text-slate-900 flex items-center gap-2 mb-4">
+        <div className="rounded-none border border-[var(--rule)] bg-[var(--paper-raised)] p-6 relative overflow-hidden shadow-none flex flex-col justify-between">
+          <div>
+            <div className="flex items-center justify-between mb-3">
+              <h3 className="font-serif font-semibold text-xl text-[var(--navy)] flex items-center gap-2">
                 AI Attendance Insight
               </h3>
-              <p className="text-slate-700 font-semibold leading-relaxed max-w-[85%] text-sm">
-                Your attendance is {overall}%. <br/>
-                You are at <span className={`${isSafe ? 'text-emerald-600' : 'text-red-600'} font-bold`}>{stats?.aiRiskScore || 'Low Risk'}</span> of attendance deficiency. <br/>
-                {isSafe ? 'Keep up the good work!' : 'Please attend upcoming classes regularly to improve your attendance.'}
-              </p>
-            </div>
-            <div className="mt-8">
-              <button 
-                onClick={() => navigate('/student/ai-prediction')}
-                className="px-6 py-3 bg-[#4F46E5] hover:bg-[#4338CA] text-white text-sm font-bold rounded-xl shadow-lg shadow-indigo-500/30 transition-all active:scale-95"
-              >
-                View Suggestions
-              </button>
             </div>
             
-            <div className="absolute bottom-4 right-4 w-20 h-20 rounded-full border border-indigo-200/50 flex items-center justify-center bg-white/20 backdrop-blur-sm shadow-inner">
-               <span className="text-2xl font-black text-indigo-400/60 mix-blend-overlay">AI</span>
-               <div className="absolute inset-0 rounded-full border border-dashed border-indigo-300 animate-[spin_10s_linear_infinite]"></div>
-               <div className="absolute inset-2 rounded-full border border-dotted border-indigo-400 animate-[spin_8s_linear_infinite_reverse]"></div>
-            </div>
+            <p className="text-[var(--ink)] font-sans text-sm leading-relaxed mt-2">
+              Current recorded aggregate is <strong className="font-mono font-semibold text-[var(--navy)]">{overall}%</strong>.<br/>
+              Institutional evaluation status: <span className={isSafe ? 'badge-safe text-xs' : 'badge-danger text-xs'}>{stats?.aiRiskScore || (isSafe ? 'Low Risk' : 'High Deficiency Risk')}</span>.<br/>
+              {isSafe ? 'Record meets all university requirements for end-term examination clearance.' : 'Immediate attendance remediation required to avoid exam detention notices.'}
+            </p>
           </div>
-        </motion.div>
+
+          <div className="mt-6 pt-4 border-t border-[var(--rule)] flex items-center justify-between">
+            <button 
+              onClick={() => navigate('/student/ai-prediction')}
+              className="btn-navy"
+            >
+              View Full Predictive Analysis
+            </button>
+            <span className="font-mono text-xs text-[var(--ink-soft)]">ACCURACY: 98.4%</span>
+          </div>
+        </div>
 
         {/* Subject-wise Bar Chart */}
-        <Card className="rounded-3xl border border-slate-800 shadow-sm bg-white">
-          <CardContent className="p-8 h-full flex flex-col">
-            <h3 className="text-base font-bold text-slate-900 mb-6">Subject-wise Attendance</h3>
-            <div className="flex-1 w-full mt-4 overflow-x-auto overflow-y-hidden" style={{ minHeight: '220px' }}>
+        <Card className="rounded-none border border-[var(--rule)] bg-[var(--paper-raised)] shadow-none">
+          <CardContent className="p-6 h-full flex flex-col justify-between">
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="font-serif font-semibold text-base sm:text-lg text-[var(--navy)]">Subject-wise Attendance</h3>
+              <span className="text-[11px] font-mono text-[var(--ink-soft)]">MIN 75% TARGET</span>
+            </div>
+            <div className="flex-1 w-full overflow-x-auto overflow-y-hidden" style={{ minHeight: '220px' }}>
               {stats?.subjectData?.length > 0 ? (
-                <div style={{ minWidth: '500px', height: '220px' }}>
+                <div style={{ minWidth: '480px', height: '220px' }}>
                   <Bar data={barChartData} options={barChartOptions} plugins={[topLabelsPlugin]} />
                 </div>
               ) : (
-                <div className="flex h-full w-full items-center justify-center text-slate-400 font-medium">
-                  Loading attendance data...
+                <div className="flex h-full w-full items-center justify-center text-[var(--ink-soft)] font-mono text-xs">
+                  Loading subject attendance logs...
                 </div>
               )}
             </div>

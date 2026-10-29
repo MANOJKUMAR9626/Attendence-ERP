@@ -6,6 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import RiskBadge from '@/components/attendance/RiskBadge';
 import { toast } from 'sonner';
+import api from '@/utils/api';
 
 const MOCK_DEFAULTERS = [
   { id:1, roll:'7376221CS102', name:'Priya Devi',   dept:'CSE', year:'III', sec:'A', pct:62, risk:'Critical', needed:18, parentPhone:'9876540001', parentEmail:'parent1@mail.com' },
@@ -18,20 +19,34 @@ const MOCK_DEFAULTERS = [
 export default function AtRiskStudents() {
   const [search, setSearch] = useState('');
   const [alertSent, setAlertSent] = useState(new Set());
+  const [isAlerting, setIsAlerting] = useState(false);
 
   const filtered = MOCK_DEFAULTERS.filter(s =>
     s.name.toLowerCase().includes(search.toLowerCase()) || s.roll.includes(search)
   );
 
-  const sendAlert = (id, name) => {
-    setAlertSent(prev => new Set([...prev, id]));
-    toast.success(`📩 Alert dispatched to parent of ${name}`);
+  const sendAlert = async (id, name) => {
+    try {
+      const res = await api.post('/attendance/alert-defaulters', { threshold: 80 });
+      setAlertSent(prev => new Set([...prev, id]));
+      toast.success(res.data.message || `📩 SMS Alert dispatched to parent of ${name}`);
+    } catch (err) {
+      toast.error(err.response?.data?.message || 'Failed to dispatch alert');
+    }
   };
 
-  const sendAllAlerts = () => {
-    const ids = new Set(filtered.map(s => s.id));
-    setAlertSent(ids);
-    toast.success(`📩 Alerts dispatched to ${filtered.length} parents`);
+  const sendAllAlerts = async () => {
+    setIsAlerting(true);
+    try {
+      const res = await api.post('/attendance/alert-defaulters', { threshold: 80 });
+      const ids = new Set(filtered.map(s => s.id));
+      setAlertSent(ids);
+      toast.success(res.data.message || `📩 SMS Alerts sent to parents below 80%`);
+    } catch (err) {
+      toast.error(err.response?.data?.message || 'Failed to dispatch alerts');
+    } finally {
+      setIsAlerting(false);
+    }
   };
 
   const critical = filtered.filter(s => s.risk === 'Critical').length;

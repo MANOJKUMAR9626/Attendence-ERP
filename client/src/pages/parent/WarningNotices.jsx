@@ -20,9 +20,9 @@ export default function WarningNotices() {
   };
 
   const levelConfig = {
-    High:   { cls:'bg-rose-50 border-rose-200 dark:bg-rose-500/10 dark:border-rose-500/30', badge:'bg-rose-100 text-rose-700 dark:bg-rose-500/20 dark:text-rose-400', bar:'bg-rose-500', icon: AlertTriangle, iconCls:'text-rose-500' },
-    Medium: { cls:'bg-amber-50 border-amber-200 dark:bg-amber-500/10 dark:border-amber-500/30', badge:'bg-amber-100 text-amber-700 dark:bg-amber-500/20 dark:text-amber-400', bar:'bg-amber-500', icon: BellRing, iconCls:'text-amber-500' },
-    Info:   { cls:'bg-slate-50 border-slate-800 dark:bg-slate-800/50 dark:border-slate-700', badge:'bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400', bar:'bg-slate-400', icon: BellRing, iconCls:'text-slate-400' },
+    High:   { cls: 'bg-[var(--crit-bg)]/40 border-[var(--crit)]/30', badge: 'badge-danger text-xs font-mono', bar: 'bg-[var(--crit)]', icon: AlertTriangle, iconCls: 'text-[var(--crit)]' },
+    Medium: { cls: 'bg-[var(--warn-bg)]/40 border-[var(--warn)]/30', badge: 'badge-warning text-xs font-mono', bar: 'bg-[var(--warn)]', icon: BellRing, iconCls: 'text-[var(--warn)]' },
+    Info:   { cls: 'bg-[var(--paper)] border-[var(--rule)]', badge: 'badge-info text-xs font-mono', bar: 'bg-[var(--navy)]', icon: BellRing, iconCls: 'text-[var(--navy)]' },
   };
 
   const pending = warnings.filter(w => !w.acknowledged).length;
@@ -31,24 +31,27 @@ export default function WarningNotices() {
     <div className="space-y-6 page-enter">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <div>
-          <h1 className="text-2xl font-bold tracking-tight flex items-center gap-2 text-slate-800 dark:text-slate-100">
-            <BellRing className="w-6 h-6 text-amber-500" />Warning Notices
-          </h1>
-          <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
-            Official attendance warnings and advisory notices issued for your ward.
+          <div className="flex items-center gap-3">
+            <h1 className="text-2xl sm:text-3xl font-serif font-semibold text-[var(--navy)] tracking-[-0.01em]">
+              Institutional Dispatches & Notices
+            </h1>
+            <span className="stamp hidden sm:inline-flex">OFFICIAL NOTICE</span>
+          </div>
+          <p className="text-sm font-sans text-[var(--ink-soft)] mt-1">
+            Official attendance warnings, deficiency alerts and advisory communications.
           </p>
         </div>
         {pending > 0 && (
-          <span className="px-3 py-1.5 rounded-full bg-rose-100 text-rose-700 dark:bg-rose-500/20 dark:text-rose-400 text-sm font-semibold border border-rose-200 dark:border-rose-500/30">
-            {pending} unread notice{pending>1?'s':''}
+          <span className="badge-danger text-xs font-mono">
+            {pending} UNACKNOWLEDGED NOTICE{pending>1?'S':''}
           </span>
         )}
       </div>
 
       {pending === 0 && (
-        <div className="flex items-center gap-3 p-4 rounded-xl bg-emerald-50 dark:bg-emerald-500/10 border border-emerald-200 dark:border-emerald-500/20">
-          <CheckCheck className="w-5 h-5 text-emerald-500" />
-          <p className="text-sm text-emerald-700 dark:text-emerald-400 font-medium">All notices have been acknowledged. No pending action required.</p>
+        <div className="flex items-center gap-3 p-4 rounded-[10px] bg-[var(--safe-bg)] border border-[var(--safe)]/30 text-[var(--safe)]">
+          <CheckCheck className="w-5 h-5 shrink-0" />
+          <p className="text-sm font-sans font-medium">All official notices have been duly acknowledged. No pending institutional actions required.</p>
         </div>
       )}
 
@@ -57,33 +60,33 @@ export default function WarningNotices() {
           const cfg = levelConfig[w.level] || levelConfig['Info'];
           const Icon = cfg.icon;
           return (
-            <motion.div key={w.id} initial={{opacity:0,y:8}} animate={{opacity:1,y:0}} transition={{delay:i*0.1}}>
-              <Card className={`border ${cfg.cls} shadow-sm overflow-hidden ${w.acknowledged?'opacity-60':''}`}>
+            <motion.div key={w.id} initial={{opacity:0,y:8}} animate={{opacity:1,y:0}} transition={{delay:i*0.08}}>
+              <Card className={`rounded-[10px] border ${cfg.cls} shadow-none overflow-hidden ${w.acknowledged?'opacity-70':''}`}>
                 <div className={`h-1 ${cfg.bar}`} />
                 <CardContent className="p-5">
                   <div className="flex items-start gap-4">
-                    <div className={`w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 ${w.level==='High'?'bg-rose-100 dark:bg-rose-500/20':w.level==='Medium'?'bg-amber-100 dark:bg-amber-500/20':'bg-slate-100 dark:bg-slate-800'}`}>
-                      <Icon className={`w-5 h-5 ${cfg.iconCls}`} />
+                    <div className="w-9 h-9 rounded-[8px] flex items-center justify-center shrink-0 bg-[var(--paper-raised)] border border-[var(--rule)]">
+                      <Icon className={`w-4 h-4 ${cfg.iconCls}`} />
                     </div>
                     <div className="flex-1">
-                      <div className="flex items-center gap-2 flex-wrap mb-1">
-                        <h3 className="font-semibold text-slate-800 dark:text-slate-100">{w.type}</h3>
-                        <span className={`px-2 py-0.5 rounded-full text-xs font-semibold ${cfg.badge}`}>{w.level}</span>
-                        {w.acknowledged && <span className="px-2 py-0.5 rounded-full text-xs font-semibold bg-slate-100 text-slate-500 dark:bg-slate-800 dark:text-slate-400">Acknowledged</span>}
+                      <div className="flex items-center gap-2.5 flex-wrap mb-1">
+                        <h3 className="font-serif font-semibold text-base text-[var(--navy)]">{w.type}</h3>
+                        <span className={cfg.badge}>{w.level}</span>
+                        {w.acknowledged && <span className="text-[10px] font-mono text-[var(--ink-soft)] bg-[var(--paper)] border border-[var(--rule)] px-2 py-0.5 rounded-[20px]">ACKNOWLEDGED</span>}
                       </div>
-                      <p className="text-xs text-slate-400 mb-2">{w.date}</p>
-                      <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">{w.message}</p>
+                      <p className="text-xs font-mono text-[var(--ink-soft)] mb-2">{w.date}</p>
+                      <p className="text-sm font-sans text-[var(--ink)] leading-relaxed">{w.message}</p>
                     </div>
                   </div>
 
                   {!w.acknowledged && (
-                    <div className="flex justify-end gap-2 mt-4">
-                      <Button variant="outline" size="sm" className="flex items-center gap-1.5">
+                    <div className="flex justify-end gap-2 mt-4 pt-3 border-t border-[var(--rule)]">
+                      <Button variant="secondary" size="sm" className="flex items-center gap-1.5 font-mono text-xs">
                         <Download className="w-3.5 h-3.5" />Download PDF
                       </Button>
                       <Button size="sm" onClick={() => acknowledge(w.id)}
-                        className="bg-indigo-600 hover:bg-indigo-700 text-white flex items-center gap-1.5">
-                        <CheckCheck className="w-3.5 h-3.5" />Acknowledge
+                        className="btn-navy text-xs flex items-center gap-1.5">
+                        <CheckCheck className="w-3.5 h-3.5" />Acknowledge Dispatch
                       </Button>
                     </div>
                   )}

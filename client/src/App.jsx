@@ -80,16 +80,16 @@ import CommandPalette from './components/CommandPalette';
 
 // ─── Placeholder stub for pages not yet built ─────────────────────────────────
 const ComingSoon = ({ title }) => (
-  <div className="flex flex-col items-center justify-center w-full min-h-[70vh] gap-6 text-center px-4 bg-slate-50 dark:bg-slate-900 rounded-3xl border-2 border-dashed border-slate-300 dark:border-slate-700">
-    <div className="w-24 h-24 rounded-full bg-indigo-100 dark:bg-indigo-900/30 flex items-center justify-center text-5xl shadow-sm border border-indigo-200 dark:border-indigo-800">
-      <span className="relative z-10 animate-bounce">🚧</span>
+  <div className="flex flex-col items-center justify-center w-full min-h-[60vh] gap-5 text-center px-6 py-12 bg-[var(--paper-raised)] rounded-none border border-[var(--rule)] shadow-none">
+    <div className="w-16 h-16 rounded-full bg-[var(--paper)] flex items-center justify-center text-3xl border border-[var(--rule)] text-[var(--navy)]">
+      <span>🏛️</span>
     </div>
     <div>
-      <h2 className="text-3xl font-black tracking-tight text-slate-800 dark:text-white mb-3">
+      <h2 className="text-2xl font-serif font-bold text-[var(--navy)] mb-2">
         {title}
       </h2>
-      <p className="text-slate-600 dark:text-slate-400 text-base max-w-md mx-auto font-medium">
-        This module is currently under development. We are actively building it and it will be available in a future update!
+      <p className="text-[var(--ink-soft)] text-sm max-w-md mx-auto font-sans leading-relaxed">
+        This institutional ledger module is undergoing administrative verification and will be published in an upcoming ledger release.
       </p>
     </div>
   </div>

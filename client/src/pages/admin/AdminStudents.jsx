@@ -158,16 +158,16 @@ export default function AdminStudents() {
 
   const Badge = ({ level }) => {
     const styles = {
-      NA: { bg: 'bg-slate-100 dark:bg-slate-500/10', text: 'text-slate-700 dark:text-slate-400', border: 'border-slate-800 dark:border-slate-500/20', dot: 'bg-slate-500' },
-      Low: { bg: 'bg-emerald-100 dark:bg-emerald-500/10', text: 'text-emerald-700 dark:text-emerald-400', border: 'border-emerald-200 dark:border-emerald-500/20', dot: 'bg-emerald-500' },
-      Medium: { bg: 'bg-yellow-100 dark:bg-yellow-500/10', text: 'text-yellow-700 dark:text-yellow-400', border: 'border-yellow-200 dark:border-yellow-500/20', dot: 'bg-yellow-500' },
-      High: { bg: 'bg-orange-100 dark:bg-orange-500/10', text: 'text-orange-700 dark:text-orange-400', border: 'border-orange-200 dark:border-orange-500/20', dot: 'bg-orange-500' },
-      Critical: { bg: 'bg-rose-100 dark:bg-rose-500/10', text: 'text-rose-700 dark:text-rose-400', border: 'border-rose-200 dark:border-rose-500/20', dot: 'bg-rose-500' },
+      NA: { bg: 'bg-[var(--paper)]', text: 'text-[var(--ink-soft)]', border: 'border-[var(--rule)]', dot: 'bg-[var(--ink-soft)]' },
+      Low: { bg: 'bg-[var(--safe-bg)]', text: 'text-[var(--safe)]', border: 'border-[var(--safe)]/20', dot: 'bg-[var(--safe)]' },
+      Medium: { bg: 'bg-[var(--warn-bg)]', text: 'text-[var(--warn)]', border: 'border-[var(--warn)]/20', dot: 'bg-[var(--warn)]' },
+      High: { bg: 'bg-[var(--warn-bg)]', text: 'text-[var(--warn)]', border: 'border-[var(--warn)]/20', dot: 'bg-[var(--warn)]' },
+      Critical: { bg: 'bg-[var(--crit-bg)]', text: 'text-[var(--crit)]', border: 'border-[var(--crit)]/20', dot: 'bg-[var(--crit)]' },
     };
     const s = styles[level] || styles.NA;
     return (
-      <span className={`px-2.5 py-1 text-[11px] font-bold rounded-full border tracking-wide whitespace-nowrap flex items-center justify-center gap-1.5 mx-auto w-fit ${s.bg} ${s.text} ${s.border}`}>
-        <div className={`w-1.5 h-1.5 rounded-full ${s.dot}`} /> {level.toUpperCase()}
+      <span className={`px-2.5 py-0.5 text-[11px] font-mono font-bold rounded-full border tracking-wider whitespace-nowrap flex items-center justify-center gap-1.5 mx-auto w-fit uppercase ${s.bg} ${s.text} ${s.border}`}>
+        <div className={`w-1.5 h-1.5 rounded-full ${s.dot}`} /> {level}
       </span>
     );
   };
@@ -178,11 +178,13 @@ export default function AdminStudents() {
       {/* PAGE HEADER */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <div>
-          <h1 className="text-2xl font-bold text-[#0F172A] dark:text-[#F8FAFC] tracking-tight">Students</h1>
-          <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">Manage student profiles, attendance and academic information.</p>
+          <div className="flex items-center gap-3">
+            <h1 className="text-2xl font-serif font-bold text-[var(--navy)] tracking-tight">Student Register</h1>
+          </div>
+          <p className="text-xs font-mono text-[var(--ink-soft)] mt-1">Manage institutional student profiles, register numbers, and enrollment records.</p>
         </div>
         <div className="flex items-center gap-3 w-full sm:w-auto">
-          <button onClick={() => setIsAddModalOpen(true)} className="flex-1 sm:flex-none px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-medium rounded-lg transition-colors flex items-center justify-center gap-2 shadow-sm shadow-indigo-600/20">
+          <button onClick={() => setIsAddModalOpen(true)} className="btn-navy flex-1 sm:flex-none px-4 py-2 text-white text-xs font-mono uppercase tracking-wider rounded-[7px] flex items-center justify-center gap-2">
             <Plus className="w-4 h-4" /> Add Student
           </button>
         </div>
@@ -191,68 +193,68 @@ export default function AdminStudents() {
       {/* STUDENT STATISTICS */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {[
-          { label: 'Total Students', value: total, icon: Users, color: 'text-indigo-500', bg: 'bg-indigo-500/10' },
-          { label: 'Active Students', value: active, icon: UserCheck, color: 'text-emerald-500', bg: 'bg-emerald-500/10' },
-          { label: 'At Risk Students', value: atRisk, icon: AlertTriangle, color: 'text-orange-500', bg: 'bg-orange-500/10' },
-          { label: 'Critical Students', value: critical, icon: UserX, color: 'text-rose-500', bg: 'bg-rose-500/10' },
+          { label: 'Total Enrolled', value: total, icon: Users, color: 'text-[var(--navy)]', bg: 'bg-[var(--paper)]', valColor: 'text-[var(--navy)]' },
+          { label: 'Active Roster', value: active, icon: UserCheck, color: 'text-[var(--safe)]', bg: 'bg-[var(--safe-bg)]', valColor: 'text-[var(--safe)]' },
+          { label: 'At Risk Threshold', value: atRisk, icon: AlertTriangle, color: 'text-[var(--warn)]', bg: 'bg-[var(--warn-bg)]', valColor: 'text-[var(--warn)]' },
+          { label: 'Critical Attendance', value: critical, icon: UserX, color: 'text-[var(--crit)]', bg: 'bg-[var(--crit-bg)]', valColor: 'text-[var(--crit)]' },
         ].map((stat, i) => (
-          <div key={i} className="flex items-center gap-4 p-5 bg-white dark:bg-[#0F1B2D] border border-slate-800 dark:border-[#1E334D] rounded-xl shadow-sm h-full">
+          <div key={i} className="flex items-center gap-4 p-5 bg-[var(--paper-raised)] border border-[var(--rule)] rounded-[10px] shadow-none h-full">
             <div className={`w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 ${stat.bg}`}>
-              <stat.icon className={`w-6 h-6 ${stat.color}`} />
+              <stat.icon className={`w-5 h-5 ${stat.color}`} />
             </div>
             <div>
-              <p className="text-3xl font-bold text-[#0F172A] dark:text-[#F8FAFC] tracking-tight">{stat.value}</p>
-              <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mt-0.5">{stat.label}</p>
+              <p className={`text-3xl font-mono font-bold tracking-tight ${stat.valColor}`}>{stat.value}</p>
+              <p className="text-xs font-mono text-[var(--ink-soft)] uppercase tracking-wider mt-0.5">{stat.label}</p>
             </div>
           </div>
         ))}
       </div>
 
       {/* SEARCH AND FILTER BAR */}
-      <div className="flex flex-col xl:flex-row gap-3 p-4 bg-white dark:bg-[#0F1B2D] border border-slate-800 dark:border-[#1E334D] rounded-xl shadow-sm">
+      <div className="flex flex-col xl:flex-row gap-3 p-4 bg-[var(--paper-raised)] border border-[var(--rule)] rounded-[10px] shadow-none">
         <div className="relative flex-1 min-w-0 h-10">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--ink-soft)]" />
           <input
-            type="text" placeholder="Search Students..." value={search} onChange={e => setSearch(e.target.value)}
-            className="w-full h-10 pl-9 pr-4 bg-slate-50 dark:bg-[#07111F] border border-slate-800 dark:border-[#1E334D] rounded-lg text-sm text-[#0F172A] dark:text-[#F8FAFC] placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/50 transition-all"
+            type="text" placeholder="Search by name or register number..." value={search} onChange={e => setSearch(e.target.value)}
+            className="w-full h-10 pl-9 pr-4 bg-[var(--paper)] border border-[var(--rule)] rounded-[7px] text-xs font-mono text-[var(--ink)] placeholder:text-[var(--ink-soft)] focus:outline-none focus:border-[var(--navy)] transition-all"
           />
         </div>
         <div className="flex flex-wrap sm:flex-nowrap gap-3 h-auto sm:h-10">
           {/* Department */}
-          <select value={filterDept} onChange={e => setFilterDept(e.target.value)} className="h-10 px-3 bg-slate-50 dark:bg-[#07111F] border border-slate-800 dark:border-[#1E334D] rounded-lg text-sm text-[#0F172A] dark:text-[#F8FAFC] focus:outline-none min-w-[130px] flex-1 sm:flex-none cursor-pointer">
+          <select value={filterDept} onChange={e => setFilterDept(e.target.value)} className="h-10 px-3 bg-[var(--paper)] border border-[var(--rule)] rounded-[7px] text-xs font-mono text-[var(--ink)] focus:outline-none min-w-[130px] flex-1 sm:flex-none cursor-pointer">
             <option value="">Department</option>
             {departmentsList.map(d => (
               <option key={d._id} value={d._id}>{d.name}</option>
             ))}
           </select>
-          <select value={filterYear} onChange={e => setFilterYear(e.target.value)} className="h-10 px-3 bg-slate-50 dark:bg-[#07111F] border border-slate-800 dark:border-[#1E334D] rounded-lg text-sm text-[#0F172A] dark:text-[#F8FAFC] focus:outline-none min-w-[90px] flex-1 sm:flex-none cursor-pointer">
+          <select value={filterYear} onChange={e => setFilterYear(e.target.value)} className="h-10 px-3 bg-[var(--paper)] border border-[var(--rule)] rounded-[7px] text-xs font-mono text-[var(--ink)] focus:outline-none min-w-[90px] flex-1 sm:flex-none cursor-pointer">
             <option value="">Year</option>
             <option value="I">I</option>
             <option value="II">II</option>
             <option value="III">III</option>
             <option value="IV">IV</option>
           </select>
-          <select value={filterRisk} onChange={e => setFilterRisk(e.target.value)} className="h-10 px-3 bg-slate-50 dark:bg-[#07111F] border border-slate-800 dark:border-[#1E334D] rounded-lg text-sm text-[#0F172A] dark:text-[#F8FAFC] focus:outline-none min-w-[130px] flex-1 sm:flex-none cursor-pointer">
-            <option value="">Risk</option>
+          <select value={filterRisk} onChange={e => setFilterRisk(e.target.value)} className="h-10 px-3 bg-[var(--paper)] border border-[var(--rule)] rounded-[7px] text-xs font-mono text-[var(--ink)] focus:outline-none min-w-[130px] flex-1 sm:flex-none cursor-pointer">
+            <option value="">Risk Status</option>
             <option value="Low">Low</option>
             <option value="Medium">Medium</option>
             <option value="High">High</option>
             <option value="Critical">Critical</option>
           </select>
-          <select value={filterStatus} onChange={e => setFilterStatus(e.target.value)} className="h-10 px-3 bg-slate-50 dark:bg-[#07111F] border border-slate-800 dark:border-[#1E334D] rounded-lg text-sm text-[#0F172A] dark:text-[#F8FAFC] focus:outline-none min-w-[110px] flex-1 sm:flex-none cursor-pointer">
-            <option value="">Status</option>
+          <select value={filterStatus} onChange={e => setFilterStatus(e.target.value)} className="h-10 px-3 bg-[var(--paper)] border border-[var(--rule)] rounded-[7px] text-xs font-mono text-[var(--ink)] focus:outline-none min-w-[110px] flex-1 sm:flex-none cursor-pointer">
+            <option value="">Roster Status</option>
             <option value="active">Active</option>
             <option value="inactive">Inactive</option>
           </select>
 
-          <button onClick={handleReset} className="h-10 px-4 bg-slate-100 dark:bg-[#1E334D] hover:bg-slate-200 dark:hover:bg-[#284160] text-slate-600 dark:text-slate-300 text-sm font-medium rounded-lg transition-colors flex items-center justify-center gap-2 min-w-[100px]">
-            <RotateCcw className="w-4 h-4" /> Reset
+          <button onClick={handleReset} className="h-10 px-4 btn-navy-outline text-xs font-mono uppercase tracking-wider rounded-[7px] transition-colors flex items-center justify-center gap-2 min-w-[100px]">
+            <RotateCcw className="w-3.5 h-3.5" /> Reset
           </button>
         </div>
       </div>
 
       {/* STUDENT DATA TABLE */}
-      <div className="bg-white dark:bg-[#0F1B2D] border border-slate-800 dark:border-[#1E334D] rounded-xl shadow-sm overflow-hidden flex flex-col min-h-[400px]">
+      <div className="bg-[var(--paper-raised)] border border-[var(--rule)] rounded-[10px] shadow-none overflow-hidden flex flex-col min-h-[400px]">
         {loading ? (
           <div className="flex-1 flex flex-col items-center justify-center p-12">
             <Loader2 className="w-8 h-8 text-indigo-500 animate-spin mb-4" />
@@ -271,50 +273,50 @@ export default function AdminStudents() {
           <div className="overflow-x-auto w-full">
             {/* Desktop Table View */}
             <table className="w-full text-left border-collapse hidden md:table min-w-[1100px]">
-              <thead className="bg-[#F8FAFC] dark:bg-[#07111F] sticky top-0 z-10">
+              <thead className="bg-[var(--paper)] border-b border-[var(--rule)] sticky top-0 z-10">
                 <tr>
-                  <th className="px-4 py-4 border-b border-slate-800 dark:border-[#1E334D] text-center w-12"><input type="checkbox" className="rounded border-slate-300" /></th>
-                  <th className="px-4 py-4 border-b border-slate-800 dark:border-[#1E334D] text-left text-[13px] font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Student</th>
-                  <th className="px-4 py-4 border-b border-slate-800 dark:border-[#1E334D] text-center text-[13px] font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Register No</th>
-                  <th className="px-4 py-4 border-b border-slate-800 dark:border-[#1E334D] text-left text-[13px] font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Branch</th>
-                  <th className="px-4 py-4 border-b border-slate-800 dark:border-[#1E334D] text-center text-[13px] font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Section</th>
-                  <th className="px-4 py-4 border-b border-slate-800 dark:border-[#1E334D] text-center text-[13px] font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Year</th>
-                  <th className="px-4 py-4 border-b border-slate-800 dark:border-[#1E334D] text-center text-[13px] font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Attendance</th>
-                  <th className="px-4 py-4 border-b border-slate-800 dark:border-[#1E334D] text-left text-[13px] font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Parent</th>
-                  <th className="px-4 py-4 border-b border-slate-800 dark:border-[#1E334D] text-center text-[13px] font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Risk</th>
-                  <th className="px-4 py-4 border-b border-slate-800 dark:border-[#1E334D] text-center text-[13px] font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Status</th>
-                  <th className="px-4 py-4 border-b border-slate-800 dark:border-[#1E334D] text-center text-[13px] font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Actions</th>
+                  <th className="px-4 py-3.5 border-b border-[var(--rule)] text-center w-12"><input type="checkbox" className="rounded border-[var(--rule)]" /></th>
+                  <th className="px-4 py-3.5 border-b border-[var(--rule)] text-left text-[11px] font-mono font-semibold text-[var(--ink-soft)] uppercase tracking-wider">Student</th>
+                  <th className="px-4 py-3.5 border-b border-[var(--rule)] text-center text-[11px] font-mono font-semibold text-[var(--ink-soft)] uppercase tracking-wider">Register No</th>
+                  <th className="px-4 py-3.5 border-b border-[var(--rule)] text-left text-[11px] font-mono font-semibold text-[var(--ink-soft)] uppercase tracking-wider">Branch</th>
+                  <th className="px-4 py-3.5 border-b border-[var(--rule)] text-center text-[11px] font-mono font-semibold text-[var(--ink-soft)] uppercase tracking-wider">Section</th>
+                  <th className="px-4 py-3.5 border-b border-[var(--rule)] text-center text-[11px] font-mono font-semibold text-[var(--ink-soft)] uppercase tracking-wider">Year</th>
+                  <th className="px-4 py-3.5 border-b border-[var(--rule)] text-center text-[11px] font-mono font-semibold text-[var(--ink-soft)] uppercase tracking-wider">Attendance</th>
+                  <th className="px-4 py-4 border-b border-[var(--rule)] text-left text-[11px] font-mono font-semibold text-[var(--ink-soft)] uppercase tracking-wider">Parent Identifier</th>
+                  <th className="px-4 py-3.5 border-b border-[var(--rule)] text-center text-[11px] font-mono font-semibold text-[var(--ink-soft)] uppercase tracking-wider">Risk Level</th>
+                  <th className="px-4 py-3.5 border-b border-[var(--rule)] text-center text-[11px] font-mono font-semibold text-[var(--ink-soft)] uppercase tracking-wider">Roster</th>
+                  <th className="px-4 py-3.5 border-b border-[var(--rule)] text-center text-[11px] font-mono font-semibold text-[var(--ink-soft)] uppercase tracking-wider">Actions</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-[#E2E8F0] dark:divide-[#1E334D]">
+              <tbody className="divide-y divide-[var(--rule)]/60">
                 {paginated.map(s => (
-                  <tr key={s._id} className="hover:bg-[#F8FAFC] dark:hover:bg-white/[0.02] transition-colors h-[72px]">
-                    <td className="px-4 text-center"><input type="checkbox" className="rounded border-slate-300" /></td>
+                  <tr key={s._id} className="hover:bg-[var(--paper)] transition-colors h-[70px]">
+                    <td className="px-4 text-center"><input type="checkbox" className="rounded border-[var(--rule)]" /></td>
                     <td className="px-4">
                       <div className="flex items-center gap-3">
-                        <div className="w-9 h-9 rounded-full bg-indigo-100 dark:bg-indigo-900/50 text-indigo-600 dark:text-indigo-400 font-bold flex items-center justify-center flex-shrink-0 text-sm">
+                        <div className="w-8 h-8 rounded-full bg-[var(--navy)] text-white font-mono font-bold flex items-center justify-center flex-shrink-0 text-xs">
                           {s.user?.name?.charAt(0).toUpperCase() || 'S'}
                         </div>
                         <div className="min-w-0">
-                          <p className="text-sm font-semibold text-[#0F172A] dark:text-[#F8FAFC] truncate max-w-[150px] lg:max-w-[200px]" title={s.user?.name}>{s.user?.name}</p>
-                          <p className="text-[12px] text-slate-500 dark:text-slate-400 truncate max-w-[150px] lg:max-w-[200px]" title={s.user?.email}>{s.user?.email}</p>
+                          <p className="text-sm font-semibold text-[var(--ink)] truncate max-w-[150px] lg:max-w-[200px]" title={s.user?.name}>{s.user?.name}</p>
+                          <p className="text-[11px] font-mono text-[var(--ink-soft)] truncate max-w-[150px] lg:max-w-[200px]" title={s.user?.email}>{s.user?.email}</p>
                         </div>
                       </div>
                     </td>
-                    <td className="px-4 text-center font-mono text-[13px] font-semibold text-slate-700 dark:text-slate-300">{s.registerNumber || s.roll_number || 'N/A'}</td>
-                    <td className="px-4 text-left text-sm text-slate-700 dark:text-slate-300 truncate max-w-[140px]">{s.department?.name || s.department_name || 'N/A'}</td>
-                    <td className="px-4 text-center text-sm font-semibold text-indigo-600 dark:text-indigo-400">{s.section?.name || 'A'}</td>
-                    <td className="px-4 text-center text-sm font-medium text-slate-700 dark:text-slate-300">{s.currentSemester?.number ? Math.ceil(s.currentSemester.number / 2) : (s.current_year || 1)}</td>
+                    <td className="px-4 text-center font-mono text-[13px] font-bold text-[var(--navy)]">{s.registerNumber || s.roll_number || 'N/A'}</td>
+                    <td className="px-4 text-left text-xs font-mono text-[var(--ink-soft)] truncate max-w-[140px]">{s.department?.name || s.department_name || 'N/A'}</td>
+                    <td className="px-4 text-center text-xs font-mono font-bold text-[var(--navy)]">{s.section?.name || 'A'}</td>
+                    <td className="px-4 text-center text-xs font-mono text-[var(--ink)]">{s.currentSemester?.number ? Math.ceil(s.currentSemester.number / 2) : (s.current_year || 1)}</td>
                     <td className="px-4 text-center">
                       {!s.attendanceSummary?.totalClasses ? (
-                        <span className="text-[13px] font-bold text-slate-400 dark:text-slate-500 bg-slate-50 dark:bg-slate-800/50 px-3 py-1 rounded-full border border-slate-800 dark:border-slate-700">NA</span>
+                        <span className="text-[11px] font-mono font-bold text-[var(--ink-soft)] bg-[var(--paper)] px-2.5 py-0.5 rounded-none border border-[var(--rule)]">NA</span>
                       ) : (
                         <div className="flex flex-col items-center justify-center gap-1">
-                          <span className={`text-[13px] font-bold ${s.attendanceSummary.overallPercentage >= 80 ? 'text-emerald-600' : s.attendanceSummary.overallPercentage >= 75 ? 'text-orange-500' : 'text-rose-600'}`}>
+                          <span className={`text-[12px] font-mono font-bold ${s.attendanceSummary.overallPercentage >= 80 ? 'text-[var(--safe)]' : s.attendanceSummary.overallPercentage >= 75 ? 'text-[var(--warn)]' : 'text-[var(--crit)]'}`}>
                             {s.attendanceSummary.overallPercentage}%
                           </span>
-                          <div className="w-16 h-1.5 rounded-full bg-slate-100 dark:bg-[#1E334D] overflow-hidden">
-                            <div className={`h-full rounded-full ${s.attendanceSummary.overallPercentage >= 80 ? 'bg-emerald-500' : s.attendanceSummary.overallPercentage >= 75 ? 'bg-orange-500' : 'bg-rose-500'}`} style={{ width: `${s.attendanceSummary.overallPercentage}%` }} />
+                          <div className="w-16 h-1.5 rounded-none bg-[var(--track)] border border-[var(--rule)]/20 overflow-hidden">
+                            <div className={`h-full rounded-none ${s.attendanceSummary.overallPercentage >= 80 ? 'bg-[var(--safe)]' : s.attendanceSummary.overallPercentage >= 75 ? 'bg-[var(--warn)]' : 'bg-[var(--crit)]'}`} style={{ width: `${s.attendanceSummary.overallPercentage}%` }} />
                           </div>
                         </div>
                       )}
@@ -322,33 +324,33 @@ export default function AdminStudents() {
                     <td className="px-4 text-left">
                       {s.parents && s.parents.length > 0 ? (
                         <div className="min-w-0">
-                          <p className="text-[13px] font-bold text-slate-700 dark:text-slate-200">
+                          <p className="text-xs font-mono font-bold text-[var(--ink)]">
                             {s.parents[0]?.user?.identifier || (s.parents[0]?.user?.email ? 'PAR' + s.parents[0].user.email.match(/\d+/) : 'N/A')}
                           </p>
-                          <p className="text-[11px] text-slate-500 dark:text-slate-400">
+                          <p className="text-[11px] font-mono text-[var(--ink-soft)]">
                             {s.parents[0]?.user?.email || 'N/A'}
                           </p>
                         </div>
                       ) : (
-                        <span className="text-xs text-slate-400 italic">Not Assigned</span>
+                        <span className="text-xs font-mono text-[var(--ink-soft)] italic">Not Assigned</span>
                       )}
                     </td>
                     <td className="px-4 text-center"><Badge level={s.aiRiskLevel || 'Low'} /></td>
                     <td className="px-4 text-center">
-                      <div className="flex items-center justify-center gap-1.5 mx-auto w-fit px-3 py-1 bg-slate-50 dark:bg-[#07111F] rounded-full border border-slate-800 dark:border-[#1E334D]">
-                        <div className={`w-2 h-2 rounded-full ${s.isActive !== false ? 'bg-emerald-500' : 'bg-slate-500'}`} />
-                        <span className="text-[12px] font-medium text-[#0F172A] dark:text-[#F8FAFC]">{s.isActive !== false ? 'Active' : 'Inactive'}</span>
+                      <div className="flex items-center justify-center gap-1.5 mx-auto w-fit px-2.5 py-0.5 bg-[var(--paper)] rounded-full border border-[var(--rule)]">
+                        <div className={`w-1.5 h-1.5 rounded-full ${s.isActive !== false ? 'bg-[var(--safe)]' : 'bg-[var(--ink-soft)]'}`} />
+                        <span className="text-[11px] font-mono font-medium text-[var(--ink)]">{s.isActive !== false ? 'Active' : 'Inactive'}</span>
                       </div>
                     </td>
                     <td className="px-4">
                       <div className="flex items-center justify-center gap-1">
-                        <button className="p-1.5 text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 dark:hover:bg-indigo-500/10 rounded-md transition-colors" title="Edit">
-                          <Edit2 className="w-[18px] h-[18px]" />
+                        <button className="p-1.5 text-[var(--ink-soft)] hover:text-[var(--navy)] hover:bg-[var(--paper)] rounded transition-colors" title="Edit">
+                          <Edit2 className="w-4 h-4" />
                         </button>
                         <button
                           onClick={() => handleDeleteStudent(s._id)}
-                          className="p-1.5 text-slate-400 hover:text-rose-600 hover:bg-rose-50 dark:hover:bg-rose-500/10 rounded-md transition-colors" title="Delete">
-                          <Trash2 className="w-[18px] h-[18px]" />
+                          className="p-1.5 text-[var(--ink-soft)] hover:text-[var(--crit)] hover:bg-[var(--crit-bg)] rounded transition-colors" title="Delete">
+                          <Trash2 className="w-4 h-4" />
                         </button>
                       </div>
                     </td>

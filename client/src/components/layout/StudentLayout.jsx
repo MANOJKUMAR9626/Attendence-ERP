@@ -68,45 +68,58 @@ export default function StudentLayout() {
   const displayName = user?.name || 'Student';
 
   return (
-    <div className="min-h-screen bg-[#F8FAFC] dark:bg-slate-950 flex font-sans relative z-0">
+    <div className="min-h-screen bg-[var(--paper)] text-[var(--ink)] flex font-sans relative z-0">
       
       <motion.aside 
         animate={{ width: open ? 240 : 72 }} 
-        className="fixed md:sticky top-0 left-0 h-screen z-50 flex flex-col bg-white dark:bg-slate-950 border-r border-slate-100 dark:border-slate-800 transition-all duration-300 overflow-hidden shadow-sm"
+        className="fixed md:sticky top-0 left-0 h-screen z-50 flex flex-col bg-[var(--navy)] text-white border-r border-[var(--navy-soft)] transition-all duration-300 overflow-hidden shadow-none"
       >
-        <div className="h-16 flex items-center justify-between px-4 border-b border-slate-100 dark:border-slate-800 shrink-0">
-          {open && (
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-[#3B82F6] flex items-center justify-center">
-                <GraduationCap size={16} className="text-white" />
+        <div className="h-16 flex items-center justify-between px-4 border-b border-[var(--navy-soft)] shrink-0">
+          {open ? (
+            <div className="flex items-center gap-2.5 overflow-hidden">
+              <div className="w-8 h-8 rounded-[7px] bg-[var(--gold)] flex items-center justify-center text-[var(--navy)] shrink-0 shadow-sm">
+                <GraduationCap size={18} strokeWidth={2.2} />
               </div>
-              <span className="font-bold text-white text-[15px]">SmartERP</span>
+              <div className="truncate">
+                <span className="font-serif font-bold text-white text-[16px] tracking-tight block leading-tight">SmartERP</span>
+                <span className="font-mono text-[9px] text-[var(--gold)] tracking-wider uppercase block leading-none">Student Portal</span>
+              </div>
+            </div>
+          ) : (
+            <div className="w-8 h-8 mx-auto rounded-[7px] bg-[var(--gold)] flex items-center justify-center text-[var(--navy)] shrink-0">
+              <GraduationCap size={18} strokeWidth={2.2} />
             </div>
           )}
-          <button onClick={() => setOpen(!open)} className="p-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 ml-auto transition-colors">
+          <button 
+            onClick={() => setOpen(!open)} 
+            className="p-1.5 rounded-[7px] hover:bg-[var(--navy-soft)] text-white/70 hover:text-white ml-auto transition-colors"
+            title={open ? "Collapse sidebar" : "Expand sidebar"}
+          >
             <Menu size={18} />
           </button>
         </div>
         
-        <div className="flex-1 overflow-y-auto py-4 px-3 space-y-1">
+        <div className="flex-1 overflow-y-auto py-4 px-3 space-y-1 scrollbar-hide">
           {MENU.map((item, idx) => {
             const isActive = location.pathname === item.path || (item.path !== '/student' && item.path !== '#' && location.pathname.startsWith(item.path));
             
             const itemContent = (
-              <div className={`flex items-center px-3 py-2.5 rounded-xl transition-all group relative ${
+              <div className={`flex items-center px-3 py-2.5 rounded-[8px] transition-all group relative ${
                 isActive 
-                  ? 'bg-[#4F46E5] text-white font-semibold shadow-md shadow-indigo-500/20' 
-                  : 'text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800/50 font-medium'
+                  ? 'bg-[var(--navy-soft)] text-white font-medium border-l-[3px] border-[var(--gold)] pl-[9px]' 
+                  : 'text-white/75 hover:bg-[var(--navy-soft)]/60 hover:text-white font-normal'
               }`}>
-                {item.icon}
+                <span className={`${isActive ? 'text-[var(--gold)]' : 'text-white/75 group-hover:text-white'} transition-colors`}>
+                  {item.icon}
+                </span>
                 {open && <span className="ml-3 text-[13px]">{item.title}</span>}
                 {open && item.badge && (
-                  <span className="ml-auto bg-red-500 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full min-w-[20px] text-center">
+                  <span className="ml-auto bg-[var(--crit-bg)] text-[var(--crit)] text-[10px] font-mono font-bold px-2 py-0.5 rounded-full min-w-[20px] text-center border border-[var(--crit)]/20">
                     {item.badge}
                   </span>
                 )}
                 {!open && (
-                  <div className="absolute left-full ml-3 px-2 py-1 bg-slate-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 pointer-events-none whitespace-nowrap z-50">
+                  <div className="absolute left-full ml-3 px-2.5 py-1 bg-[var(--navy)] text-white text-xs rounded-[6px] border border-[var(--rule)]/20 opacity-0 group-hover:opacity-100 pointer-events-none whitespace-nowrap z-50 font-sans shadow-lg">
                     {item.title}
                   </div>
                 )}
@@ -128,29 +141,42 @@ export default function StudentLayout() {
             );
           })}
         </div>
+
+        {open && (
+          <div className="p-3 mx-3 mb-4 rounded-[8px] bg-[var(--navy-soft)]/50 border border-[var(--navy-soft)] text-white/80 text-[11px] font-mono flex items-center justify-between shrink-0">
+            <span className="text-[var(--gold)] flex items-center gap-1.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-[var(--gold)]"></span>
+              TERM LEDGER
+            </span>
+            <span className="text-white/60">2026-27</span>
+          </div>
+        )}
       </motion.aside>
 
       <main className="flex-1 flex flex-col min-w-0">
-        <header className="h-16 sticky top-0 z-40 bg-white/90 dark:bg-slate-950/90 backdrop-blur-md border-b border-slate-100 dark:border-slate-800 flex items-center justify-between px-6 sm:px-8 shadow-sm">
-          
-
+        <header className="h-16 sticky top-0 z-40 bg-[var(--paper-raised)] border-b border-[var(--rule)] flex items-center justify-between px-6 sm:px-8 shadow-none">
+          <div className="flex items-center gap-2.5">
+            <span className="font-serif font-semibold text-[var(--navy)] text-base">Academic Ledger</span>
+            <span className="text-[var(--rule)] hidden sm:inline-block">/</span>
+            <span className="font-sans text-xs text-[var(--ink-soft)] hidden sm:inline-block">Student Portal</span>
+          </div>
           
           <div className="flex items-center gap-4 ml-auto">
-            <div className="h-8 w-px bg-slate-200 dark:bg-slate-700 mx-2 hidden sm:block"></div>
+            <div className="h-8 w-px bg-[var(--rule)] mx-1 hidden sm:block"></div>
 
             <div className="flex items-center gap-3">
-              <Avatar className="w-9 h-9 border border-slate-200 dark:border-slate-700 overflow-hidden bg-slate-100">
+              <Avatar className="w-9 h-9 border border-[var(--rule)] overflow-hidden bg-[var(--paper)]">
                 <img src={profileImage} alt={displayName} className="w-full h-full object-cover" />
               </Avatar>
-              <div className="hidden sm:block">
-                <p className="text-sm font-bold text-[var(--ink)] leading-tight">{displayName}</p>
-                <p className="text-[10px] font-medium text-slate-500 leading-tight">Student</p>
+              <div className="hidden sm:block text-left">
+                <p className="text-sm font-semibold text-[var(--ink)] leading-tight">{displayName}</p>
+                <p className="text-[10px] font-mono font-medium text-[var(--ink-soft)] leading-tight">Student</p>
               </div>
             </div>
           </div>
         </header>
 
-        <div className="flex-1 p-6 sm:p-8 overflow-y-auto">
+        <div className="flex-1 p-6 sm:p-8 overflow-y-auto bg-[var(--paper)] text-[var(--ink)]">
           <Outlet />
         </div>
       </main>

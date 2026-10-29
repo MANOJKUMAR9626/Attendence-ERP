@@ -65,56 +65,61 @@ const ParentNotifications = () => {
     <div className="max-w-4xl mx-auto space-y-6 page-enter">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <div>
-          <h1 className="text-2xl font-bold tracking-tight flex items-center gap-2 text-slate-800 dark:text-slate-100">
-            Notifications
-          </h1>
-          <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
-            Stay updated with latest alerts and academic notices for your ward.
+          <div className="flex items-center gap-3">
+            <h1 className="text-2xl sm:text-3xl font-serif font-semibold text-[var(--navy)] tracking-[-0.01em]">
+              Ward Notifications & Alerts
+            </h1>
+            <span className="stamp hidden sm:inline-flex">WARD DISPATCHES</span>
+          </div>
+          <p className="text-sm font-sans text-[var(--ink-soft)] mt-1">
+            Official institutional dispatches, attendance alerts, and academic notices for your ward.
           </p>
         </div>
         {unreadCount > 0 && (
           <button 
             onClick={handleMarkAllRead}
-            className="flex items-center gap-2 text-sm font-semibold text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-500/10 hover:bg-indigo-100 dark:hover:bg-indigo-500/20 px-4 py-2 rounded-xl transition-all"
+            className="btn-navy-outline text-xs font-mono flex items-center gap-2"
           >
-            <Check className="w-4 h-4" /> Mark all as read
+            <Check className="w-3.5 h-3.5" /> Mark All as Acknowledged
           </button>
         )}
       </div>
 
-      <div className="flex flex-col gap-4 mt-6">
+      <div className="flex flex-col gap-3.5 mt-6">
         {loading ? (
-          <div className="flex justify-center p-8">
-            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-600"></div>
+          <div className="flex justify-center p-8 text-[var(--ink-soft)] font-mono text-xs">
+            Loading ward notifications...
           </div>
         ) : notifications.length === 0 ? (
-          <div className="text-center p-8 text-slate-500 font-medium">No notifications right now.</div>
+          <Card className="rounded-[10px] border border-[var(--rule)] bg-[var(--paper-raised)] shadow-none p-8 text-center">
+            <p className="text-[var(--ink-soft)] font-sans text-sm">No dispatches or notifications on record for your ward.</p>
+          </Card>
         ) : (
           notifications.map((notif, idx) => (
             <motion.div 
               key={notif.id}
-              initial={{ opacity: 0, y: 10 }}
+              initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: idx * 0.05 }}
+              transition={{ delay: idx * 0.04 }}
             >
-              <Card className={`rounded-2xl border transition-all hover:shadow-md ${notif.read ? 'bg-white dark:bg-slate-900 border-slate-800 dark:border-slate-800' : 'bg-indigo-50/30 dark:bg-indigo-500/5 border-indigo-100 dark:border-indigo-500/20 shadow-sm'}`}>
-                <CardContent className="p-5 flex items-start gap-4">
-                  <div className={`w-12 h-12 rounded-full ${notif.bg} dark:bg-opacity-10 flex items-center justify-center shrink-0`}>
-                    <notif.icon className={`w-6 h-6 ${notif.color}`} strokeWidth={2.5} />
+              <Card className={`rounded-[10px] border transition-all ${notif.read ? 'bg-[var(--paper-raised)] border-[var(--rule)] shadow-none' : 'bg-[var(--paper)] border-[var(--rule)] shadow-none'}`}>
+                <CardContent className="p-4 sm:p-5 flex items-start gap-4">
+                  <div className={`w-9 h-9 rounded-[8px] flex items-center justify-center shrink-0 ${notif.color?.includes('rose') ? 'bg-[var(--crit-bg)] text-[var(--crit)]' : 'bg-[var(--paper-raised)] border border-[var(--rule)] text-[var(--navy)]'}`}>
+                    <notif.icon className="w-4 h-4" strokeWidth={2.2} />
                   </div>
-                  <div className="flex-1 mt-1">
-                    <div className="flex justify-between items-start mb-1">
-                      <h4 className={`text-base font-bold ${notif.read ? 'text-slate-700 dark:text-slate-300' : 'text-slate-900 dark:text-white'}`}>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-1">
+                      <h4 className={`text-base font-serif font-semibold ${notif.read ? 'text-[var(--ink)]' : 'text-[var(--navy)]'}`}>
                         {notif.title}
                       </h4>
-                      <span className="text-xs font-bold text-slate-400">{notif.time}</span>
+                      <span className="text-xs font-mono text-[var(--ink-soft)] shrink-0">{notif.time}</span>
                     </div>
-                    <p className={`text-sm leading-relaxed ${notif.read ? 'text-slate-500 dark:text-slate-400' : 'text-slate-600 dark:text-slate-300 font-medium'}`}>
+                    <p className="text-sm font-sans text-[var(--ink)] leading-relaxed">
                       {notif.desc}
                     </p>
                   </div>
                   {!notif.read && (
-                    <div className="w-3 h-3 rounded-full bg-indigo-500 shrink-0 mt-3 shadow-[0_0_8px_rgba(99,102,241,0.5)]"></div>
+                    <div className="w-2.5 h-2.5 rounded-full bg-[var(--navy)] shrink-0 mt-2" title="Unread Notice"></div>
                   )}
                 </CardContent>
               </Card>

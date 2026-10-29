@@ -50,14 +50,20 @@ export default function StudentProfile() {
   return (
     <div className="max-w-7xl mx-auto space-y-6 pb-12 page-enter">
       {/* Breadcrumb / Title area */}
-      <div className="flex items-center gap-2 text-sm text-slate-500 mb-6">
-        <span className="font-medium text-slate-700 dark:text-slate-300">Dashboard</span>
-        <span className="text-slate-400">›</span>
-        <span className="text-slate-500">Student Profile</span>
+      <div className="flex items-center justify-between mb-4">
+        <div>
+          <div className="flex items-center gap-3">
+            <h1 className="text-2xl sm:text-3xl font-serif font-semibold text-[var(--navy)] tracking-[-0.01em]">
+              Student Academic Dossier
+            </h1>
+            <span className="stamp hidden sm:inline-flex">ENROLLED STUDENT</span>
+          </div>
+          <p className="text-sm font-sans text-[var(--ink-soft)] mt-1">Official institutional student record and registration details</p>
+        </div>
       </div>
 
-      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-        <Card className="glass-panel border-none shadow-sm rounded-3xl overflow-hidden relative">
+      <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }}>
+        <Card className="rounded-[10px] border border-[var(--rule)] bg-[var(--paper-raised)] shadow-none overflow-hidden relative">
           <CardContent className="p-8 sm:p-10 flex flex-col lg:flex-row gap-10 lg:gap-16 items-start">
             
             {/* Left Column: Avatar & Basic Info */}
@@ -65,7 +71,7 @@ export default function StudentProfile() {
               
               {/* Avatar */}
               <div className="relative shrink-0">
-                <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-white dark:border-[#0F172A] shadow-md bg-slate-200 dark:bg-slate-800 flex items-center justify-center relative">
+                <div className="w-28 h-28 rounded-full overflow-hidden border-2 border-[var(--rule)] bg-[var(--paper)] flex items-center justify-center relative">
                   <img 
                     src={defaultImage} 
                     alt={user?.name || "Profile"} 
@@ -77,56 +83,60 @@ export default function StudentProfile() {
               {/* Personal Details */}
               <div className="flex-1 space-y-4">
                 <div>
-                  <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white mb-2">{user?.name || 'Unknown Student'}</h1>
+                  <h2 className="text-2xl sm:text-3xl font-serif font-semibold text-[var(--navy)] mb-2">{user?.name || 'Unknown Student'}</h2>
                   <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-indigo-500/10 text-indigo-600 dark:bg-indigo-500/20 dark:text-indigo-400 text-xs font-bold rounded-full">
+                    <span className="badge-info text-xs font-mono">
                       Student
                     </span>
                     {isEligibleForExam ? (
-                      <span className="px-3 py-1 bg-emerald-500/10 text-emerald-600 dark:bg-emerald-500/20 dark:text-emerald-400 text-xs font-bold rounded-full">
-                        Exam Eligible
+                      <span className="badge-safe text-xs font-mono">
+                        Exam Clearance Granted
                       </span>
                     ) : (
-                      <span className="px-3 py-1 bg-amber-500/10 text-amber-600 dark:bg-amber-500/20 dark:text-amber-400 text-xs font-bold rounded-full">
-                        Review Needed
+                      <span className="badge-danger text-xs font-mono">
+                        Clearance Review Required
                       </span>
                     )}
                   </div>
                 </div>
 
-                <div className="space-y-2 mt-4">
-                  <div className="flex items-center gap-3 text-sm text-slate-600 dark:text-slate-300">
-                    <User size={16} className="text-blue-500 shrink-0" />
-                    <span>Roll No : <span className="font-semibold text-slate-800 dark:text-slate-200">{rollNumber || 'N/A'}</span></span>
+                <div className="space-y-2 mt-4 pt-4 border-t border-[var(--rule)]">
+                  <div className="flex items-center gap-3 text-sm text-[var(--ink)]">
+                    <User size={15} className="text-[var(--navy)] shrink-0" />
+                    <span>Roll No : <span className="font-mono font-semibold text-[var(--navy)]">{rollNumber || 'N/A'}</span></span>
                   </div>
-                  <div className="flex items-center gap-3 text-sm text-slate-600 dark:text-slate-300">
-                    <Mail size={16} className="text-blue-500 shrink-0" />
-                    <span>Email : <span className="font-semibold text-slate-800 dark:text-slate-200">{user?.email || 'N/A'}</span></span>
+                  <div className="flex items-center gap-3 text-sm text-[var(--ink)]">
+                    <Fingerprint size={15} className="text-[var(--navy)] shrink-0" />
+                    <span>Register No : <span className="font-mono font-semibold text-[var(--navy)]">{registerNumber || 'N/A'}</span></span>
                   </div>
-                  <div className="flex items-center gap-3 text-sm text-slate-600 dark:text-slate-300">
-                    <Phone size={16} className="text-blue-500 shrink-0" />
-                    <span>Contact : <span className="font-semibold text-slate-800 dark:text-slate-200">{user?.phone || 'N/A'}</span></span>
+                  <div className="flex items-center gap-3 text-sm text-[var(--ink)]">
+                    <Mail size={15} className="text-[var(--navy)] shrink-0" />
+                    <span>Email : <span className="font-mono font-medium text-[var(--ink)]">{user?.email || 'N/A'}</span></span>
+                  </div>
+                  <div className="flex items-center gap-3 text-sm text-[var(--ink)]">
+                    <Phone size={15} className="text-[var(--navy)] shrink-0" />
+                    <span>Contact : <span className="font-mono font-medium text-[var(--ink)]">{user?.phone || 'N/A'}</span></span>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* Vertical Divider (Hidden on mobile) */}
-            <div className="hidden lg:block w-px self-stretch bg-gradient-to-b from-transparent via-slate-200 dark:via-slate-800 to-transparent mx-4"></div>
+            <div className="hidden lg:block w-px self-stretch bg-[var(--rule)] mx-2"></div>
 
             {/* Right Column: Organization Info */}
-            <div className="flex-1 w-full space-y-8 lg:pt-4">
+            <div className="flex-1 w-full space-y-6 lg:pt-2">
               
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-full bg-blue-50 dark:bg-blue-500/10 flex items-center justify-center shrink-0">
-                  <Building2 size={20} className="text-blue-600 dark:text-blue-400" />
+                <div className="w-9 h-9 rounded-[8px] bg-[var(--paper)] border border-[var(--rule)] flex items-center justify-center shrink-0">
+                  <Building2 size={18} className="text-[var(--navy)]" />
                 </div>
                 <div>
-                  <p className="text-xs font-semibold text-slate-500 dark:text-slate-400 mb-1">Department & Course</p>
+                  <p className="text-xs font-sans font-medium text-[var(--ink-soft)] mb-1">Department & Course</p>
                   <div className="flex items-center gap-2 flex-wrap">
-                    <h3 className="text-base font-bold text-slate-900 dark:text-white">{course?.name || 'N/A'}</h3>
+                    <h3 className="text-base font-serif font-semibold text-[var(--navy)]">{course?.name || 'N/A'}</h3>
                     {department?.code && (
-                      <span className="px-2 py-0.5 bg-purple-50 text-purple-600 dark:bg-purple-500/10 dark:text-purple-400 text-[10px] font-bold rounded-md uppercase">
+                      <span className="px-2 py-0.5 bg-[var(--paper)] border border-[var(--rule)] text-[var(--navy)] text-[10px] font-mono font-bold rounded-[4px] uppercase">
                         {department.code}
                       </span>
                     )}
@@ -135,15 +145,15 @@ export default function StudentProfile() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-full bg-blue-50 dark:bg-blue-500/10 flex items-center justify-center shrink-0">
-                  <BookOpen size={20} className="text-blue-600 dark:text-blue-400" />
+                <div className="w-9 h-9 rounded-[8px] bg-[var(--paper)] border border-[var(--rule)] flex items-center justify-center shrink-0">
+                  <BookOpen size={18} className="text-[var(--navy)]" />
                 </div>
                 <div>
-                  <p className="text-xs font-semibold text-slate-500 dark:text-slate-400 mb-1">Academic Batch</p>
-                  <h3 className="text-base font-bold text-slate-900 dark:text-white">
+                  <p className="text-xs font-sans font-medium text-[var(--ink-soft)] mb-1">Academic Cohort</p>
+                  <h3 className="text-base font-serif font-semibold text-[var(--navy)]">
                     {currentSemester?.name || 'N/A'} • Section {section?.name || 'N/A'}
                   </h3>
-                  <p className="text-xs text-slate-500 mt-1">Admitted in {admissionYear || 'N/A'}</p>
+                  <p className="text-xs font-mono text-[var(--ink-soft)] mt-1">Admitted in {admissionYear || 'N/A'}</p>
                 </div>
               </div>
 

@@ -64,53 +64,60 @@ export default function StudentAIAnalytics() {
 
   return (
     <div className="space-y-6 page-enter">
-      <div>
-        <h1 className="text-2xl font-bold tracking-tight flex items-center gap-2 text-slate-800 dark:text-slate-100">
-          <Brain className="w-6 h-6 text-purple-500" />AI Attendance Analytics
-        </h1>
-        <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
-          AI-powered prediction of your eligibility risk, subject trends, and personalised recommendations.
-        </p>
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+        <div>
+          <div className="flex items-center gap-3">
+            <h1 className="text-2xl sm:text-3xl font-serif font-semibold text-[var(--navy)] tracking-[-0.01em]">
+              AI Attendance Analytics
+            </h1>
+            <span className="stamp hidden sm:inline-flex">PREDICTIVE AUDIT</span>
+          </div>
+          <p className="text-sm font-sans text-[var(--ink-soft)] mt-1">
+            Algorithmic prediction of semester examination eligibility and subject attendance remediation.
+          </p>
+        </div>
       </div>
 
       {/* Hero Card */}
-      <Card className="overflow-hidden glass-panel border-none shadow-md">
-        <div className="h-1.5 w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500" />
+      <Card className="rounded-[10px] border border-[var(--rule)] bg-[var(--paper-raised)] shadow-none overflow-hidden">
+        <div className="h-1.5 w-full bg-[var(--navy)]" />
         <CardContent className="p-6">
           <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
             {/* Gauge */}
-            <div className="relative flex-shrink-0">
+            <div className="relative shrink-0">
               <ResponsiveContainer width={140} height={140}>
                 <PieChart>
-                  <Pie data={[{value:pct},{value:100-pct}]} cx="50%" cy="50%"
+                  <Pie data={[{value:pct},{value:Math.max(0, 100-pct)}]} cx="50%" cy="50%"
                     innerRadius={45} outerRadius={62} startAngle={90} endAngle={-270} dataKey="value">
-                    <Cell fill={pct>=75?'#10b981':pct>=65?'#f59e0b':'#ef4444'} />
-                    <Cell fill="#f1f5f9" />
+                    <Cell fill={pct>=75?'#2F7D5C':pct>=65?'#C2872B':'#B0483C'} />
+                    <Cell fill="#DEDACD" />
                   </Pie>
                 </PieChart>
               </ResponsiveContainer>
               <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <p className={`text-2xl font-black ${pct>=75?'text-emerald-600':pct>=65?'text-amber-600':'text-rose-600'}`}>{pct}%</p>
-                <p className="text-xs text-slate-400">Overall</p>
+                <p className={`text-2xl font-mono font-semibold ${pct>=75?'text-[var(--safe)]':pct>=65?'text-[var(--warn)]':'text-[var(--crit)]'}`}>{pct}%</p>
+                <p className="text-[10px] font-mono text-[var(--ink-soft)] uppercase">Aggregate</p>
               </div>
             </div>
 
             <div className="flex-1">
               <div className="flex items-center gap-3 mb-2">
-                <h2 className="text-xl font-bold text-slate-800 dark:text-slate-100">AI Risk Assessment</h2>
-                <RiskBadge level={risk} />
+                <h2 className="text-lg font-serif font-semibold text-[var(--navy)]">Institutional Risk Assessment</h2>
+                <span className={pct>=75 ? 'badge-safe text-xs' : 'badge-danger text-xs'}>
+                  {risk}
+                </span>
               </div>
-              <p className="text-sm text-slate-500 mb-3">
-                AI Confidence: <strong className="text-indigo-600 dark:text-indigo-400">{confidence}%</strong>
+              <p className="text-sm font-sans text-[var(--ink-soft)] mb-3">
+                Algorithmic Confidence: <strong className="font-mono text-[var(--navy)]">{confidence}%</strong>
                 {pct>=75
-                  ? ' — You are currently eligible for examinations. Maintain this attendance.'
-                  : ` — You need to attend ${needed} more classes to regain 75% eligibility.`}
+                  ? ' — Recorded attendance complies with end-term university clearance criteria.'
+                  : ` — Remediation required: Attend at least ${needed} forthcoming classes to restore 75% threshold.`}
               </p>
               <div className="space-y-1.5">
                 {factors.map((f, i) => (
-                  <div key={i} className="flex items-start gap-2 text-sm text-slate-600 dark:text-slate-400">
-                    <span className="mt-0.5 flex-shrink-0">{f.includes('low') || f.includes('dipped') ? '⚠️' : '✅'}</span>
-                    {f}
+                  <div key={i} className="flex items-start gap-2 text-xs font-sans text-[var(--ink)]">
+                    <span className="mt-0.5 shrink-0">{f.includes('low') || f.includes('critically') ? '⚠️' : '✅'}</span>
+                    <span>{f}</span>
                   </div>
                 ))}
               </div>
@@ -119,32 +126,33 @@ export default function StudentAIAnalytics() {
         </CardContent>
       </Card>
 
-
-
       {/* Recommendation Card */}
-      <Card className="glass-panel border-none bg-indigo-50/50 dark:bg-indigo-500/5 shadow-sm">
+      <Card className="rounded-[10px] border border-[var(--rule)] bg-[var(--paper)] shadow-none">
         <CardContent className="p-5">
-          <h3 className="font-semibold text-indigo-900 dark:text-indigo-100 flex items-center gap-2 mb-3">
-            <Brain className="w-4 h-4" />AI Recommendations
-          </h3>
-          <ul className="space-y-2 text-sm text-indigo-800 dark:text-indigo-200">
+          <div className="flex items-center justify-between mb-3">
+            <h3 className="font-serif font-semibold text-base text-[var(--navy)] flex items-center gap-2">
+              <Brain className="w-4 h-4 text-[var(--navy)]" />Audited Academic Directives
+            </h3>
+            <span className="text-xs font-mono text-[var(--ink-soft)]">OFFICIAL GUIDANCE</span>
+          </div>
+          <ul className="space-y-2 text-sm text-[var(--ink)] font-sans">
             {criticalSubjects.length > 0 ? (
               criticalSubjects.map(s => (
                 <li key={s.name} className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-indigo-500 flex-shrink-0 mt-0.5"/>
-                  Prioritise attending {s.name} classes — currently at {s.value}%, below the 75% threshold.
+                  <CheckCircle2 className="w-4 h-4 text-[var(--crit)] shrink-0 mt-0.5"/>
+                  <span>Prioritise attending <strong>{s.name}</strong> — recorded attendance is <strong className="font-mono text-[var(--crit)]">{s.value}%</strong> (below the 75% institutional requirement).</span>
                 </li>
               ))
             ) : (
               <li className="flex items-start gap-2">
-                <CheckCircle2 className="w-4 h-4 text-indigo-500 flex-shrink-0 mt-0.5"/>
-                You are currently meeting the attendance requirements for all subjects. Keep it up!
+                <CheckCircle2 className="w-4 h-4 text-[var(--safe)] shrink-0 mt-0.5"/>
+                <span>All course registrations currently satisfy mandatory attendance thresholds. Continue regular class presence.</span>
               </li>
             )}
             {goodSubjects.length > 0 && (
               <li className="flex items-start gap-2">
-                <CheckCircle2 className="w-4 h-4 text-indigo-500 flex-shrink-0 mt-0.5"/>
-                Your attendance in {goodSubjects.map(s => s.name).join(' and ')} is excellent. Maintain this consistency.
+                <CheckCircle2 className="w-4 h-4 text-[var(--safe)] shrink-0 mt-0.5"/>
+                <span>Exemplary attendance in {goodSubjects.map(s => s.name).join(' and ')}. Retain this record for dean's commendation.</span>
               </li>
             )}
           </ul>

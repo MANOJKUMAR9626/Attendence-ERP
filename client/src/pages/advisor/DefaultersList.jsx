@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/com
 import { Button } from '@/components/ui/button';
 import RiskBadge from '@/components/attendance/RiskBadge';
 import { toast } from 'sonner';
+import api from '@/utils/api';
 
 const DEFAULTERS = [
   { id:1, roll:'7376221CS102', name:'Priya Devi',   pct:62, risk:'Critical', needed:18, parent:'Mrs. Rupa Devi',    phone:'9876540001' },
@@ -15,10 +16,29 @@ const DEFAULTERS = [
 
 export default function DefaultersList() {
   const [alerted, setAlerted] = useState(new Set());
+  const [isAlerting, setIsAlerting] = useState(false);
 
-  const sendAlert = (id, name) => {
-    setAlerted(prev => new Set([...prev, id]));
-    toast.success(`📩 Alert sent to parent of ${name}`);
+  const sendAlert = async (id, name) => {
+    try {
+      const res = await api.post('/attendance/alert-defaulters', { threshold: 80 });
+      setAlerted(prev => new Set([...prev, id]));
+      toast.success(res.data.message || `📩 SMS Alert sent to parent of ${name}`);
+    } catch (err) {
+      toast.error(err.response?.data?.message || 'Failed to send alert');
+    }
+  };
+
+  const sendAllAlerts = async () => {
+    setIsAlerting(true);
+    try {
+      const res = await api.post('/attendance/alert-defaulters', { threshold: 80 });
+      DEFAULTERS.forEach(d => setAlerted(prev => new Set([...prev, d.id])));
+      toast.success(res.data.message || `📩 SMS Alerts dispatched to parents`);
+    } catch (err) {
+      toast.error(err.response?.data?.message || 'Failed to dispatch alerts');
+    } finally {
+      setIsAlerting(false);
+    }
   };
 
   return (
@@ -32,9 +52,9 @@ export default function DefaultersList() {
             Students in your advised class with attendance below the 75% eligibility threshold.
           </p>
         </div>
-        <Button onClick={() => { DEFAULTERS.forEach(d => sendAlert(d.id, d.name)); }}
+        <Button onClick={sendAllAlerts} disabled={isAlerting}
           className="bg-rose-600 hover:bg-rose-700 text-white flex items-center gap-2">
-          <Send className="w-4 h-4" />Alert All Parents
+          <Send className="w-4 h-4" />{isAlerting ? 'Sending...' : 'Alert All Parents'}
         </Button>
       </div>
 

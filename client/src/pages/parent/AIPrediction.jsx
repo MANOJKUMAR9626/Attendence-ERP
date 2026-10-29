@@ -58,54 +58,61 @@ export default function AIPrediction() {
 
   return (
     <div className="space-y-6 page-enter">
-      <div>
-        <h1 className="text-2xl font-bold tracking-tight flex items-center gap-2 text-slate-800 dark:text-slate-100">
-          <Brain className="w-6 h-6 text-purple-500" />AI Risk Prediction
-        </h1>
-        <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
-          Artificial Intelligence powered attendance risk analysis for {studentName}.
-        </p>
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+        <div>
+          <div className="flex items-center gap-3">
+            <h1 className="text-2xl sm:text-3xl font-serif font-semibold text-[var(--navy)] tracking-[-0.01em]">
+              AI Attendance Risk Audit
+            </h1>
+            <span className="stamp hidden sm:inline-flex">WARD RISK AUDIT</span>
+          </div>
+          <p className="text-sm font-sans text-[var(--ink-soft)] mt-1">
+            Predictive institutional risk modeling for ward: {studentName}.
+          </p>
+        </div>
       </div>
 
       {/* Hero */}
-      <Card className="overflow-hidden glass-panel border-none shadow-md">
-        <div className="h-1.5 bg-gradient-to-r from-purple-500 to-indigo-500" />
+      <Card className="rounded-[10px] border border-[var(--rule)] bg-[var(--paper-raised)] shadow-none overflow-hidden">
+        <div className="h-1.5 w-full bg-[var(--navy)]" />
         <CardContent className="p-6">
           <div className="flex flex-col md:flex-row items-center gap-6">
             {/* Gauge */}
-            <div className="relative flex-shrink-0 border border-slate-800 dark:border-slate-800 rounded-2xl p-2 bg-white dark:bg-slate-900 shadow-sm">
+            <div className="relative shrink-0 border border-[var(--rule)] rounded-[10px] p-2 bg-[var(--paper)]">
               <ResponsiveContainer width={140} height={140}>
                 <PieChart>
-                  <Pie data={[{value:pct},{value:100-pct}]} cx="50%" cy="50%"
+                  <Pie data={[{value:pct},{value:Math.max(0, 100-pct)}]} cx="50%" cy="50%"
                     innerRadius={45} outerRadius={62} startAngle={90} endAngle={-270} dataKey="value">
-                    <Cell fill={pct>=75?'#10b981':pct>=65?'#f59e0b':'#ef4444'} />
-                    <Cell fill="#f1f5f9" />
+                    <Cell fill={pct>=80?'#2F7D5C':pct>=75?'#C2872B':'#B0483C'} />
+                    <Cell fill="#DEDACD" />
                   </Pie>
                 </PieChart>
               </ResponsiveContainer>
               <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
-                <p className={`text-2xl font-black ${pct>=75?'text-emerald-600':'text-amber-600'}`}>{pct}%</p>
-                <p className="text-xs text-slate-400">Overall</p>
+                <p className={`text-2xl font-mono font-semibold ${pct>=80?'text-[var(--safe)]':'text-[var(--crit)]'}`}>{pct}%</p>
+                <p className="text-[10px] font-mono text-[var(--ink-soft)] uppercase">Aggregate</p>
               </div>
             </div>
 
             <div className="flex-1">
               <div className="mb-3">
-                <p className="text-sm font-medium text-slate-500">{roll} · {dept}</p>
-                <div className="flex items-center gap-2 mt-1">
-                  <h2 className="text-xl font-bold text-slate-800 dark:text-slate-100">AI Risk Assessment</h2>
-                  <RiskBadge level={risk} />
+                <p className="text-xs font-mono text-[var(--ink-soft)]">{roll} · {dept}</p>
+                <div className="flex items-center gap-3 mt-1">
+                  <h2 className="text-lg font-serif font-semibold text-[var(--navy)]">Institutional Risk Status</h2>
+                  <span className={isSafe ? 'badge-safe text-xs' : 'badge-danger text-xs'}>
+                    {risk}
+                  </span>
                 </div>
               </div>
               <div className="grid grid-cols-2 gap-3">
-                <div className="p-3 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-800 dark:border-slate-800">
-                  <p className="text-xs text-slate-500">AI Confidence</p>
-                  <p className="text-lg font-bold text-indigo-600 dark:text-indigo-400">{confidence}%</p>
+                <div className="p-3 rounded-[8px] bg-[var(--paper)] border border-[var(--rule)]">
+                  <p className="text-xs font-sans text-[var(--ink-soft)]">AI Confidence</p>
+                  <p className="text-lg font-mono font-semibold text-[var(--navy)]">{confidence}%</p>
                 </div>
-                <div className="p-3 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-800 dark:border-slate-800">
-                  <p className="text-xs text-slate-500">Classes to 75%</p>
-                  <p className={`text-lg font-bold ${neededClasses===0?'text-emerald-600':'text-rose-600'}`}>
-                    {neededClasses === 0 ? 'Eligible ✓' : `${neededClasses} more`}
+                <div className="p-3 rounded-[8px] bg-[var(--paper)] border border-[var(--rule)]">
+                  <p className="text-xs font-sans text-[var(--ink-soft)]">Classes to 75% Clearance</p>
+                  <p className={`text-lg font-mono font-semibold ${neededClasses===0?'text-[var(--safe)]':'text-[var(--crit)]'}`}>
+                    {neededClasses === 0 ? 'Eligible ✓' : `${neededClasses} needed`}
                   </p>
                 </div>
               </div>
@@ -115,18 +122,21 @@ export default function AIPrediction() {
       </Card>
 
       {/* Recommendations */}
-      <Card className="border-indigo-200/60 dark:border-indigo-500/20 bg-indigo-50/50 dark:bg-indigo-500/5 shadow-sm">
+      <Card className="rounded-[10px] border border-[var(--rule)] bg-[var(--paper)] shadow-none">
         <CardContent className="p-5">
-          <h3 className="font-semibold text-indigo-900 dark:text-indigo-100 flex items-center gap-2 mb-4">
-            <Brain className="w-4 h-4"/>AI Recommendations for Parents
-          </h3>
+          <div className="flex items-center justify-between mb-4">
+            <h3 className="font-serif font-semibold text-base text-[var(--navy)] flex items-center gap-2">
+              <Brain className="w-4 h-4 text-[var(--navy)]"/>AI Directives for Parents & Guardians
+            </h3>
+            <span className="text-xs font-mono text-[var(--ink-soft)]">VERIFIED ADVISORY</span>
+          </div>
           <div className="space-y-3">
             {recommendations.map((r, i) => (
-              <div key={i} className="flex items-start gap-2.5 text-sm">
+              <div key={i} className="flex items-start gap-2.5 text-sm p-3 rounded-[8px] bg-[var(--paper-raised)] border border-[var(--rule)]">
                 {r.type==='warning'
-                  ? <AlertTriangle className="w-4 h-4 text-amber-500 flex-shrink-0 mt-0.5"/>
-                  : <CheckCircle2 className="w-4 h-4 text-emerald-500 flex-shrink-0 mt-0.5"/>}
-                <p className={r.type==='warning'?'text-amber-800 dark:text-amber-300':'text-emerald-800 dark:text-emerald-300'}>{r.text}</p>
+                  ? <AlertTriangle className="w-4 h-4 text-[var(--crit)] shrink-0 mt-0.5"/>
+                  : <CheckCircle2 className="w-4 h-4 text-[var(--safe)] shrink-0 mt-0.5"/>}
+                <p className="text-xs sm:text-sm font-sans text-[var(--ink)] leading-relaxed">{r.text}</p>
               </div>
             ))}
           </div>

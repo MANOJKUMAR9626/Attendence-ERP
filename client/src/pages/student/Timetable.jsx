@@ -14,36 +14,41 @@ export default function Timetable() {
     <div className="space-y-6 pb-10 max-w-5xl mx-auto page-enter">
       <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
         
-        <div className="p-2 sm:p-4 mb-4">
-          <h1 className="text-xl font-bold tracking-wide uppercase text-indigo-700 dark:text-indigo-400 mb-6">
-            9. Timetable
-          </h1>
-          <h2 className="text-base font-bold text-slate-800 dark:text-white">
-            My Timetable
-          </h2>
+        <div className="flex items-center justify-between mb-4">
+          <div>
+            <div className="flex items-center gap-3">
+              <h1 className="text-2xl sm:text-3xl font-serif font-semibold text-[var(--navy)] tracking-[-0.01em]">
+                Weekly Class Schedule
+              </h1>
+              <span className="stamp hidden sm:inline-flex">TIMETABLE LEDGER</span>
+            </div>
+            <p className="text-sm font-sans text-[var(--ink-soft)] mt-1">
+              Official institutional timetable and lecture allocations
+            </p>
+          </div>
         </div>
         
-        <Card className="glass-panel border-none shadow-sm rounded-3xl overflow-hidden bg-white dark:bg-slate-900">
+        <Card className="rounded-[10px] border border-[var(--rule)] bg-[var(--paper-raised)] shadow-none overflow-hidden">
           <CardContent className="p-0">
             <div className="overflow-x-auto">
-              <table className="w-full text-sm text-left whitespace-nowrap">
-                <thead className="text-[12px] font-bold text-slate-500 bg-slate-50 dark:bg-slate-800/50">
+              <table className="w-full erp-table whitespace-nowrap">
+                <thead>
                   <tr>
-                    <th className="px-6 py-4">Day</th>
-                    <th className="px-6 py-4">Time</th>
-                    <th className="px-6 py-4">Subject</th>
-                    <th className="px-6 py-4">Faculty</th>
-                    <th className="px-6 py-4">Room</th>
+                    <th className="font-mono">Day</th>
+                    <th className="font-mono">Time</th>
+                    <th>Subject</th>
+                    <th>Faculty</th>
+                    <th className="font-mono">Room</th>
                   </tr>
                 </thead>
                 <tbody>
                   {TIMETABLE_DATA.map((row) => (
-                    <tr key={row.id} className="border-b border-slate-800 dark:border-slate-800 last:border-0 hover:bg-slate-50/50 dark:hover:bg-slate-800/30 transition-colors">
-                      <td className="px-6 py-4 text-slate-600 dark:text-slate-300 font-medium">{row.day}</td>
-                      <td className="px-6 py-4 text-slate-600 dark:text-slate-300">{row.time}</td>
-                      <td className="px-6 py-4 text-slate-600 dark:text-slate-300">{row.subject}</td>
-                      <td className="px-6 py-4 text-slate-600 dark:text-slate-300">{row.faculty}</td>
-                      <td className="px-6 py-4 text-slate-600 dark:text-slate-300">{row.room}</td>
+                    <tr key={row.id}>
+                      <td className="font-mono font-semibold text-xs text-[var(--navy)]">{row.day}</td>
+                      <td className="font-mono text-xs text-[var(--ink-soft)]">{row.time}</td>
+                      <td className="font-serif font-semibold text-sm text-[var(--ink)]">{row.subject}</td>
+                      <td className="font-sans text-xs text-[var(--ink-soft)]">{row.faculty}</td>
+                      <td className="font-mono text-xs text-[var(--ink-soft)]">{row.room}</td>
                     </tr>
                   ))}
                 </tbody>

@@ -47,15 +47,21 @@ export default function ParentProfile() {
 
   return (
     <div className="max-w-7xl mx-auto space-y-6 pb-12 page-enter">
-      {/* Breadcrumb / Title area */}
-      <div className="flex items-center gap-2 text-sm text-slate-500 mb-6">
-        <span className="font-medium text-slate-700 dark:text-slate-300">Dashboard</span>
-        <span className="text-slate-400">›</span>
-        <span className="text-slate-500">Parent Profile</span>
+      {/* Title area */}
+      <div className="flex items-center justify-between mb-4">
+        <div>
+          <div className="flex items-center gap-3">
+            <h1 className="text-2xl sm:text-3xl font-serif font-semibold text-[var(--navy)] tracking-[-0.01em]">
+              Guardian Academic Dossier
+            </h1>
+            <span className="stamp hidden sm:inline-flex">GUARDIAN DOSSIER</span>
+          </div>
+          <p className="text-sm font-sans text-[var(--ink-soft)] mt-1">Official institutional parent and guardian registration details</p>
+        </div>
       </div>
 
-      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-        <Card className="glass-panel border-none shadow-sm rounded-3xl overflow-hidden relative">
+      <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }}>
+        <Card className="rounded-[10px] border border-[var(--rule)] bg-[var(--paper-raised)] shadow-none overflow-hidden relative">
           <CardContent className="p-8 sm:p-10 flex flex-col lg:flex-row gap-10 lg:gap-16 items-start">
             
             {/* Left Column: Avatar & Basic Info */}
@@ -63,7 +69,7 @@ export default function ParentProfile() {
               
               {/* Avatar */}
               <div className="relative shrink-0">
-                <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-white dark:border-[#0F172A] shadow-md bg-slate-200 dark:bg-slate-800 flex items-center justify-center relative">
+                <div className="w-28 h-28 rounded-full overflow-hidden border-2 border-[var(--rule)] bg-[var(--paper)] flex items-center justify-center relative">
                   <img 
                     src={avatarImage} 
                     alt={user?.name || "Profile"} 
@@ -81,40 +87,43 @@ export default function ParentProfile() {
               {/* Personal Details */}
               <div className="flex-1 space-y-4">
                 <div>
-                  <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white mb-2">{user?.name || 'Unknown Parent'}</h1>
+                  <h2 className="text-2xl sm:text-3xl font-serif font-semibold text-[var(--navy)] mb-2">{user?.name || 'Unknown Parent'}</h2>
                   <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-indigo-500/10 text-indigo-600 dark:bg-indigo-500/20 dark:text-indigo-400 text-xs font-bold rounded-full">
+                    <span className="badge-info text-xs font-mono">
                       Parent / {relation || 'Guardian'}
+                    </span>
+                    <span className="badge-safe text-xs font-mono">
+                      Verified Contact
                     </span>
                   </div>
                 </div>
 
-                <div className="space-y-2 mt-4">
-                  <div className="flex items-center gap-3 text-sm text-slate-600 dark:text-slate-300">
-                    <User size={16} className="text-blue-500 shrink-0" />
-                    <span>Parent ID : <span className="font-semibold text-slate-800 dark:text-slate-200">{user?.identifier || (user?.email ? user.email.split('@')[0].toUpperCase() : 'N/A')}</span></span>
+                <div className="space-y-2 mt-4 pt-4 border-t border-[var(--rule)]">
+                  <div className="flex items-center gap-3 text-sm text-[var(--ink)]">
+                    <User size={15} className="text-[var(--navy)] shrink-0" />
+                    <span>Parent Identifier : <span className="font-mono font-semibold text-[var(--navy)]">{user?.identifier || (user?.email ? user.email.split('@')[0].toUpperCase() : 'N/A')}</span></span>
                   </div>
-                  <div className="flex items-center gap-3 text-sm text-slate-600 dark:text-slate-300">
-                    <Mail size={16} className="text-blue-500 shrink-0" />
-                    <span>Email : <span className="font-semibold text-slate-800 dark:text-slate-200">{user?.email || 'N/A'}</span></span>
+                  <div className="flex items-center gap-3 text-sm text-[var(--ink)]">
+                    <Mail size={15} className="text-[var(--navy)] shrink-0" />
+                    <span>Email : <span className="font-mono font-medium text-[var(--ink)]">{user?.email || 'N/A'}</span></span>
                   </div>
-                  <div className="flex items-center gap-3 text-sm text-slate-600 dark:text-slate-300">
-                    <Phone size={16} className="text-blue-500 shrink-0" />
-                    <span>Contact : <span className="font-semibold text-slate-800 dark:text-slate-200">{user?.phone || '+91 98765 43210'}</span></span>
+                  <div className="flex items-center gap-3 text-sm text-[var(--ink)]">
+                    <Phone size={15} className="text-[var(--navy)] shrink-0" />
+                    <span>Contact : <span className="font-mono font-medium text-[var(--ink)]">{user?.phone || '+91 98765 43210'}</span></span>
                   </div>
-                  <div className="flex items-start sm:items-center gap-3 text-sm text-slate-600 dark:text-slate-300">
-                    <User size={16} className="text-blue-500 shrink-0 mt-0.5 sm:mt-0" />
+                  <div className="flex items-start sm:items-center gap-3 text-sm text-[var(--ink)]">
+                    <User size={15} className="text-[var(--navy)] shrink-0 mt-0.5 sm:mt-0" />
                     <span className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
                       <span>Wards Enrolled :</span>
                       <span className="flex flex-col">
                         {students && students.length > 0 ? (
                           students.map((student, idx) => (
-                            <span key={idx} className="font-semibold text-slate-800 dark:text-slate-200">
-                              {student.user?.name || 'Unknown'} <span className="text-xs text-slate-500 font-normal">({student.course?.name || ''})</span>
+                            <span key={idx} className="font-serif font-semibold text-[var(--navy)]">
+                              {student.user?.name || 'Unknown'} <span className="text-xs font-mono text-[var(--ink-soft)] font-normal">({student.course?.name || ''})</span>
                             </span>
                           ))
                         ) : (
-                          <span className="font-semibold text-slate-800 dark:text-slate-200">None</span>
+                          <span className="font-mono font-semibold text-[var(--ink-soft)]">None</span>
                         )}
                       </span>
                     </span>

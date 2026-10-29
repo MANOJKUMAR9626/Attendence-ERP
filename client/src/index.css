@@ -18,6 +18,22 @@
   --color-text-muted: var(--ink-soft);
   --color-border-subtle: var(--rule);
 
+  --color-paper: var(--paper);
+  --color-paper-raised: var(--paper-raised);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-navy: var(--navy);
+  --color-navy-soft: var(--navy-soft);
+  --color-rule: var(--rule);
+  --color-safe: var(--safe);
+  --color-safe-bg: var(--safe-bg);
+  --color-warn: var(--warn);
+  --color-warn-bg: var(--warn-bg);
+  --color-crit: var(--crit);
+  --color-crit-bg: var(--crit-bg);
+  --color-stamp: var(--stamp);
+  --color-gold: var(--gold);
+
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-serif: 'Fraunces', Georgia, serif;
   --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
@@ -52,7 +68,8 @@
     --ink-soft: #5B6376;
     --navy: #1B2A4A;
     --navy-soft: #2E3F63;
-    --rule: #DEDACD;
+    --rule: #222631; /* Medium black border */
+    --track: #E2DDD2; /* Progress track background */
     --safe: #2F7D5C;
     --safe-bg: #E5F1EB;
     --warn: #C2872B;
@@ -90,11 +107,60 @@
   }
 }
 
+/* ─── Global Rectangle Border System (Entire Project) ─── */
+/* Enforce sharp 90-degree rectangle borders across cards, panels, modals, inputs, and components */
+.card,
+.glass-panel,
+[data-slot="card"],
+div[class*="rounded-xl"],
+div[class*="rounded-2xl"],
+div[class*="rounded-3xl"],
+div[class*="rounded-lg"],
+div[class*="rounded-md"],
+div[class*="rounded-[10px]"],
+div[class*="rounded-[12px]"],
+div[class*="rounded-[14px]"],
+div[class*="rounded-[16px]"],
+div[class*="rounded-[20px]"],
+div[class*="rounded-[8px]"],
+div[class*="rounded-[7px]"],
+div[class*="rounded-[6px]"],
+div[class*="rounded-[4px]"],
+section[class*="rounded-"],
+article[class*="rounded-"],
+aside[class*="rounded-"],
+main[class*="rounded-"],
+button:not([class*="rounded-full"]),
+input,
+select,
+textarea,
+table,
+thead,
+th,
+td {
+  border-radius: 0px !important;
+}
+
+/* Ensure Medium Black border is enforced across all card and container borders */
+.border-\[var\(--rule\)\],
+.border-rule,
+.card,
+.glass-panel,
+[data-slot="card"] {
+  border-color: var(--rule) !important;
+}
+
+/* Preserve circular avatars where explicitly designated */
+img[class*="rounded-full"],
+.avatar-circle {
+  border-radius: 9999px !important;
+}
+
 /* ─── Premium Glassmorphism -> Paper-like ─── */
 .glass-panel {
   background: var(--paper-raised);
   border: 1px solid var(--rule);
-  border-radius: 10px;
+  border-radius: 0px !important;
   box-shadow: none;
 }
 
@@ -106,7 +172,7 @@
 /* ─── Scrollbar ─── */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 99px; }
+::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 0px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--ink-soft); }
 
 /* Scrollbar Hide */
@@ -124,11 +190,16 @@
 /* Page transition wrapper */
 .page-enter { animation: fade-in-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
 
-/* ─── Status Badges ─── */
-.badge-safe { background-color: var(--safe-bg); color: var(--safe); padding: 3px 10px; border-radius: 20px; font-weight: 500; display: inline-flex; align-items: center; justify-content: center; font-size: 0.875rem; border: none; }
-.badge-warning { background-color: var(--warn-bg); color: var(--warn); padding: 3px 10px; border-radius: 20px; font-weight: 500; display: inline-flex; align-items: center; justify-content: center; font-size: 0.875rem; border: none; }
-.badge-danger { background-color: var(--crit-bg); color: var(--crit); padding: 3px 10px; border-radius: 20px; font-weight: 500; display: inline-flex; align-items: center; justify-content: center; font-size: 0.875rem; border: none; }
-.badge-info { background-color: var(--paper-raised); color: var(--navy); padding: 3px 10px; border-radius: 20px; font-weight: 500; display: inline-flex; align-items: center; justify-content: center; font-size: 0.875rem; border: 1px solid var(--navy); }
+/* ─── Status Badges (Sharp Rectangle Tags) ─── */
+.badge-safe { background-color: var(--safe-bg); color: var(--safe); padding: 3px 8px; border-radius: 0px !important; font-weight: 600; display: inline-flex; align-items: center; justify-content: center; font-size: 0.75rem; border: 1px solid var(--safe); font-family: var(--font-mono); }
+.badge-warning { background-color: var(--warn-bg); color: var(--warn); padding: 3px 8px; border-radius: 0px !important; font-weight: 600; display: inline-flex; align-items: center; justify-content: center; font-size: 0.75rem; border: 1px solid var(--warn); font-family: var(--font-mono); }
+.badge-danger { background-color: var(--crit-bg); color: var(--crit); padding: 3px 8px; border-radius: 0px !important; font-weight: 600; display: inline-flex; align-items: center; justify-content: center; font-size: 0.75rem; border: 1px solid var(--crit); font-family: var(--font-mono); }
+.badge-info { background-color: var(--paper-raised); color: var(--navy); padding: 3px 8px; border-radius: 0px !important; font-weight: 600; display: inline-flex; align-items: center; justify-content: center; font-size: 0.75rem; border: 1px solid var(--rule); font-family: var(--font-mono); }
+
+span[class*="rounded-\[20px\]"],
+div[class*="rounded-\[20px\]"] {
+  border-radius: 0px !important;
+}
 
 /* ─── Table Styling ─── */
 .erp-table {
@@ -154,16 +225,59 @@
 
 /* Decorative Stamp */
 .stamp {
-  color: var(--stamp);
-  border: 2px solid var(--stamp);
-  border-radius: 4px;
-  padding: 4px 8px;
-  font-family: var(--font-mono);
-  font-weight: 700;
-  text-transform: uppercase;
-  transform: rotate(-2deg);
-  display: inline-block;
-  letter-spacing: 0.05em;
-  font-size: 0.75rem;
-  opacity: 0.9;
+  display: none !important;
 }
+
+/* ─── Academic Ledger Buttons (Rectangle Sharp) ─── */
+.btn-navy {
+  background-color: var(--navy);
+  color: #FFFFFF;
+  border-radius: 0px !important;
+  border: 1px solid var(--rule);
+  padding: 8px 16px;
+  font-weight: 500;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.btn-navy:hover {
+  background-color: var(--navy-soft);
+}
+.btn-navy-outline {
+  background-color: var(--paper-raised);
+  color: var(--navy);
+  border: 1px solid var(--rule);
+  border-radius: 0px !important;
+  padding: 8px 16px;
+  font-weight: 500;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.btn-navy-outline:hover {
+  background-color: var(--paper);
+}
+
+/* ─── Progress Track 6px Rectangle ─── */
+.progress-track-6px,
+div[class*="h-\[6px\]"],
+div[class*="h-1.5"] {
+  height: 6px;
+  background-color: var(--track) !important;
+  border-radius: 0px !important;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.progress-track-6px > div,
+div[class*="h-\[6px\]"] > div,
+div[class*="h-1.5"] > div {
+  border-radius: 0px !important;
+}
+
